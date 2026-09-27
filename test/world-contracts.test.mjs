@@ -13,3 +13,13 @@ test('swept collision does not hit on parallel displaced path',()=>{const c=new 
 test('circle sweep starts against occupied dynamic space rather than passing through',()=>{const c=new CollisionWorld();c.setDynamic('car',{x:0,z:0},1);const h=c.sweepCircle({x:0,z:0},{x:5,z:0},.4);assert.equal(h.hit.id,'car');assert.deepEqual(h.position,{x:0,z:0})});
 test('vehicle registry rejects a duplicate stable ID',async()=>{const {VehicleRegistry}=await import('../src/vehicles/VehicleRegistry.js');const r=new VehicleRegistry({scene:{},collisionWorld:new CollisionWorld(),factory:{spawnVehicle(){return {object:{visible:true},radius:1.9,setPose(){},dispose(){}}}}});r.spawnParked({id:'fixed',kind:'hatchback',position:{x:0,z:0}});assert.throws(()=>r.spawnParked({id:'fixed',kind:'hatchback',position:{x:1,z:0}}));r.destroy()});
 test('route declines targets far from any mapped road',()=>{const r=new RoadNetwork(roads,{cellSize:5});assert.equal(r.route({x:0,z:0},{x:1000,z:1000},'drive'),null)});
+test('route chooses shortest destination endpoint, counting the remaining segment',()=>{
+ const r=new RoadNetwork([{id:'near',tags:{highway:'residential'},coordinates:[[0,0],[10,0]]},{id:'far',tags:{highway:'residential'},coordinates:[[10,0],[110,0]]}],{cellSize:10});
+ const route=r.route({x:1,z:0},{x:12,z:0},'drive');
+ assert.equal(route.distance,11);assert.deepEqual(route.wayIds,['near','far']);
+});
+test('route attributes every traversed way, rather than only its first and last',()=>{
+ const r=new RoadNetwork([{id:'a',tags:{highway:'residential'},coordinates:[[0,0],[10,0]]},{id:'b',tags:{highway:'residential'},coordinates:[[10,0],[20,0]]},{id:'c',tags:{highway:'residential'},coordinates:[[20,0],[30,0]]}],{cellSize:10});
+ const route=r.route({x:1,z:0},{x:29,z:0},'drive');
+ assert.equal(route.distance,28);assert.deepEqual(route.wayIds,['a','b','c']);
+});

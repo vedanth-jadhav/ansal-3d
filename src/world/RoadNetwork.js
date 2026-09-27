@@ -38,15 +38,36 @@ export class RoadNetwork {
   const a=this.nearest(start,{mode,maxDistance:35}),b=this.nearest(end,{mode,maxDistance:35});if(!a||!b)return null;
   const endpoints=s=>[{k:key(s.segment.a.x,s.segment.a.z),p:s.segment.a},{k:key(s.segment.b.x,s.segment.b.z),p:s.segment.b}];
   if(a.segmentId===b.segmentId){const d=distance(a.point,b.point);return {points:[start,a.point,b.point,end],distance:distance(start,a.point)+d+distance(b.point,end),mode,wayIds:[a.wayId]}}
-  const goals=endpoints(b),target=new Set(goals.map(x=>x.k)),prev=new Map(),cost=new Map(),queue=[];
-  for(const x of endpoints(a)){const d=distance(start,a.point)+distance(a.point,x.p);cost.set(x.k,d);queue.push([d,x.k])}
-  let reached=null;
-  while(queue.length){queue.sort((x,y)=>y[0]-x[0]);const [d,k]=queue.pop();if(d!==cost.get(k))continue;if(target.has(k)){reached=k;break}
-   for(const e of this.nodes.get(k)?.edges||[]){if(mode==='drive'&&!e.segment.drive)continue;const next=d+e.len;if(next<(cost.get(e.to)??Infinity)){cost.set(e.to,next);prev.set(e.to,k);queue.push([next,e.to])}}
+  // Endpoint selection must include the distance from the reached endpoint back
+  // to the projected destination. Stopping at the first target endpoint can
+  // choose the longer half of the destination segment.
+  const goals=endpoints(b),goalByKey=new Map(goals.map(x=>[x.k,x]));
+  const prev=new Map(),cost=new Map(),queue=[];
+  for(const x of endpoints(a)){
+   const d=distance(start,a.point)+distance(a.point,x.p);
+   if(d<(cost.get(x.k)??Infinity)){cost.set(x.k,d);queue.push([d,x.k])}
   }
-  if(!reached)return null;
-  const nodes=[];for(let k=reached;k;k=prev.get(k))nodes.push(this.nodes.get(k).position);nodes.reverse();
-  const points=[start,a.point,...nodes,b.point,end];return {points,distance:points.slice(1).reduce((n,p,i)=>n+distance(points[i],p),0),mode,wayIds:[a.wayId,b.wayId]};
+  let bestGoal=null,bestTotal=Infinity;
+  while(queue.length){
+   queue.sort((x,y)=>y[0]-x[0]);const [d,k]=queue.pop();
+   if(d!==cost.get(k))continue;
+   if(d>=bestTotal)break;
+   const target=goalByKey.get(k);
+   if(target){const total=d+distance(target.p,b.point)+distance(b.point,end);
+    if(total<bestTotal){bestTotal=total;bestGoal=k}}
+   for(const e of this.nodes.get(k)?.edges||[]){
+    if(mode==='drive'&&!e.segment.drive)continue;
+    const next=d+e.len;
+    if(next<(cost.get(e.to)??Infinity)){cost.set(e.to,next);prev.set(e.to,{from:k,segment:e.segment});queue.push([next,e.to])}
+   }
+  }
+  if(!bestGoal)return null;
+  const nodes=[],ways=[];
+  for(let k=bestGoal;k;){nodes.push(this.nodes.get(k).position);const step=prev.get(k);if(!step)break;ways.push(step.segment.wayId);k=step.from}
+  nodes.reverse();ways.reverse();
+  const points=[start,a.point,...nodes,b.point,end];
+  const wayIds=[a.wayId,...ways,b.wayId].filter((id,i,all)=>i===0||id!==all[i-1]);
+  return {points,distance:points.slice(1).reduce((n,p,i)=>n+distance(points[i],p),0),mode,wayIds};
  }
  sampleParkingNear(position,maxDistance=30){const hit=this.nearest(position,{mode:'drive',maxDistance});if(!hit)return null;const side=(hit.width/2+2);return {position:{x:hit.point.x-hit.tangent.z*side,z:hit.point.z+hit.tangent.x*side},heading:Math.atan2(hit.tangent.x,hit.tangent.z),roadId:hit.wayId};}
 }
