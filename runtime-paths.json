@@ -1,0 +1,31 @@
+[
+  [
+    "/accents-2/characters/casual-quaternius.glb",
+    "/accents/",
+    "/auto_rickshaw.glb",
+    "/life",
+    "/materials/",
+    "/osm.json",
+    "/pano-points.json",
+    "/trees/"
+  ],
+  [
+    "${s}${n}-quaternius.glb",
+    "${t}/hatchback-sports.glb",
+    "${t}/motorcycle-alicecassie.glb",
+    "${t}/sedan.glb",
+    "${t}/van.glb",
+    "../accents-2/trees/broad-canopy-quaternius.glb",
+    "../accents-2/trees/round-tree-quaternius.glb",
+    "/accents-2/characters/casual-quaternius.glb",
+    "/auto_rickshaw.glb",
+    "/osm.json",
+    "/pano-points.json",
+    "city-kit-roads/electricity-pole.glb",
+    "city-kit-roads/light-curved.glb",
+    "city-kit-suburban/planter.glb",
+    "kenney-car/sedan.glb",
+    "kenney-car/van.glb",
+    "retro-urban-kit/detail-bench.glb"
+  ]
+]

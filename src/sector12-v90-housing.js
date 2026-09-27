@@ -18,6 +18,7 @@ export function addSector12Housing(scene,roads,osmboundary,colliders,game){
  const material=new THREE.MeshLambertMaterial({vertexColors:true,side:THREE.DoubleSide});
  const start=colliders.length;
  const result=makeSector12Builder({THREE,mergeGeometries,scene,roads,within,colliders,marketColorMaterial:material})();
+ scene.userData.v90Housing={visuals:result.visuals,colliders:colliders.slice(start),summary:result.summary};
  game?.addColliders(colliders.slice(start));
  return result;
 }

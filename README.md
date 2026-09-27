@@ -37,3 +37,10 @@ At 844x390, quick-travel Regencia/temple/tank/Sector12/F-Block/D Block reached 1
 
 ### Collision spot check
 At SN1 (-222,-550), SN4 (-172,-720), SN6 east (103,-850) and SN6 junction (92,-843), there are zero nearby collision boxes in a 5 m debug query. At SN6 west (84,-850), housing adds a house and two wall/gate boxes within 5 m (RC2 baseline had none); that point is ~13.8 m from the nearest OSM residential road centerline, so do not assume it is drivable asphalt. Full continuous walked-route QA remains open.
+
+### 2026-09-27 v90 collision and market visual correction
+The old overlap/sliver notes above are history. Current staging moved one generic decorative broad tree from (-81,-700), where it crossed verified-pano house ANS-SN4S-015, to the catalog's neighboring ANS-SN4S-017 treed vacant plot at (-56.3,-709.7), an explicitly illustrative placement. A 345-collider local audit found zero footprint overlaps with sampled inherited small meshes, and the 8,177-point/86-road-segment sweep found zero intersections up to 2m clearance. Continuous walking remains inconclusive because both untouched RC2 and this stage move slowly under headless SwiftShader.
+
+The floating bar at the market was **not** part of frozen RC2: disabling housing left the furniture overlay on. Group isolation found the catalog-furniture `corner-board` recipe's detached cap; removing only that cap keeps the catalog-backed sign. Before/after 844x390 pixels were inspected. Post-fix 20-heading D Block and 24-heading tank/market envelopes remain under 150/300k/200; see LEDGER. Actual phone and long settled sweeps remain open. No deployment.
+
+The new GTA-style-depth architecture mandate requires clean gameplay seams (world, indexed roads, swept collision, player/vehicle ownership, camera, input, mission, save, one scheduler) before new game systems are called integrated. Vehicle, street-life and gameplay squad specs are staged with parent. Current compiled-RC2 hook is not that architecture and must not be advertised as one.

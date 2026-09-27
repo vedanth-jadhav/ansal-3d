@@ -38,7 +38,7 @@ function parts(item,add){
  }else if(item.type==='potted-plants'){
   for(let i=0;i<3;i++){const xx=x+(i-1)*.63;add(xx,.24,z,.40,.48,.42,0x9a6652);add(xx,.65,z,.32,.42,.32,0x617e58)}
  }else if(item.type==='to-rent') sign(0xe3cfac);
- else if(item.type==='corner-board') {sign(0xe2e0d6);add(x,3.55,z,.21,1.5,.21,0xd9d6cf)}
+ else if(item.type==='corner-board') sign(0xe2e0d6); // no detached cap above the sign
  else if(item.type==='yellow-info')sign(0xd4b650);
  else if(item.type==='sale-board')sign(0x9c5141);
  else if(item.type==='shop-boards'||item.type==='ad-boards'){

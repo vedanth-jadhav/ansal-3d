@@ -1,0 +1,154 @@
+# Ansal Sushant City 3D - RC2 v65b live-deployment recovery mirror v2
+# Recovered 2026-09-27 from https://42917de1.ansal-sushant-city.pages.dev - all files content-validated
+# Files: 129
+
+## Parcel catalogs (jsonl, row counts) - 52 versions, full lineage to current v65
+- parcel-catalog-v10.jsonl: 198 rows
+- parcel-catalog-v11.jsonl: 222 rows
+- parcel-catalog-v12.jsonl: 232 rows
+- parcel-catalog-v13.jsonl: 242 rows
+- parcel-catalog-v14.jsonl: 250 rows
+- parcel-catalog-v15.jsonl: 258 rows
+- parcel-catalog-v16.jsonl: 266 rows
+- parcel-catalog-v19.jsonl: 290 rows
+- parcel-catalog-v2.jsonl: 21 rows
+- parcel-catalog-v20.jsonl: 296 rows
+- parcel-catalog-v21.jsonl: 302 rows
+- parcel-catalog-v23.jsonl: 314 rows
+- parcel-catalog-v24.jsonl: 320 rows
+- parcel-catalog-v25.jsonl: 326 rows
+- parcel-catalog-v26.jsonl: 330 rows
+- parcel-catalog-v28.jsonl: 338 rows
+- parcel-catalog-v29.jsonl: 342 rows
+- parcel-catalog-v3.jsonl: 46 rows
+- parcel-catalog-v33.jsonl: 358 rows
+- parcel-catalog-v34.jsonl: 362 rows
+- parcel-catalog-v36.jsonl: 374 rows
+- parcel-catalog-v38.jsonl: 382 rows
+- parcel-catalog-v39.jsonl: 388 rows
+- parcel-catalog-v4.jsonl: 46 rows
+- parcel-catalog-v40.jsonl: 396 rows
+- parcel-catalog-v41.jsonl: 418 rows
+- parcel-catalog-v42.jsonl: 442 rows
+- parcel-catalog-v43.jsonl: 462 rows
+- parcel-catalog-v44.jsonl: 478 rows
+- parcel-catalog-v45.jsonl: 494 rows
+- parcel-catalog-v46.jsonl: 508 rows
+- parcel-catalog-v47.jsonl: 524 rows
+- parcel-catalog-v48.jsonl: 538 rows
+- parcel-catalog-v49.jsonl: 550 rows
+- parcel-catalog-v5.jsonl: 69 rows
+- parcel-catalog-v50.jsonl: 560 rows
+- parcel-catalog-v51.jsonl: 568 rows
+- parcel-catalog-v52.jsonl: 578 rows
+- parcel-catalog-v53.jsonl: 586 rows
+- parcel-catalog-v54.jsonl: 594 rows
+- parcel-catalog-v55.jsonl: 602 rows
+- parcel-catalog-v56.jsonl: 606 rows
+- parcel-catalog-v58.jsonl: 614 rows
+- parcel-catalog-v59.jsonl: 622 rows
+- parcel-catalog-v6.jsonl: 92 rows
+- parcel-catalog-v60.jsonl: 632 rows
+- parcel-catalog-v61.jsonl: 681 rows
+- parcel-catalog-v62.jsonl: 713 rows
+- parcel-catalog-v63.jsonl: 730 rows
+- parcel-catalog-v64.jsonl: 773 rows
+- parcel-catalog-v65.jsonl: 820 rows
+- parcel-catalog-v9.jsonl: 170 rows
+
+## Materials (38/38 PNGs per materials/manifest.json, magic-byte validated)
+- materials/asphalt_dusty.png (267080 B)
+- materials/boundary_cream.png (209138 B)
+- materials/boundary_red.png (209404 B)
+- materials/brick_red.png (230638 B)
+- materials/concrete_grey.png (214196 B)
+- materials/concrete_warm.png (214853 B)
+- materials/corrugated_blue.png (68650 B)
+- materials/corrugated_galvanized.png (68636 B)
+- materials/corrugated_shopfront_green.png (67142 B)
+- materials/decal_rain_streaks.png (149759 B)
+- materials/decal_wall_bottom_dust.png (141769 B)
+- materials/gate_steel_blue.png (72349 B)
+- materials/gate_steel_charcoal.png (69098 B)
+- materials/gate_wood_slat.png (71441 B)
+- materials/pavers_apron_check.png (206090 B)
+- materials/pavers_red.png (214939 B)
+- materials/pavers_sand.png (208860 B)
+- materials/plaster_brown.png (209067 B)
+- materials/plaster_cream.png (208602 B)
+- materials/plaster_faded_pink.png (208372 B)
+- materials/plaster_grey.png (207870 B)
+- materials/plaster_ivory.png (208928 B)
+- materials/plaster_ochre.png (208310 B)
+- materials/plaster_pale_green.png (208855 B)
+- materials/roof_concrete_pale.png (243871 B)
+- materials/roof_concrete_worn.png (245458 B)
+- materials/roof_tile_brown.png (220435 B)
+- materials/roof_tile_terracotta.png (221105 B)
+- materials/shutter_steel_blue.png (68619 B)
+- materials/shutter_steel_rust.png (68044 B)
+- materials/shutter_steel_sand.png (68031 B)
+
+- materials/asphalt_smoother.png (267223 B)
+- materials/asphalt_dashed_optional.png (268272 B)
+- materials/decal_paver_edge_wear.png (60584 B)
+- materials/asphalt_patched.png (271280 B)
+- materials/asphalt_hairline_cracks.png (268458 B)
+- materials/asphalt_edge_crumble.png (271327 B)
+- materials/temple_stone_white.png (207677 B)
+## GLB models
+- accents-2/characters/casual-quaternius.glb (1430660 B)
+- accents-2/trees/broad-canopy-quaternius.glb (21872 B)
+- accents-2/trees/round-tree-quaternius.glb (46488 B)
+- accents/city-kit-roads/electricity-pole.glb (43652 B)
+- accents/city-kit-roads/light-curved.glb (9492 B)
+- accents/city-kit-suburban/planter.glb (20368 B)
+- accents/kenney-car/hatchback-sports.glb (197804 B)
+- accents/kenney-car/sedan.glb (172216 B)
+- accents/kenney-car/van.glb (175664 B)
+- accents/retro-urban-kit/detail-bench.glb (10260 B)
+- auto_rickshaw.glb (43496 B)
+- boundary_wall_6m.glb (17812 B)
+- clubhouse.glb (27420 B)
+- corner_shop.glb (38204 B)
+- entrance_gate.glb (31716 B)
+- life/hatchback-sports.glb (197804 B)
+- life/motorcycle-alicecassie.glb (91144 B)
+- life/sedan.glb (172216 B)
+- life/van.glb (175664 B)
+- neem_tree.glb (41416 B)
+- streetlight.glb (12028 B)
+- tower_10_storeys.glb (596196 B)
+- tower_13_storeys.glb (773700 B)
+- trees/broad-canopy-quaternius.glb (21872 B)
+- trees/round-tree-quaternius.glb (46488 B)
+- trees/tall-leafy-quaternius.glb (306332 B)
+
+## Everything else
+- LEDGER.md
+- MANIFEST.md
+- accents-2/manifest.json
+- accents/manifest.json
+- assets/index-CfyS8fjP.js
+- assets/index-DiQvZg7H.css
+- cartographic-evidence.geojson
+- core-visual-evidence.json
+- corridor-infill-provenance.json
+- docs/ledger/merge-log.jsonl
+- evidence-ledger.json
+- favicon.svg
+- index.html
+- north-visual-evidence.json
+- osm.json
+- pano-points.json
+- robots.txt
+- south-visual-evidence.json
+- south-way-evidence.json
+
+## Notes
+- /trees/*.glb and /accents-2/trees/*.glb copies are byte-identical (verified SHA-256, e.g. round-tree c894e248...). Both paths ship; keep both.
+- No manifests for /trees/ or /life/ (probed, absent). accents, accents-2, materials manifests included.
+- Source-only artifacts NOT in any deployment: src/, package.json/vite config, qa-*.mjs, montages/, sat/ tiles. Rebuild side must regenerate these.
+- GLB-embedded texture refs Textures/colormap.png, Textures/metal.png, Textures/planks.png probed on the live deployment (both /Textures/ and /textures/): all return the soft-200 HTML fallback - genuinely NOT shipped. The 10 GLTFLoader 404s the integrator saw exist in the LIVE game; rebuild should either ship those textures or strip the refs.
+- Visual-rules design docs (not on deployment) recovered verbatim from archived agent transcripts: district_regencia_visual_rules(-8ad5c8d3).md (5.4KB), ansal_north_visual_rules(-b8c05200).md (3.6KB), ansal_sse_visual_rules(-b6668786).md (3.2KB). Both plain and hash-suffixed names included.
+- GLB-relative textures harvested: accents/kenney-car/Textures/colormap.png, accents/city-kit-roads/Textures/colormap.png, accents/city-kit-suburban/Textures/colormap.png, accents/retro-urban-kit/Textures/{metal,planks}.png, life/Textures/colormap.png. Correction logged: these ARE shipped (GLB-relative); only gate_steel_grey.png is a bad ref in the live build.
