@@ -8,3 +8,9 @@ downloads/
 .DS_Store
 Thumbs.db
 __pycache__/
+
+# live-test helpers (never commit)
+.live/
+.live-test.mjs
+.inspect.mjs
+.probe.mjs

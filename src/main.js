@@ -22,4 +22,25 @@ import {StreetLife} from "./ambient/StreetLife.js";
 import {DayNight} from "./ambient/DayNight.js";
 import {Soundscape} from "./ambient/Soundscape.js";
 import {DiscoveryJournal} from "./ambient/DiscoveryJournal.js";
+import {ambientLabelFor, startChromeSync} from "./ambient/AmbientChrome.js";
 window.__ansalAmbient={TrafficDirector,StreetLife,DayNight,Soundscape,DiscoveryJournal};
+// Ambient HUD: de-mission the RC2 quest counter into a place/time label.
+// DOM-text only (1s interval + MutationObserver); owns no rendering, camera or input.
+if (typeof document !== 'undefined') {
+  const clock = new DayNight({ hour: 10 });
+  let last = 0;
+  const tickClock = () => {
+    const now = performance.now();
+    clock.update(Math.min(5, (now - last) / 1000) || 0);
+    last = now;
+  };
+  tickClock();
+  setInterval(tickClock, 1000);
+  startChromeSync({
+    doc: document,
+    getLabel: () => ambientLabelFor({
+      areaKey: document.querySelector?.('#travelSelect')?.value || 'regencia',
+      hour: clock.hour,
+    }),
+  });
+}
