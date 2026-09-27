@@ -2,6 +2,11 @@
 import "../public/assets/index-DiQvZg7H.css";
 import {addCatalogFurnitureDensity} from "./catalog-furniture-density.js";
 import {addSector12Housing} from "./sector12-v90-housing.js";
+import './gameplay/drive.css';
+import {DriveExperience} from './gameplay/DriveExperience.js';
+import {AmbientBridge} from './traffic/AmbientBridge.js';
+import {MissionBoard} from './gameplay/MissionBoard.js';
+import {GamePersistence} from './gameplay/GamePersistence.js';
 import {WorldRuntime} from "./world/WorldRuntime.js";
 import {addSn3FResidential} from "./districts/recovered/sn3-f-builder.js";
 import {addCBlockResidential} from "./districts/recovered/c-block-builder.js";
@@ -13,6 +18,12 @@ window.__ansalWorldReady=(scene,roads,colliders,legacyPoi)=>{
   window.__ansalWorldContext=world.getSceneContext();
   window.__ansalWorldInventory=()=>world.inventory();
   window.__ansalWorldTick=dt=>world.update(dt);
+  window.__ansalGameplayReady=(camera,foot)=>{window.__ansalPersistence?.destroy();window.__ansalAmbient?.destroy();window.__ansalDrive?.destroy();window.__ansalDrive=new DriveExperience({scene,camera,foot,world});window.__ansalAmbient=new AmbientBridge({experience:window.__ansalDrive});window.__ansalMission?.destroy();window.__ansalMission=new MissionBoard({world,gameEvents:()=>window.__ansalDrive?.drainEvents()||[],player:()=>{const d=window.__ansalDrive;if(!d)return null;const p=d.mode==='drive'?d.vehicle.position:d.foot.getPosition();return {x:p.x,z:p.z,mode:d.mode==='drive'?'drive':'walk'}}});window.__ansalPersistence=new GamePersistence({drive:window.__ansalDrive,mission:window.__ansalMission,world});window.__ansalDrive.onChange=()=>window.__ansalPersistence?.save();};
+  window.__ansalGameplayTick=dt=>{window.__ansalDrive?.tick(dt);window.__ansalMission?.update(dt)};
+  window.__ansalGameplayExit=()=>{window.__ansalDrive?.onExitOverview();window.__ansalMission?.setEnabled(false);window.__ansalPersistence?.save()};
+  window.__ansalGameplayEnter=()=>{window.__ansalDrive?.setEnabled(true);window.__ansalMission?.setEnabled(true);window.__ansalPersistence?.restoreFoot()};
+  window.__ansalGameplayPause=value=>{window.__ansalDrive?.setPaused(value);window.__ansalMission?.setPaused(value)};
+  window.__ansalAmbientTick=(layer,dt)=>window.__ansalAmbient?.update(layer,dt);
 };
 window.__ansalFurnitureReady=(scene,roads)=>addCatalogFurnitureDensity(scene,roads);
 window.__ansalHousingReady=(scene,roads,boundary,colliders,game)=>{

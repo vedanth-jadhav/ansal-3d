@@ -1,0 +1,10 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';
+import {DrivingController} from '../src/gameplay/DrivingController.js';
+import {RoadNetwork} from '../src/world/RoadNetwork.js';
+import {CollisionWorld} from '../src/world/CollisionWorld.js';
+const roads=new RoadNetwork([{id:'local',tags:{highway:'residential'},coordinates:[[0,0],[0,60]]}]);
+function fixture(position={x:0,z:0}){const collisionWorld=new CollisionWorld();const h={id:'hero',radius:1.9,heading:0,position,setPose(p,y){this.position={...p};this.heading=y;collisionWorld.setDynamic(this.id,p,this.radius)}};collisionWorld.setDynamic(h.id,h.position,h.radius);return {h,collisionWorld,controller:new DrivingController({collisionWorld,roadNetwork:roads,vehicle:h})}}
+test('gas moves hero in heading direction at capped speed, coasting slows it',()=>{let {h,controller}=fixture();for(let i=0;i<240;i++)controller.update(1/60,{forward:1,turn:0,brake:false});assert.ok(h.position.z>28);assert.ok(controller.speed<=14);const prior=controller.speed;for(let i=0;i<30;i++)controller.update(1/60,{forward:0,turn:0});assert.ok(controller.speed<prior)});
+test('hero stops before thin wall and cannot tunnel with a long simulation step',()=>{let {h,collisionWorld,controller}=fixture();collisionWorld.setStatic('wall',{min:{x:-3,z:5},max:{x:3,z:5.05}});let collision;for(let i=0;i<300;i++){const events=controller.update(1/60,{forward:1,turn:0});if(events.length)collision=events[0]}assert.ok(h.position.z<5-1.9);assert.equal(collision?.targetId,'wall')});
+test('nearby traffic blocks hero but occupied self circle is excluded',()=>{let {h,collisionWorld,controller}=fixture();collisionWorld.setDynamic('traffic',{x:0,z:5},1.2);let seen=false;for(let i=0;i<120;i++)if(controller.update(1/60,{forward:1,turn:0}).some(e=>e.targetId==='traffic'))seen=true;assert.ok(seen);assert.ok(h.position.z<5-3.1)});
+test('steering cannot rotate vehicle in place',()=>{let {h,controller}=fixture();for(let i=0;i<60;i++)controller.update(1/60,{forward:0,turn:1});assert.equal(h.heading,0)});
