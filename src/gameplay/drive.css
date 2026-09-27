@@ -6,3 +6,5 @@
 #newMissions #jobStrip{position:fixed;top:96px;left:14px;transform:none;min-width:0;max-width:280px;white-space:normal;text-align:left;line-height:1.3;box-shadow:0 4px 15px #10263177}@media(max-width:700px){#newMissions #jobStrip{top:90px;left:8px;max-width:180px}}
 
 #newMissions #jobStrip{position:fixed;top:50px;left:-470px;transform:none;max-width:225px;white-space:normal;line-height:1.3;text-align:left;pointer-events:none}@media(max-width:700px){#newMissions #jobStrip{left:-390px;max-width:190px}}
+
+body.new-job-active .mission-hud,body.new-job-active #questHud{display:none!important}
