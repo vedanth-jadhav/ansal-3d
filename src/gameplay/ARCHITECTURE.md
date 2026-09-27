@@ -2,9 +2,9 @@
 
 This branch still runs a recovered compiled RC2 runtime with two editable overlays. Do not instantiate the modules in this folder beside that bundle: RC2 owns a requestAnimationFrame loop, player controller, camera and input listeners. The modules here are independently testable boundaries for a **future** full replacement, not a gameplay release.
 
-- `WorldRuntime`: scene/LOD owner; `getSceneContext()` returns indexed `RoadNetwork`, static/dynamic `CollisionWorld`, POIs and `VehicleRegistry`. Existing RC2 geometry is not yet transferred.
-- `RoadNetwork`: OSM way IDs retained; cell-index nearest queries, traversable route and roadside sampling. Road names are never invented. Graph edges from OSM must be verified for junction topology and access rules before missions or driving use them.
-- `CollisionWorld`: static `Box3` projection and dynamic circles, conservative stepped sweep. Collision response and continuous exact time-of-impact are not production physics. Verify all y filtering, road edges and oblique wall slides before driving.
+- `WorldRuntime`: intended scene/LOD owner; `getSceneContext()` returns indexed `RoadNetwork`, static/dynamic `CollisionWorld`, POIs and `VehicleRegistry`. Existing RC2 geometry is not yet transferred.
+- `RoadNetwork`: OSM way IDs retained; cell-index nearest queries, traversable route and roadside sampling. The route query is only on OSM vertex connectivity, not surveyed legal vehicle access; sample parking does not verify free space or property boundary. Road names are never invented. Graph edges from OSM must be verified for junction topology and access rules before missions or driving use them.
+- `CollisionWorld`: static `Box3` projection and dynamic circles, conservative swept expanded-AABB and dynamic-circle query. Collision response and continuous exact time-of-impact are not production physics. Verify all y filtering, road edges and oblique wall slides before driving.
 - `PlayerController`, `InputRouter`, `CameraDirector`: future single-owner seams. Existing `sM` in RC2 still owns these; do not run both at once.
 - `VehicleRegistry`: consumes specialist `spawnVehicle({scene,x,z,yaw,kind})` handles; future `TrafficSystem` mediates ambient occupancy. The occupied player vehicle must be exempt from traffic's 260m visibility cull.
 - `MissionRuntime`: only validated `reachPOI` stages in this staging code. Other mission stage types, six-stop migration, safe quick-travel lockout and reward/scoring need implementation and tests.
