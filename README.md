@@ -2,7 +2,7 @@
 
 This branch wraps the deployed RC2 v65b bundle as frozen runtime truth. It is **not** a recreation of the editable original source, and the public asset mirror is incomplete. Run `npm install && npm run build`; after all assets are recovered, use `npm run dev -- --port 5188`. New modular work should replace, not edit, the frozen bundled JS. Keep the public ledger and evidence files in every build; record catalog and budget changes at merge time. No Google imagery is bundled.
 
-Deployment requirement from parent: retain the user’s Cloudflare Web Analytics beacon in deployment HTML. The local QA scaffold omits it intentionally; do not deploy this ZIP unchanged.
+Deployment requirement from parent: retain the user’s Cloudflare Web Analytics beacon in deployment HTML. The local QA build omits it intentionally; use `node scripts/build-deploy.mjs` only for a parent-approved deploy target. This does not authorize deployment or release.
 
 ## Recovered fragments
 - `sector12-v90-recovered-excerpt.js` is a syntax-checked complete scoped housing array and function but depends on the missing module context.
@@ -49,3 +49,5 @@ The new GTA-style-depth architecture mandate requires clean gameplay seams (worl
 `src/world/` provides a live, read-only WorldRuntime query facade over OSM road segments and existing static collider boxes; it does not own geometry or replace RC2. `src/gameplay/`, `src/vehicles/`, `src/traffic/` reserve unit-tested or compile-checked contracts for the architectural migration. See `src/gameplay/ARCHITECTURE.md`. Only the recovered RC2 loop runs, and the interfaces must not be mistaken for drivable gameplay, new missions or a maintainable original-source equivalent. Unit tests: `node --test test/world-contracts.test.mjs`.
 
 The original source port remains open. `src/world/README.md` is the explicit port order and records what scene inventory cannot prove. The live `WorldRuntime` facade does not make the compiled bundle a maintainable modular rebuild.
+
+The mirrored `public/index.html` and `public/robots.txt` had stale HTML and the analytics beacon; `public/index.html` was removed so it cannot serve an older bundled app at `/index.html`, and `robots.txt` is now a valid robots file. `scripts/build-deploy.mjs` injects the beacon only into deployment-target output. The root Vite `index.html` remains local QA without analytics.

@@ -1,0 +1,3 @@
+# Deployment-only headers; local QA has no analytics beacon.
+/*
+  X-Content-Type-Options: nosniff
