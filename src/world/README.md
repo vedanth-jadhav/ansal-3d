@@ -5,7 +5,7 @@ The imported RC2 bundle is not source-equivalent. The scene inventory enumerates
 Port order for the full modular branch:
 1. OSM ground/roads/parks/boundary, fog/grade/lighting, camera/render loop into an owned WorldRuntime and GameLoop. Retain OSM way IDs and coordinates.
 2. Regencia, northern/Sector12, southern/F-block and D Block builders into separate source modules with evidence boundaries, preserving v90 parcel statuses and the D Block freeze.
-3. Move live scoped furniture, v90 housing, SN3/F 54 and C-Block 43 arrays into distinct builders. The last two are not present in this branch; obtain actual patches, do not fabricate IDs.
+3. Move live scoped furniture, v90 housing, SN3/F 54 and C-Block 43 arrays into distinct builders. The latter two are now present as recovered scoped modules and staged scene mounts, with the CBLE-019 road-anchor omission tracked; full original source ownership is still open.
 4. Rehome NPC/traffic/ambient life and specialist vehicle handles. One scheduler; GameLoop is inert until the legacy loop is retired. Player/Camera/Input only switch ownership when each full path works.
 5. Move missions/save/POIs to stable ID-based data. Restrict scored quick travel, validate road-side targets, stage physical-phone QA, then run the full-chain suite. No public release before that.
 

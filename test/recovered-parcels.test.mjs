@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+import {residentialParcels} from '../src/districts/recovered/sn3-f-v90r.js';import {cBlockParcels} from '../src/districts/recovered/c-block-v85.js';
+const catalog=new Map(fs.readFileSync(new URL('../public/parcel-catalog-v90.jsonl',import.meta.url),'utf8').trim().split('\n').map(s=>{const p=JSON.parse(s);return [p.parcel_id,p]}));
+test('recovered specialist arrays match byte-exact v90 active IDs and anchors',()=>{assert.equal(residentialParcels.length,54);assert.equal(cBlockParcels.length,43);const ids=new Set();for(const row of [...residentialParcels,...cBlockParcels]){const [id,x,z]=row,p=catalog.get(id);assert.ok(p,id);assert.notEqual(p.status,'superseded',id);assert.equal(x,p.game_x,id);assert.equal(z,p.game_z,id);assert.ok(!ids.has(id),id);ids.add(id)}assert.equal(ids.size,97)});
+test('SN3S-013 active correction is not the stale v82 vacant tuple',()=>{const row=residentialParcels.find(r=>r[0]==='ANS-SN3S-013');assert.equal(row[3],'H');assert.equal(row[4],3);assert.equal(row[5],0);assert.equal(catalog.get(row[0]).status,'active')});

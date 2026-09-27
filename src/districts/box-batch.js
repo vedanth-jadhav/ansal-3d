@@ -1,0 +1,7 @@
+import * as THREE from 'three';import {mergeGeometries} from 'three/addons/utils/BufferGeometryUtils.js';
+export function createBoxBatch({scene,roads,groupName}){
+ const {boxGap}=roads;const group=new THREE.Group();group.name=groupName;scene.add(group);const cells=new Map();const material=new THREE.MeshLambertMaterial({vertexColors:true,side:THREE.DoubleSide});let clipped=0;
+ const box=(cell,x,y,z,w,h,d,color)=>{if(boxGap(x,z,w,d)<0){clipped++;return false}let geos=cells.get(cell);if(!geos){geos=[];cells.set(cell,geos)}const g=new THREE.BoxGeometry(w,h,d);g.translate(x,y,z);g.computeVertexNormals();const c=new THREE.Color(color),a=new Float32Array(g.attributes.position.count*3);for(let k=0;k<a.length;k+=3){a[k]=c.r;a[k+1]=c.g;a[k+2]=c.b}g.setAttribute('color',new THREE.BufferAttribute(a,3));geos.push(g.toNonIndexed());g.dispose();return true};
+ const finish=()=>{for(const [cell,geos] of cells){if(!geos.length)continue;const joined=mergeGeometries(geos,false);geos.forEach(g=>g.dispose());if(!joined)continue;joined.computeBoundingSphere();const mesh=new THREE.Mesh(joined,material);mesh.name='catalog:'+cell;mesh.receiveShadow=true;mesh.castShadow=false;const center=joined.boundingSphere.center,lod=new THREE.LOD();lod.position.set(center.x,0,center.z);mesh.position.set(-center.x,0,-center.z);lod.addLevel(mesh,0);lod.addLevel(new THREE.Group(),300);group.add(lod)}return {group,cells:cells.size,clipped}};
+ return {box,finish,get clipped(){return clipped}};
+}

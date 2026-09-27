@@ -1,0 +1,6 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import * as THREE from 'three';import fs from 'node:fs';
+import {addSn3FResidential} from '../src/districts/recovered/sn3-f-builder.js';import {addCBlockResidential} from '../src/districts/recovered/c-block-builder.js';
+const roads=JSON.parse(fs.readFileSync(new URL('../public/osm.json',import.meta.url))).roads;
+const exercise=(fn)=>{const scene=new THREE.Scene(),colliders=[];const r=fn(scene,roads,()=>true,colliders);assert.ok(r.visuals.children.length>10);assert.equal(scene.children.includes(r.visuals),true);assert.equal(r.summary.omitted.length,fn===addSn3FResidential?0:1);assert.equal(colliders.length,fn===addSn3FResidential?40:42);for(const b of colliders)assert.ok(b.max.y>b.min.y);r.visuals.traverse(o=>{o.geometry?.dispose();o.material?.dispose()});return r.summary};
+test('SN3/F scoped builder places all 54 status-distinct parcels',()=>{const s=exercise(addSn3FResidential);assert.equal(s.ids,54);assert.equal(s.built,36);assert.equal(s.vacant,13);assert.equal(s.unfinished,4);assert.equal(s.walls,1)});
+test('C Block scoped builder preserves explicit unresolved CBLE-019',()=>{const s=exercise(addCBlockResidential);assert.equal(s.ids,43);assert.equal(s.built,42);assert.deepEqual(s.omitted,[['ANS-CBLE-019','anchor-road']])});
