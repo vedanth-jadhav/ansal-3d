@@ -1,7 +1,7 @@
 /* Handles specialist-owned meshes; registry never constructs a vehicle model. */
 export class VehicleRegistry {
  constructor({scene,factory,collisionWorld}){this.scene=scene;this.factory=factory;this.collisionWorld=collisionWorld;this.handles=new Map();this.serial=0}
- spawnParked({kind,position,heading=0,id=`parked:${++this.serial}`}){const h=this.factory.spawnVehicle({scene:this.scene,x:position.x,z:position.z,yaw:heading,kind});if(!h||!h.object||!h.radius||typeof h.setPose!=='function')throw new Error('invalid specialist vehicle handle');
+ spawnParked({kind,position,heading=0,id}){id??=`parked:${++this.serial}`;if(this.handles.has(id))throw new Error('duplicate vehicle id');const h=this.factory.spawnVehicle({scene:this.scene,x:position.x,z:position.z,yaw:heading,kind});if(!h||!h.object||!h.radius||typeof h.setPose!=='function')throw new Error('invalid specialist vehicle handle');
   const handle={id,object:h.object,radius:h.radius,kind,position:{...position},heading,occupied:false,raw:h,setPose:(p,yaw)=>{h.setPose(p.x,p.z,yaw);handle.position={...p};handle.heading=yaw;this.collisionWorld.setDynamic(id,p,h.radius)},setOccupied:(seat,occupied)=>{handle.occupied=occupied;handle.seat=occupied?seat:null;handle.object.visible=true}};
   this.handles.set(id,handle);this.collisionWorld.setDynamic(id,position,h.radius);return handle}
  get(id){return this.handles.get(id)||null}

@@ -9,6 +9,7 @@ window.__ansalWorldReady=(scene,roads,colliders,legacyPoi)=>{
   const pois=legacyPoi.map(({id,name,x,z})=>({id,name,position:{x,z},radius:18}));
   const world=new WorldRuntime({scene,roads,colliders,pois});
   window.__ansalWorldContext=world.getSceneContext();
+  window.__ansalWorldInventory=()=>world.inventory();
   window.__ansalWorldTick=dt=>world.update(dt);
 };
 window.__ansalFurnitureReady=(scene,roads)=>addCatalogFurnitureDensity(scene,roads);

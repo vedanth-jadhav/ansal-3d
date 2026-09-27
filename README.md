@@ -47,3 +47,5 @@ The new GTA-style-depth architecture mandate requires clean gameplay seams (worl
 
 ### Modular seam branch, 2026-09-27
 `src/world/` provides a live, read-only WorldRuntime query facade over OSM road segments and existing static collider boxes; it does not own geometry or replace RC2. `src/gameplay/`, `src/vehicles/`, `src/traffic/` reserve unit-tested or compile-checked contracts for the architectural migration. See `src/gameplay/ARCHITECTURE.md`. Only the recovered RC2 loop runs, and the interfaces must not be mistaken for drivable gameplay, new missions or a maintainable original-source equivalent. Unit tests: `node --test test/world-contracts.test.mjs`.
+
+The original source port remains open. `src/world/README.md` is the explicit port order and records what scene inventory cannot prove. The live `WorldRuntime` facade does not make the compiled bundle a maintainable modular rebuild.
