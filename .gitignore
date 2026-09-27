@@ -1,0 +1,19 @@
+# build output
+dist/
+# dependencies
+node_modules/
+# live-test helpers (never commit)
+/.live/
+.live-test.mjs
+.live-reboot.mjs
+.inspect.mjs
+.probe.mjs
+.probe2.mjs
+.probe3.mjs
+.probe4.mjs
+.probe5.mjs
+# python cache
+__pycache__/
+# OS / editor
+.DS_Store
+Thumbs.db
