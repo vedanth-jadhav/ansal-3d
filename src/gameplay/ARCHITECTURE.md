@@ -12,3 +12,5 @@ This branch still runs a recovered compiled RC2 runtime with two editable overla
 - `GameLoop`: intended sole fixed-step scheduler (60 Hz, max four catch-up steps), once RC2 loop is retired. No side RAFs in specialist systems.
 
 Contracts were guided by the gameplay, street-life and vehicle squad specs delivered September 27. StreetLife target `update(dt,cameraPos)`, cap 14 active rigs, 9-12 shared geometries, D Block r150 freeze. Vehicle factory meshes and traffic behavior remain specialist-owned. Target ceiling: 150 calls, 300k triangles, 200 session geometries; use the stricter settled and ring QA. No physical-phone claim.
+
+Legacy `Township dash`, `Field notes`, and `The long way home` scored missions remain in the RC2 code. The existing travel select is now blocked while one of those missions is active; it still works for free-roam six-stop QA. That is a narrow safeguard, not a new mission engine or score anti-cheat.

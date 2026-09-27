@@ -19,7 +19,7 @@ export class RoadNetwork {
   }
  }
  nearest(position,{mode='walk',maxDistance=Infinity}={}){
-  const size=this.cellSize,limit=Number.isFinite(maxDistance)?Math.max(1,Math.ceil(maxDistance/size)):Math.max(1,Math.ceil(Math.max(Math.abs(position.x-this.bounds.minX),Math.abs(position.x-this.bounds.maxX),Math.abs(position.z-this.bounds.minZ),Math.abs(position.z-this.bounds.maxZ))/size)+1);
+  const size=this.cellSize,limit=Number.isFinite(maxDistance)?Math.max(1,Math.ceil(maxDistance/size)+2):Math.max(1,Math.ceil(Math.max(Math.abs(position.x-this.bounds.minX),Math.abs(position.x-this.bounds.maxX),Math.abs(position.z-this.bounds.minZ),Math.abs(position.z-this.bounds.maxZ))/size)+1);
   const cx=Math.floor(position.x/size),cz=Math.floor(position.z/size);let best=null;const seen=new Set();
   for(let radius=0;radius<=limit;radius++){
    for(let x=cx-radius;x<=cx+radius;x++)for(let z=cz-radius;z<=cz+radius;z++){
@@ -39,9 +39,9 @@ export class RoadNetwork {
   const endpoints=s=>[{k:key(s.segment.a.x,s.segment.a.z),p:s.segment.a},{k:key(s.segment.b.x,s.segment.b.z),p:s.segment.b}];
   if(a.segmentId===b.segmentId){const d=distance(a.point,b.point);return {points:[start,a.point,b.point,end],distance:distance(start,a.point)+d+distance(b.point,end),mode,wayIds:[a.wayId]}}
   const goals=endpoints(b),target=new Set(goals.map(x=>x.k)),prev=new Map(),cost=new Map(),queue=[];
-  for(const x of endpoints(a)){const d=distance(start,x.p);cost.set(x.k,d);queue.push([d,x.k])}
+  for(const x of endpoints(a)){const d=distance(start,a.point)+distance(a.point,x.p);cost.set(x.k,d);queue.push([d,x.k])}
   let reached=null;
-  while(queue.length){queue.sort((x,y)=>y[0]-x[0]);const [d,k]=queue.pop();if(d!==cost.get(k))continue;if(target.has(k)){reached=k;break}
+  while(queue.length){queue.sort((x,y)=>(y[0]+Math.min(...goals.map(g=>distance(this.nodes.get(y[1]).position,g.p)+distance(g.p,b.point))))-(x[0]+Math.min(...goals.map(g=>distance(this.nodes.get(x[1]).position,g.p)+distance(g.p,b.point)))));const [d,k]=queue.pop();if(d!==cost.get(k))continue;if(target.has(k)){reached=k;break}
    for(const e of this.nodes.get(k)?.edges||[]){if(mode==='drive'&&!e.segment.drive)continue;const next=d+e.len;if(next<(cost.get(e.to)??Infinity)){cost.set(e.to,next);prev.set(e.to,k);queue.push([next,e.to])}}
   }
   if(!reached)return null;
