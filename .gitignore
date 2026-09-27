@@ -1,0 +1,10 @@
+# build output
+dist/
+# dependencies
+node_modules/
+# QA screenshots (override with SCREENSHOT_DIR)
+downloads/
+# OS / editor
+.DS_Store
+Thumbs.db
+__pycache__/
