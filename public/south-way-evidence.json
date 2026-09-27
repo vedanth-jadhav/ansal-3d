@@ -1,0 +1,1123 @@
+{
+  "note": "Way-specific correction: road name from Google pano metadata, way geometry from OSM. 10m proximity does not imply visual inspection.",
+  "ways": [
+    {
+      "osm_way_id": "258847034",
+      "road_name": "Barsat Rd",
+      "name_provenance": "Google Street View metadata, 23 labels within 8m of this OSM centerline",
+      "osm_way_url": "https://www.openstreetmap.org/way/258847034",
+      "scoped_length_10m_samples": 170,
+      "samples_near_inventory_pano_15m": 170,
+      "coverage_fraction_spatial_only": 1.0,
+      "google_named_anchor_panos": [
+        {
+          "pano_id": "PqE2IlOIlMTglvttfFcYiQ",
+          "lat": 29.4187516362059,
+          "lon": 76.9855660317871
+        },
+        {
+          "pano_id": "lbdiky5H31T92Nj2DNusoA",
+          "lat": 29.41916465582037,
+          "lon": 76.98598148635834
+        },
+        {
+          "pano_id": "Urd2EUhf0tAH8APAs4G6-Q",
+          "lat": 29.41959462904737,
+          "lon": 76.98641003500734
+        },
+        {
+          "pano_id": "1hlVWdVpho2kIdyZaQiHXQ",
+          "lat": 29.41999130843915,
+          "lon": 76.98688463593349
+        },
+        {
+          "pano_id": "AhrDWEnZK8-fpOLR5aUiXA",
+          "lat": 29.42045107512338,
+          "lon": 76.9872423431858
+        },
+        {
+          "pano_id": "c3XTjF-4Bjm1QueVLCaaeQ",
+          "lat": 29.4208873567347,
+          "lon": 76.98776905860866
+        },
+        {
+          "pano_id": "sdw7CUU9oggDFn7oduw1ZQ",
+          "lat": 29.42133905803843,
+          "lon": 76.98817369543899
+        },
+        {
+          "pano_id": "Fc1tULP1u5CeXzBuZNdmiQ",
+          "lat": 29.42265500088193,
+          "lon": 76.98945447990404
+        },
+        {
+          "pano_id": "fzJqr1bf4U0Eq0JSJty_Sw",
+          "lat": 29.42347076679209,
+          "lon": 76.99027507835638
+        },
+        {
+          "pano_id": "OrPuTu-u1-JP_JaSVGbYng",
+          "lat": 29.42390923314966,
+          "lon": 76.99067882798839
+        },
+        {
+          "pano_id": "vU9cWQZS9ERzp51yNm97JQ",
+          "lat": 29.42443037488095,
+          "lon": 76.99107844564463
+        },
+        {
+          "pano_id": "G0mw0eLbrxDv83TZyJkn3w",
+          "lat": 29.42486592453605,
+          "lon": 76.99159881670072
+        },
+        {
+          "pano_id": "YkwoqHLxrMB80j3b9M1PsA",
+          "lat": 29.42532224158665,
+          "lon": 76.99203622196099
+        },
+        {
+          "pano_id": "0QFpIsnAsJWTqZjtAfE0Wg",
+          "lat": 29.42581455392937,
+          "lon": 76.9924355715016
+        },
+        {
+          "pano_id": "TQVWY3hGgH9T7QZQj9cNRg",
+          "lat": 29.42624189189631,
+          "lon": 76.99284124742074
+        },
+        {
+          "pano_id": "JzxUpfoHjOvWBTBHqJWSVw",
+          "lat": 29.42669237878467,
+          "lon": 76.99336495053213
+        },
+        {
+          "pano_id": "t2QqpiTqaXNefG32MSkBew",
+          "lat": 29.42710843692938,
+          "lon": 76.99377624792028
+        },
+        {
+          "pano_id": "W-Xb7JD2wGQW2SgmCESxXw",
+          "lat": 29.42748073390631,
+          "lon": 76.99423596777699
+        },
+        {
+          "pano_id": "Ar8iqOw6tK0dbvQBKdrvhQ",
+          "lat": 29.42794407817641,
+          "lon": 76.99461166948484
+        },
+        {
+          "pano_id": "lH9kfkGerp1yT7M8l16n-A",
+          "lat": 29.42837964741878,
+          "lon": 76.99500740736129
+        },
+        {
+          "pano_id": "8vK62f3Dhkm1c5JaMCQpDg",
+          "lat": 29.42883758318865,
+          "lon": 76.99539795886787
+        },
+        {
+          "pano_id": "sIz0vKBkIANjifYtto74Bg",
+          "lat": 29.42937161669349,
+          "lon": 76.99572400338135
+        },
+        {
+          "pano_id": "DQ4WW3VBfAWDOh_vRY2_hQ",
+          "lat": 29.42988432499177,
+          "lon": 76.99599626306232
+        },
+        {
+          "pano_id": "eyIjI8KKf0RIUAHo1d38xg",
+          "lat": 29.43072568834905,
+          "lon": 76.99635192222382
+        },
+        {
+          "pano_id": "IO6Qd8H-A6_1mSIbpIkEew",
+          "lat": 29.43123790493975,
+          "lon": 76.99662541084389
+        },
+        {
+          "pano_id": "ZcCFiExDR6Ou2nQIIhwDPA",
+          "lat": 29.43174812934252,
+          "lon": 76.99688844093158
+        }
+      ],
+      "visually_inspected_panos_on_way_12m": [
+        {
+          "pano_id": "BbfO7ASZtlKOaoniCDHA2w",
+          "lat": 29.4187932,
+          "lon": 76.9856117,
+          "offset_m": 2.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BbfO7ASZtlKOaoniCDHA2w"
+        },
+        {
+          "pano_id": "d7JkmJWBgAhDVdg3t8x0yA",
+          "lat": 29.4189495,
+          "lon": 76.9858591,
+          "offset_m": 6.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=d7JkmJWBgAhDVdg3t8x0yA"
+        },
+        {
+          "pano_id": "0n2A5qUayWr3CHcFwjR5og",
+          "lat": 29.4190017,
+          "lon": 76.9859085,
+          "offset_m": 6.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0n2A5qUayWr3CHcFwjR5og"
+        },
+        {
+          "pano_id": "GrkKtDWwUqRzOX9piXYyBQ",
+          "lat": 29.4193055,
+          "lon": 76.9861238,
+          "offset_m": 0.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=GrkKtDWwUqRzOX9piXYyBQ"
+        },
+        {
+          "pano_id": "rGOuXDruQHbDiefkhx9uag",
+          "lat": 29.4193444,
+          "lon": 76.9861541,
+          "offset_m": 0.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rGOuXDruQHbDiefkhx9uag"
+        },
+        {
+          "pano_id": "lAfcgE5DHb0_kL28RUvHVQ",
+          "lat": 29.4195713,
+          "lon": 76.9863602,
+          "offset_m": 2.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=lAfcgE5DHb0_kL28RUvHVQ"
+        },
+        {
+          "pano_id": "mTsTd5I3HYilT9Px03kreA",
+          "lat": 29.419666,
+          "lon": 76.9864796,
+          "offset_m": 0.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=mTsTd5I3HYilT9Px03kreA"
+        },
+        {
+          "pano_id": "4t9vXTeAqpYcTs8TmqrdmQ",
+          "lat": 29.4200742,
+          "lon": 76.9868267,
+          "offset_m": 2.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=4t9vXTeAqpYcTs8TmqrdmQ"
+        },
+        {
+          "pano_id": "rVdws2w4CARgw_328QdIng",
+          "lat": 29.4201016,
+          "lon": 76.9868998,
+          "offset_m": 0.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rVdws2w4CARgw_328QdIng"
+        },
+        {
+          "pano_id": "-hLLC1jjwF4HnokVM_w-GA",
+          "lat": 29.4203079,
+          "lon": 76.9871009,
+          "offset_m": 1.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=-hLLC1jjwF4HnokVM_w-GA"
+        },
+        {
+          "pano_id": "2Ba14t7HI2oClGwZr5ZqWA",
+          "lat": 29.4204289,
+          "lon": 76.9871864,
+          "offset_m": 4.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=2Ba14t7HI2oClGwZr5ZqWA"
+        },
+        {
+          "pano_id": "dbzrGj2sVA2CpFuOjQKQEA",
+          "lat": 29.4205502,
+          "lon": 76.9873419,
+          "offset_m": 2.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=dbzrGj2sVA2CpFuOjQKQEA"
+        },
+        {
+          "pano_id": "cv5T112WplSlylyWPJnceA",
+          "lat": 29.4210359,
+          "lon": 76.987897,
+          "offset_m": 4.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=cv5T112WplSlylyWPJnceA"
+        },
+        {
+          "pano_id": "UeeKLsDTJG0cGxiZDstmRg",
+          "lat": 29.4211125,
+          "lon": 76.9879684,
+          "offset_m": 4.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UeeKLsDTJG0cGxiZDstmRg"
+        },
+        {
+          "pano_id": "eJd8xiYROalLxtUOzvhpAg",
+          "lat": 29.4213464,
+          "lon": 76.9880928,
+          "offset_m": 2.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eJd8xiYROalLxtUOzvhpAg"
+        },
+        {
+          "pano_id": "NLPb5aWy_tRhHMkcaOmrhg",
+          "lat": 29.4215653,
+          "lon": 76.9883049,
+          "offset_m": 2.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=NLPb5aWy_tRhHMkcaOmrhg"
+        },
+        {
+          "pano_id": "oYeCkbbJC5DZ2XJ1o_epwA",
+          "lat": 29.4218206,
+          "lon": 76.9886581,
+          "offset_m": 6.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oYeCkbbJC5DZ2XJ1o_epwA"
+        },
+        {
+          "pano_id": "rKeujJMdja8T9TAP5k8HqQ",
+          "lat": 29.4220432,
+          "lon": 76.9887665,
+          "offset_m": 1.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rKeujJMdja8T9TAP5k8HqQ"
+        },
+        {
+          "pano_id": "zC0zdjKk06eoVFLQbCe__A",
+          "lat": 29.4224388,
+          "lon": 76.9892755,
+          "offset_m": 6.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zC0zdjKk06eoVFLQbCe__A"
+        },
+        {
+          "pano_id": "FRmh7Y5Nls8PcweCW7a1JA",
+          "lat": 29.4229374,
+          "lon": 76.9897178,
+          "offset_m": 1.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FRmh7Y5Nls8PcweCW7a1JA"
+        },
+        {
+          "pano_id": "OJgJqDpPmwFUMDBvr7yQpQ",
+          "lat": 29.4234418,
+          "lon": 76.9901191,
+          "offset_m": 5.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=OJgJqDpPmwFUMDBvr7yQpQ"
+        },
+        {
+          "pano_id": "HIek_3E8xLSjAcdHzPTtvA",
+          "lat": 29.4238425,
+          "lon": 76.9906136,
+          "offset_m": 3.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=HIek_3E8xLSjAcdHzPTtvA"
+        },
+        {
+          "pano_id": "3EzIy9Qlzswpfi6o5z3NcQ",
+          "lat": 29.4243534,
+          "lon": 76.9910024,
+          "offset_m": 4.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3EzIy9Qlzswpfi6o5z3NcQ"
+        },
+        {
+          "pano_id": "FM9rh9KtejV_rGINMBFCvw",
+          "lat": 29.4248025,
+          "lon": 76.9914356,
+          "offset_m": 6.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FM9rh9KtejV_rGINMBFCvw"
+        },
+        {
+          "pano_id": "tjsv6ZHub1pzmfKV-qYhqw",
+          "lat": 29.4249748,
+          "lon": 76.9917052,
+          "offset_m": 0.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=tjsv6ZHub1pzmfKV-qYhqw"
+        },
+        {
+          "pano_id": "YkwoqHLxrMB80j3b9M1PsA",
+          "lat": 29.4253222,
+          "lon": 76.9920362,
+          "offset_m": 1.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=YkwoqHLxrMB80j3b9M1PsA"
+        },
+        {
+          "pano_id": "0QFpIsnAsJWTqZjtAfE0Wg",
+          "lat": 29.4258146,
+          "lon": 76.9924356,
+          "offset_m": 7.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0QFpIsnAsJWTqZjtAfE0Wg"
+        },
+        {
+          "pano_id": "ebQ5IEY9DXrpYSIZ048tpg",
+          "lat": 29.4260289,
+          "lon": 76.9926439,
+          "offset_m": 6.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ebQ5IEY9DXrpYSIZ048tpg"
+        },
+        {
+          "pano_id": "eoagHNH5xojKVxXG6MEIjA",
+          "lat": 29.4260298,
+          "lon": 76.9927215,
+          "offset_m": 1.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eoagHNH5xojKVxXG6MEIjA"
+        },
+        {
+          "pano_id": "V8sSNCQnnlxQeEZojT5Jyw",
+          "lat": 29.4262591,
+          "lon": 76.9929442,
+          "offset_m": 0.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=V8sSNCQnnlxQeEZojT5Jyw"
+        },
+        {
+          "pano_id": "hF6PDA2Mb2b7KJJmZ4qt2Q",
+          "lat": 29.4263089,
+          "lon": 76.9929079,
+          "offset_m": 6.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=hF6PDA2Mb2b7KJJmZ4qt2Q"
+        },
+        {
+          "pano_id": "IMZcuGOQHYMVDt6lG49Zyg",
+          "lat": 29.4265314,
+          "lon": 76.9931227,
+          "offset_m": 6.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=IMZcuGOQHYMVDt6lG49Zyg"
+        },
+        {
+          "pano_id": "p3AAC1z_r1xMHan30Bm3jQ",
+          "lat": 29.4269673,
+          "lon": 76.993635,
+          "offset_m": 0.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=p3AAC1z_r1xMHan30Bm3jQ"
+        },
+        {
+          "pano_id": "h652CtlmiptX-hpVVthxVg",
+          "lat": 29.4274292,
+          "lon": 76.9941471,
+          "offset_m": 4.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=h652CtlmiptX-hpVVthxVg"
+        },
+        {
+          "pano_id": "CesriQzd_xwQZKT36JE7bQ",
+          "lat": 29.4278768,
+          "lon": 76.9945465,
+          "offset_m": 2.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CesriQzd_xwQZKT36JE7bQ"
+        },
+        {
+          "pano_id": "zVpP9Qus2E1TRWkC8up7XA",
+          "lat": 29.428184,
+          "lon": 76.9947226,
+          "offset_m": 5.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zVpP9Qus2E1TRWkC8up7XA"
+        },
+        {
+          "pano_id": "lH9kfkGerp1yT7M8l16n-A",
+          "lat": 29.4283796,
+          "lon": 76.9950074,
+          "offset_m": 1.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=lH9kfkGerp1yT7M8l16n-A"
+        },
+        {
+          "pano_id": "d0Wjh6M2X3USWT7WK3c76A",
+          "lat": 29.4286814,
+          "lon": 76.9951705,
+          "offset_m": 7.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=d0Wjh6M2X3USWT7WK3c76A"
+        },
+        {
+          "pano_id": "QkQgr5Uy2eayBcKc6THVfQ",
+          "lat": 29.4289205,
+          "lon": 76.9954599,
+          "offset_m": 2.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=QkQgr5Uy2eayBcKc6THVfQ"
+        },
+        {
+          "pano_id": "x9qWTiz8FtiCS9BpPQi7TA",
+          "lat": 29.4292054,
+          "lon": 76.9956445,
+          "offset_m": 3.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=x9qWTiz8FtiCS9BpPQi7TA"
+        },
+        {
+          "pano_id": "-e1DtBr0N2Wf7eTR7gM02A",
+          "lat": 29.4295245,
+          "lon": 76.9957157,
+          "offset_m": 7.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=-e1DtBr0N2Wf7eTR7gM02A"
+        },
+        {
+          "pano_id": "UEcsxLbFTQ8m1brNGX7L7Q",
+          "lat": 29.4298017,
+          "lon": 76.9959512,
+          "offset_m": 0.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UEcsxLbFTQ8m1brNGX7L7Q"
+        }
+      ],
+      "caveat": "Panorama near a way does not prove it faces all facades. Name source distinct from OSM geometry. This inventory coverage is not exhaustive visual review."
+    },
+    {
+      "osm_way_id": "1097874594",
+      "road_name": "Barsat Rd",
+      "name_provenance": "Google Street View metadata, 14 labels within 8m of this OSM centerline",
+      "osm_way_url": "https://www.openstreetmap.org/way/1097874594",
+      "scoped_length_10m_samples": 189,
+      "samples_near_inventory_pano_15m": 189,
+      "coverage_fraction_spatial_only": 1.0,
+      "google_named_anchor_panos": [
+        {
+          "pano_id": "y7rz-ttBmOeWOdLdxddZdA",
+          "lat": 29.418312564228,
+          "lon": 76.98517131786909
+        },
+        {
+          "pano_id": "PqE2IlOIlMTglvttfFcYiQ",
+          "lat": 29.4187516362059,
+          "lon": 76.9855660317871
+        },
+        {
+          "pano_id": "lbdiky5H31T92Nj2DNusoA",
+          "lat": 29.41916465582037,
+          "lon": 76.98598148635834
+        },
+        {
+          "pano_id": "Urd2EUhf0tAH8APAs4G6-Q",
+          "lat": 29.41959462904737,
+          "lon": 76.98641003500734
+        },
+        {
+          "pano_id": "AhrDWEnZK8-fpOLR5aUiXA",
+          "lat": 29.42045107512338,
+          "lon": 76.9872423431858
+        },
+        {
+          "pano_id": "sdw7CUU9oggDFn7oduw1ZQ",
+          "lat": 29.42133905803843,
+          "lon": 76.98817369543899
+        },
+        {
+          "pano_id": "Fc1tULP1u5CeXzBuZNdmiQ",
+          "lat": 29.42265500088193,
+          "lon": 76.98945447990404
+        },
+        {
+          "pano_id": "fzJqr1bf4U0Eq0JSJty_Sw",
+          "lat": 29.42347076679209,
+          "lon": 76.99027507835638
+        },
+        {
+          "pano_id": "OrPuTu-u1-JP_JaSVGbYng",
+          "lat": 29.42390923314966,
+          "lon": 76.99067882798839
+        },
+        {
+          "pano_id": "vU9cWQZS9ERzp51yNm97JQ",
+          "lat": 29.42443037488095,
+          "lon": 76.99107844564463
+        },
+        {
+          "pano_id": "G0mw0eLbrxDv83TZyJkn3w",
+          "lat": 29.42486592453605,
+          "lon": 76.99159881670072
+        },
+        {
+          "pano_id": "YkwoqHLxrMB80j3b9M1PsA",
+          "lat": 29.42532224158665,
+          "lon": 76.99203622196099
+        },
+        {
+          "pano_id": "0QFpIsnAsJWTqZjtAfE0Wg",
+          "lat": 29.42581455392937,
+          "lon": 76.9924355715016
+        },
+        {
+          "pano_id": "TQVWY3hGgH9T7QZQj9cNRg",
+          "lat": 29.42624189189631,
+          "lon": 76.99284124742074
+        },
+        {
+          "pano_id": "JzxUpfoHjOvWBTBHqJWSVw",
+          "lat": 29.42669237878467,
+          "lon": 76.99336495053213
+        },
+        {
+          "pano_id": "t2QqpiTqaXNefG32MSkBew",
+          "lat": 29.42710843692938,
+          "lon": 76.99377624792028
+        },
+        {
+          "pano_id": "Ar8iqOw6tK0dbvQBKdrvhQ",
+          "lat": 29.42794407817641,
+          "lon": 76.99461166948484
+        },
+        {
+          "pano_id": "lH9kfkGerp1yT7M8l16n-A",
+          "lat": 29.42837964741878,
+          "lon": 76.99500740736129
+        },
+        {
+          "pano_id": "8vK62f3Dhkm1c5JaMCQpDg",
+          "lat": 29.42883758318865,
+          "lon": 76.99539795886787
+        },
+        {
+          "pano_id": "sIz0vKBkIANjifYtto74Bg",
+          "lat": 29.42937161669349,
+          "lon": 76.99572400338135
+        },
+        {
+          "pano_id": "DQ4WW3VBfAWDOh_vRY2_hQ",
+          "lat": 29.42988432499177,
+          "lon": 76.99599626306232
+        },
+        {
+          "pano_id": "eyIjI8KKf0RIUAHo1d38xg",
+          "lat": 29.43072568834905,
+          "lon": 76.99635192222382
+        },
+        {
+          "pano_id": "IO6Qd8H-A6_1mSIbpIkEew",
+          "lat": 29.43123790493975,
+          "lon": 76.99662541084389
+        },
+        {
+          "pano_id": "ZcCFiExDR6Ou2nQIIhwDPA",
+          "lat": 29.43174812934252,
+          "lon": 76.99688844093158
+        }
+      ],
+      "visually_inspected_panos_on_way_12m": [
+        {
+          "pano_id": "y7rz-ttBmOeWOdLdxddZdA",
+          "lat": 29.4183126,
+          "lon": 76.9851713,
+          "offset_m": 11.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=y7rz-ttBmOeWOdLdxddZdA"
+        },
+        {
+          "pano_id": "c0_-_aqs2PSVRMxNjTDVRA",
+          "lat": 29.4183266,
+          "lon": 76.9850882,
+          "offset_m": 4.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=c0_-_aqs2PSVRMxNjTDVRA"
+        },
+        {
+          "pano_id": "TINctlh6_CUBEdKkwBlAuA",
+          "lat": 29.4185172,
+          "lon": 76.985405,
+          "offset_m": 10.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TINctlh6_CUBEdKkwBlAuA"
+        },
+        {
+          "pano_id": "8WpDRoXfR_MxE4FokQZC3g",
+          "lat": 29.4186541,
+          "lon": 76.985466,
+          "offset_m": 4.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=8WpDRoXfR_MxE4FokQZC3g"
+        },
+        {
+          "pano_id": "BbfO7ASZtlKOaoniCDHA2w",
+          "lat": 29.4187932,
+          "lon": 76.9856117,
+          "offset_m": 4.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BbfO7ASZtlKOaoniCDHA2w"
+        },
+        {
+          "pano_id": "d7JkmJWBgAhDVdg3t8x0yA",
+          "lat": 29.4189495,
+          "lon": 76.9858591,
+          "offset_m": 11.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=d7JkmJWBgAhDVdg3t8x0yA"
+        },
+        {
+          "pano_id": "0n2A5qUayWr3CHcFwjR5og",
+          "lat": 29.4190017,
+          "lon": 76.9859085,
+          "offset_m": 11.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0n2A5qUayWr3CHcFwjR5og"
+        },
+        {
+          "pano_id": "GrkKtDWwUqRzOX9piXYyBQ",
+          "lat": 29.4193055,
+          "lon": 76.9861238,
+          "offset_m": 5.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=GrkKtDWwUqRzOX9piXYyBQ"
+        },
+        {
+          "pano_id": "rGOuXDruQHbDiefkhx9uag",
+          "lat": 29.4193444,
+          "lon": 76.9861541,
+          "offset_m": 5.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rGOuXDruQHbDiefkhx9uag"
+        },
+        {
+          "pano_id": "lAfcgE5DHb0_kL28RUvHVQ",
+          "lat": 29.4195713,
+          "lon": 76.9863602,
+          "offset_m": 4.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=lAfcgE5DHb0_kL28RUvHVQ"
+        },
+        {
+          "pano_id": "mTsTd5I3HYilT9Px03kreA",
+          "lat": 29.419666,
+          "lon": 76.9864796,
+          "offset_m": 6.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=mTsTd5I3HYilT9Px03kreA"
+        },
+        {
+          "pano_id": "4t9vXTeAqpYcTs8TmqrdmQ",
+          "lat": 29.4200742,
+          "lon": 76.9868267,
+          "offset_m": 2.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=4t9vXTeAqpYcTs8TmqrdmQ"
+        },
+        {
+          "pano_id": "rVdws2w4CARgw_328QdIng",
+          "lat": 29.4201016,
+          "lon": 76.9868998,
+          "offset_m": 6.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rVdws2w4CARgw_328QdIng"
+        },
+        {
+          "pano_id": "-hLLC1jjwF4HnokVM_w-GA",
+          "lat": 29.4203079,
+          "lon": 76.9871009,
+          "offset_m": 5.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=-hLLC1jjwF4HnokVM_w-GA"
+        },
+        {
+          "pano_id": "2Ba14t7HI2oClGwZr5ZqWA",
+          "lat": 29.4204289,
+          "lon": 76.9871864,
+          "offset_m": 3.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=2Ba14t7HI2oClGwZr5ZqWA"
+        },
+        {
+          "pano_id": "dbzrGj2sVA2CpFuOjQKQEA",
+          "lat": 29.4205502,
+          "lon": 76.9873419,
+          "offset_m": 5.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=dbzrGj2sVA2CpFuOjQKQEA"
+        },
+        {
+          "pano_id": "cv5T112WplSlylyWPJnceA",
+          "lat": 29.4210359,
+          "lon": 76.987897,
+          "offset_m": 11.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=cv5T112WplSlylyWPJnceA"
+        },
+        {
+          "pano_id": "UeeKLsDTJG0cGxiZDstmRg",
+          "lat": 29.4211125,
+          "lon": 76.9879684,
+          "offset_m": 11.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UeeKLsDTJG0cGxiZDstmRg"
+        },
+        {
+          "pano_id": "eJd8xiYROalLxtUOzvhpAg",
+          "lat": 29.4213464,
+          "lon": 76.9880928,
+          "offset_m": 3.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eJd8xiYROalLxtUOzvhpAg"
+        },
+        {
+          "pano_id": "NLPb5aWy_tRhHMkcaOmrhg",
+          "lat": 29.4215653,
+          "lon": 76.9883049,
+          "offset_m": 3.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=NLPb5aWy_tRhHMkcaOmrhg"
+        },
+        {
+          "pano_id": "oYeCkbbJC5DZ2XJ1o_epwA",
+          "lat": 29.4218206,
+          "lon": 76.9886581,
+          "offset_m": 11.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=oYeCkbbJC5DZ2XJ1o_epwA"
+        },
+        {
+          "pano_id": "rKeujJMdja8T9TAP5k8HqQ",
+          "lat": 29.4220432,
+          "lon": 76.9887665,
+          "offset_m": 3.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rKeujJMdja8T9TAP5k8HqQ"
+        },
+        {
+          "pano_id": "FRmh7Y5Nls8PcweCW7a1JA",
+          "lat": 29.4229374,
+          "lon": 76.9897178,
+          "offset_m": 8.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FRmh7Y5Nls8PcweCW7a1JA"
+        },
+        {
+          "pano_id": "OJgJqDpPmwFUMDBvr7yQpQ",
+          "lat": 29.4234418,
+          "lon": 76.9901191,
+          "offset_m": 0.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=OJgJqDpPmwFUMDBvr7yQpQ"
+        },
+        {
+          "pano_id": "HIek_3E8xLSjAcdHzPTtvA",
+          "lat": 29.4238425,
+          "lon": 76.9906136,
+          "offset_m": 10.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=HIek_3E8xLSjAcdHzPTtvA"
+        },
+        {
+          "pano_id": "3EzIy9Qlzswpfi6o5z3NcQ",
+          "lat": 29.4243534,
+          "lon": 76.9910024,
+          "offset_m": 1.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3EzIy9Qlzswpfi6o5z3NcQ"
+        },
+        {
+          "pano_id": "FM9rh9KtejV_rGINMBFCvw",
+          "lat": 29.4248025,
+          "lon": 76.9914356,
+          "offset_m": 1.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FM9rh9KtejV_rGINMBFCvw"
+        },
+        {
+          "pano_id": "tjsv6ZHub1pzmfKV-qYhqw",
+          "lat": 29.4249748,
+          "lon": 76.9917052,
+          "offset_m": 6.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=tjsv6ZHub1pzmfKV-qYhqw"
+        },
+        {
+          "pano_id": "YkwoqHLxrMB80j3b9M1PsA",
+          "lat": 29.4253222,
+          "lon": 76.9920362,
+          "offset_m": 6.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=YkwoqHLxrMB80j3b9M1PsA"
+        },
+        {
+          "pano_id": "0QFpIsnAsJWTqZjtAfE0Wg",
+          "lat": 29.4258146,
+          "lon": 76.9924356,
+          "offset_m": 1.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0QFpIsnAsJWTqZjtAfE0Wg"
+        },
+        {
+          "pano_id": "ebQ5IEY9DXrpYSIZ048tpg",
+          "lat": 29.4260289,
+          "lon": 76.9926439,
+          "offset_m": 1.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ebQ5IEY9DXrpYSIZ048tpg"
+        },
+        {
+          "pano_id": "eoagHNH5xojKVxXG6MEIjA",
+          "lat": 29.4260298,
+          "lon": 76.9927215,
+          "offset_m": 6.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eoagHNH5xojKVxXG6MEIjA"
+        },
+        {
+          "pano_id": "V8sSNCQnnlxQeEZojT5Jyw",
+          "lat": 29.4262591,
+          "lon": 76.9929442,
+          "offset_m": 6.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=V8sSNCQnnlxQeEZojT5Jyw"
+        },
+        {
+          "pano_id": "hF6PDA2Mb2b7KJJmZ4qt2Q",
+          "lat": 29.4263089,
+          "lon": 76.9929079,
+          "offset_m": 0.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=hF6PDA2Mb2b7KJJmZ4qt2Q"
+        },
+        {
+          "pano_id": "IMZcuGOQHYMVDt6lG49Zyg",
+          "lat": 29.4265314,
+          "lon": 76.9931227,
+          "offset_m": 0.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=IMZcuGOQHYMVDt6lG49Zyg"
+        },
+        {
+          "pano_id": "p3AAC1z_r1xMHan30Bm3jQ",
+          "lat": 29.4269673,
+          "lon": 76.993635,
+          "offset_m": 7.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=p3AAC1z_r1xMHan30Bm3jQ"
+        },
+        {
+          "pano_id": "CesriQzd_xwQZKT36JE7bQ",
+          "lat": 29.4278768,
+          "lon": 76.9945465,
+          "offset_m": 9.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CesriQzd_xwQZKT36JE7bQ"
+        },
+        {
+          "pano_id": "zVpP9Qus2E1TRWkC8up7XA",
+          "lat": 29.428184,
+          "lon": 76.9947226,
+          "offset_m": 0.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zVpP9Qus2E1TRWkC8up7XA"
+        },
+        {
+          "pano_id": "lH9kfkGerp1yT7M8l16n-A",
+          "lat": 29.4283796,
+          "lon": 76.9950074,
+          "offset_m": 9.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=lH9kfkGerp1yT7M8l16n-A"
+        },
+        {
+          "pano_id": "d0Wjh6M2X3USWT7WK3c76A",
+          "lat": 29.4286814,
+          "lon": 76.9951705,
+          "offset_m": 1.4,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=d0Wjh6M2X3USWT7WK3c76A"
+        },
+        {
+          "pano_id": "QkQgr5Uy2eayBcKc6THVfQ",
+          "lat": 29.4289205,
+          "lon": 76.9954599,
+          "offset_m": 10.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=QkQgr5Uy2eayBcKc6THVfQ"
+        },
+        {
+          "pano_id": "-e1DtBr0N2Wf7eTR7gM02A",
+          "lat": 29.4295245,
+          "lon": 76.9957157,
+          "offset_m": 0.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=-e1DtBr0N2Wf7eTR7gM02A"
+        },
+        {
+          "pano_id": "UEcsxLbFTQ8m1brNGX7L7Q",
+          "lat": 29.4298017,
+          "lon": 76.9959512,
+          "offset_m": 7.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UEcsxLbFTQ8m1brNGX7L7Q"
+        }
+      ],
+      "caveat": "Panorama near a way does not prove it faces all facades. Name source distinct from OSM geometry. This inventory coverage is not exhaustive visual review."
+    },
+    {
+      "osm_way_id": "259540444",
+      "road_name": "Noorwala east-west service lane",
+      "name_provenance": "Unnamed in OSM and in sampled Google metadata; prior harvest context says Barsat through Noorwala but no direct label on this way.",
+      "osm_way_url": "https://www.openstreetmap.org/way/259540444",
+      "scoped_length_10m_samples": 34,
+      "samples_near_inventory_pano_15m": 34,
+      "coverage_fraction_spatial_only": 1.0,
+      "google_named_anchor_panos": [],
+      "visually_inspected_panos_on_way_12m": [
+        {
+          "pano_id": "lFHoaAz5rXNXb_2UKeuKhg",
+          "lat": 29.4253821,
+          "lon": 76.9949317,
+          "offset_m": 0.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=lFHoaAz5rXNXb_2UKeuKhg"
+        },
+        {
+          "pano_id": "uGQjrQwVilbsHiVyozjVnA",
+          "lat": 29.4253865,
+          "lon": 76.9945077,
+          "offset_m": 0.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=uGQjrQwVilbsHiVyozjVnA"
+        },
+        {
+          "pano_id": "drbm98wd9aC1kmLYV28h8g",
+          "lat": 29.4254033,
+          "lon": 76.9936663,
+          "offset_m": 0.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=drbm98wd9aC1kmLYV28h8g"
+        },
+        {
+          "pano_id": "AkTP2p0XrINR6Od2qIYGpg",
+          "lat": 29.4254143,
+          "lon": 76.9940917,
+          "offset_m": 2.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=AkTP2p0XrINR6Od2qIYGpg"
+        },
+        {
+          "pano_id": "3O09_tIPjrw2InM-VpnHXQ",
+          "lat": 29.4254241,
+          "lon": 76.993252,
+          "offset_m": 1.3,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3O09_tIPjrw2InM-VpnHXQ"
+        },
+        {
+          "pano_id": "7vJWSFfr7iGsuYQfYeH3Bg",
+          "lat": 29.4254364,
+          "lon": 76.9928333,
+          "offset_m": 1.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7vJWSFfr7iGsuYQfYeH3Bg"
+        },
+        {
+          "pano_id": "ix7Vu9g53Bmn--wNIIiFVg",
+          "lat": 29.425441,
+          "lon": 76.9924173,
+          "offset_m": 1.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ix7Vu9g53Bmn--wNIIiFVg"
+        }
+      ],
+      "caveat": "Panorama near a way does not prove it faces all facades. Name source distinct from OSM geometry. This inventory coverage is not exhaustive visual review."
+    },
+    {
+      "osm_way_id": "258964114",
+      "road_name": "A-Block vicinity north-south local way",
+      "name_provenance": "Unnamed in OSM and Google metadata; r0InHhFbYco-hzmTRUfuag contextual A-Block anchor lies on it, but label is not proven.",
+      "osm_way_url": "https://www.openstreetmap.org/way/258964114",
+      "scoped_length_10m_samples": 19,
+      "samples_near_inventory_pano_15m": 19,
+      "coverage_fraction_spatial_only": 1.0,
+      "google_named_anchor_panos": [],
+      "visually_inspected_panos_on_way_12m": [
+        {
+          "pano_id": "ELKWbeU8g1ZzjwYFdLQr5Q",
+          "lat": 29.4257399,
+          "lon": 76.9863717,
+          "offset_m": 0.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ELKWbeU8g1ZzjwYFdLQr5Q"
+        },
+        {
+          "pano_id": "PpLOBzoUcXuvxy8xVgH0AQ",
+          "lat": 29.4257453,
+          "lon": 76.9864785,
+          "offset_m": 9.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=PpLOBzoUcXuvxy8xVgH0AQ"
+        },
+        {
+          "pano_id": "Xw-moOVpbRQixhD4J3xGjg",
+          "lat": 29.4260042,
+          "lon": 76.9864476,
+          "offset_m": 5.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xw-moOVpbRQixhD4J3xGjg"
+        },
+        {
+          "pano_id": "Jo4Xv64RXgjbP-z3zZMc6w",
+          "lat": 29.4262771,
+          "lon": 76.9864543,
+          "offset_m": 6.7,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Jo4Xv64RXgjbP-z3zZMc6w"
+        },
+        {
+          "pano_id": "G75ttIF-eJQbtZ2coOrFhw",
+          "lat": 29.426366,
+          "lon": 76.9864564,
+          "offset_m": 7.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=G75ttIF-eJQbtZ2coOrFhw"
+        },
+        {
+          "pano_id": "r0InHhFbYco-hzmTRUfuag",
+          "lat": 29.4265235,
+          "lon": 76.9864568,
+          "offset_m": 7.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=r0InHhFbYco-hzmTRUfuag"
+        },
+        {
+          "pano_id": "duGQFczktMe0mB1LniLVTQ",
+          "lat": 29.4266021,
+          "lon": 76.9867337,
+          "offset_m": 1.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=duGQFczktMe0mB1LniLVTQ"
+        },
+        {
+          "pano_id": "fXdn7X61pv4BGap8eSB4PA",
+          "lat": 29.4266086,
+          "lon": 76.9870605,
+          "offset_m": 4.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=fXdn7X61pv4BGap8eSB4PA"
+        }
+      ],
+      "caveat": "Panorama near a way does not prove it faces all facades. Name source distinct from OSM geometry. This inventory coverage is not exhaustive visual review."
+    },
+    {
+      "osm_way_id": "258964698",
+      "road_name": "St 4",
+      "name_provenance": "Google metadata anchors near this way, verify if centerline matches",
+      "osm_way_url": "https://www.openstreetmap.org/way/258964698",
+      "scoped_length_10m_samples": 41,
+      "samples_near_inventory_pano_15m": 41,
+      "coverage_fraction_spatial_only": 1.0,
+      "google_named_anchor_panos": [
+        {
+          "pano_id": "adbBTkWeRlGVLIpQUYuDng",
+          "lat": 29.42594576885609,
+          "lon": 76.9899497223228
+        },
+        {
+          "pano_id": "VeQCUekir2AgEnpWZju-8w",
+          "lat": 29.42658352493041,
+          "lon": 76.9899493707761
+        },
+        {
+          "pano_id": "dA_4k5KEV4vk9_3Fn4w01A",
+          "lat": 29.42712993727427,
+          "lon": 76.98995877464993
+        },
+        {
+          "pano_id": "8BHWftQUU3b8qgLRMNoRug",
+          "lat": 29.42804200907094,
+          "lon": 76.98997529734238
+        },
+        {
+          "pano_id": "m-S6HrNset8vzocy1XYe7g",
+          "lat": 29.42859762266137,
+          "lon": 76.98996519037652
+        }
+      ],
+      "visually_inspected_panos_on_way_12m": [
+        {
+          "pano_id": "DvHA2KeqAiPIL1x4MQtQqg",
+          "lat": 29.4267592,
+          "lon": 76.9899501,
+          "offset_m": 4.8,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=DvHA2KeqAiPIL1x4MQtQqg"
+        },
+        {
+          "pano_id": "utesBRclbQP6gOo9dWItEw",
+          "lat": 29.4269449,
+          "lon": 76.9899561,
+          "offset_m": 4.5,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=utesBRclbQP6gOo9dWItEw"
+        },
+        {
+          "pano_id": "3wjLGG4hku9FmFM6ho2Ckw",
+          "lat": 29.4271801,
+          "lon": 76.9900363,
+          "offset_m": 11.1,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3wjLGG4hku9FmFM6ho2Ckw"
+        },
+        {
+          "pano_id": "CT4adwjlsWDPC8brvoTQvg",
+          "lat": 29.4271832,
+          "lon": 76.9898331,
+          "offset_m": 8.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CT4adwjlsWDPC8brvoTQvg"
+        },
+        {
+          "pano_id": "79QRJmd4jZTyhc3_cuyLsw",
+          "lat": 29.4274072,
+          "lon": 76.9899546,
+          "offset_m": 3.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=79QRJmd4jZTyhc3_cuyLsw"
+        },
+        {
+          "pano_id": "qiDknQJKpgw4j3kpta9cpA",
+          "lat": 29.4274934,
+          "lon": 76.9899571,
+          "offset_m": 3.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=qiDknQJKpgw4j3kpta9cpA"
+        },
+        {
+          "pano_id": "97vYmaY2654oVSVjBZKc-Q",
+          "lat": 29.4277725,
+          "lon": 76.9899677,
+          "offset_m": 4.2,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=97vYmaY2654oVSVjBZKc-Q"
+        },
+        {
+          "pano_id": "8BHWftQUU3b8qgLRMNoRug",
+          "lat": 29.428042,
+          "lon": 76.9899753,
+          "offset_m": 4.9,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=8BHWftQUU3b8qgLRMNoRug"
+        },
+        {
+          "pano_id": "Rl6oPmjGEZRQb7onADqKqg",
+          "lat": 29.428321,
+          "lon": 76.9899669,
+          "offset_m": 4.0,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Rl6oPmjGEZRQb7onADqKqg"
+        },
+        {
+          "pano_id": "MC3z40NCQtcttlY5o7bPXw",
+          "lat": 29.4285011,
+          "lon": 76.9899633,
+          "offset_m": 3.6,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=MC3z40NCQtcttlY5o7bPXw"
+        }
+      ],
+      "caveat": "Panorama near a way does not prove it faces all facades. Name source distinct from OSM geometry. This inventory coverage is not exhaustive visual review."
+    }
+  ],
+  "unresolved": [
+    "Sector 18 Rd: Google sampled street-name metadata has no direct label; previous north-of-scope anchor KLu is near OSM 258963975 / 258963964 at 29.432. Do not assign name to southern way without further evidence.",
+    "Ansal A Block Rd: direct Google labels at 29.42553-29.42597 around lon 76.9840-76.9857 are west of previous broad A-block imagery; three anchors attach to multiple short OSM ways around intersections.",
+    "Ansal D Block Rd: no direct Google metadata label among 351 sampled panos. Prior harvest mentions name, no coordinates/geometry; preserve contextual D-block visual only."
+  ]
+}

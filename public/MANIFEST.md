@@ -1,0 +1,160 @@
+# Ansal Sushant City 3D - RC2 v65b live-deployment recovery mirror
+# Recovered 2026-09-27 from https://42917de1.ansal-sushant-city.pages.dev (immutable RC2 deployment)
+# Method: path mining from JS bundle + LEDGER.md + merge-log.jsonl references; every file content-validated
+# (Cloudflare Pages soft-200s unknown paths with index.html; HTML-signature impostors were purged)
+# Files: 93
+
+## Parcel catalogs (jsonl, row counts)
+- parcel-catalog-v10.jsonl: 198 rows
+- parcel-catalog-v11.jsonl: 222 rows
+- parcel-catalog-v12.jsonl: 232 rows
+- parcel-catalog-v13.jsonl: 242 rows
+- parcel-catalog-v14.jsonl: 250 rows
+- parcel-catalog-v15.jsonl: 258 rows
+- parcel-catalog-v16.jsonl: 266 rows
+- parcel-catalog-v19.jsonl: 290 rows
+- parcel-catalog-v2.jsonl: 21 rows
+- parcel-catalog-v20.jsonl: 296 rows
+- parcel-catalog-v21.jsonl: 302 rows
+- parcel-catalog-v23.jsonl: 314 rows
+- parcel-catalog-v24.jsonl: 320 rows
+- parcel-catalog-v25.jsonl: 326 rows
+- parcel-catalog-v26.jsonl: 330 rows
+- parcel-catalog-v28.jsonl: 338 rows
+- parcel-catalog-v29.jsonl: 342 rows
+- parcel-catalog-v3.jsonl: 46 rows
+- parcel-catalog-v33.jsonl: 358 rows
+- parcel-catalog-v34.jsonl: 362 rows
+- parcel-catalog-v36.jsonl: 374 rows
+- parcel-catalog-v38.jsonl: 382 rows
+- parcel-catalog-v39.jsonl: 388 rows
+- parcel-catalog-v4.jsonl: 46 rows
+- parcel-catalog-v40.jsonl: 396 rows
+- parcel-catalog-v41.jsonl: 418 rows
+- parcel-catalog-v42.jsonl: 442 rows
+- parcel-catalog-v43.jsonl: 462 rows
+- parcel-catalog-v44.jsonl: 478 rows
+- parcel-catalog-v45.jsonl: 494 rows
+- parcel-catalog-v46.jsonl: 508 rows
+- parcel-catalog-v47.jsonl: 524 rows
+- parcel-catalog-v48.jsonl: 538 rows
+- parcel-catalog-v49.jsonl: 550 rows
+- parcel-catalog-v5.jsonl: 69 rows
+- parcel-catalog-v50.jsonl: 560 rows
+- parcel-catalog-v51.jsonl: 568 rows
+- parcel-catalog-v52.jsonl: 578 rows
+- parcel-catalog-v53.jsonl: 586 rows
+- parcel-catalog-v54.jsonl: 594 rows
+- parcel-catalog-v55.jsonl: 602 rows
+- parcel-catalog-v56.jsonl: 606 rows
+- parcel-catalog-v58.jsonl: 614 rows
+- parcel-catalog-v59.jsonl: 622 rows
+- parcel-catalog-v6.jsonl: 92 rows
+- parcel-catalog-v60.jsonl: 632 rows
+- parcel-catalog-v61.jsonl: 681 rows
+- parcel-catalog-v62.jsonl: 713 rows
+- parcel-catalog-v63.jsonl: 730 rows
+- parcel-catalog-v64.jsonl: 773 rows
+- parcel-catalog-v65.jsonl: 820 rows
+- parcel-catalog-v9.jsonl: 170 rows
+
+## Full file list
+- LEDGER.md
+- accents-2/characters/casual-quaternius.glb
+- accents-2/manifest.json
+- accents-2/trees/broad-canopy-quaternius.glb
+- accents-2/trees/round-tree-quaternius.glb
+- accents/city-kit-roads/electricity-pole.glb
+- accents/city-kit-roads/light-curved.glb
+- accents/city-kit-suburban/planter.glb
+- accents/kenney-car/hatchback-sports.glb
+- accents/kenney-car/sedan.glb
+- accents/kenney-car/van.glb
+- accents/manifest.json
+- accents/retro-urban-kit/detail-bench.glb
+- assets/index-CfyS8fjP.js
+- assets/index-DiQvZg7H.css
+- auto_rickshaw.glb
+- boundary_wall_6m.glb
+- cartographic-evidence.geojson
+- clubhouse.glb
+- core-visual-evidence.json
+- corner_shop.glb
+- corridor-infill-provenance.json
+- docs/ledger/merge-log.jsonl
+- entrance_gate.glb
+- evidence-ledger.json
+- favicon.svg
+- index.html
+- materials/asphalt_dusty.png
+- materials/brick_red.png
+- materials/concrete_grey.png
+- materials/manifest.json
+- materials/pavers_red.png
+- materials/pavers_sand.png
+- materials/plaster_cream.png
+- materials/plaster_ivory.png
+- north-visual-evidence.json
+- osm.json
+- pano-points.json
+- parcel-catalog-v10.jsonl
+- parcel-catalog-v11.jsonl
+- parcel-catalog-v12.jsonl
+- parcel-catalog-v13.jsonl
+- parcel-catalog-v14.jsonl
+- parcel-catalog-v15.jsonl
+- parcel-catalog-v16.jsonl
+- parcel-catalog-v19.jsonl
+- parcel-catalog-v2.jsonl
+- parcel-catalog-v20.jsonl
+- parcel-catalog-v21.jsonl
+- parcel-catalog-v23.jsonl
+- parcel-catalog-v24.jsonl
+- parcel-catalog-v25.jsonl
+- parcel-catalog-v26.jsonl
+- parcel-catalog-v28.jsonl
+- parcel-catalog-v29.jsonl
+- parcel-catalog-v3.jsonl
+- parcel-catalog-v33.jsonl
+- parcel-catalog-v34.jsonl
+- parcel-catalog-v36.jsonl
+- parcel-catalog-v38.jsonl
+- parcel-catalog-v39.jsonl
+- parcel-catalog-v4.jsonl
+- parcel-catalog-v40.jsonl
+- parcel-catalog-v41.jsonl
+- parcel-catalog-v42.jsonl
+- parcel-catalog-v43.jsonl
+- parcel-catalog-v44.jsonl
+- parcel-catalog-v45.jsonl
+- parcel-catalog-v46.jsonl
+- parcel-catalog-v47.jsonl
+- parcel-catalog-v48.jsonl
+- parcel-catalog-v49.jsonl
+- parcel-catalog-v5.jsonl
+- parcel-catalog-v50.jsonl
+- parcel-catalog-v51.jsonl
+- parcel-catalog-v52.jsonl
+- parcel-catalog-v53.jsonl
+- parcel-catalog-v54.jsonl
+- parcel-catalog-v55.jsonl
+- parcel-catalog-v56.jsonl
+- parcel-catalog-v58.jsonl
+- parcel-catalog-v59.jsonl
+- parcel-catalog-v6.jsonl
+- parcel-catalog-v60.jsonl
+- parcel-catalog-v61.jsonl
+- parcel-catalog-v62.jsonl
+- parcel-catalog-v63.jsonl
+- parcel-catalog-v64.jsonl
+- parcel-catalog-v65.jsonl
+- parcel-catalog-v9.jsonl
+- robots.txt
+- south-visual-evidence.json
+- south-way-evidence.json
+
+## Known gaps (never in the deployment, source-workspace only - NOT recoverable from live site)
+- src/ readable source tree, package.json/package-lock.json/vite config, qa-*.mjs suite, build scripts
+- montages/ and sat/ screenshot tiles, tank pngs (LEDGER references; not shipped in RC2 dist)
+- accents/LICENSE.txt, accents*/SOURCES.md, parcels.json, catalog.jsonl (probed, not shipped)
+- Missing catalog versions (v7,v8,v17,v18,v22,v27,v30,v31,v32,v35,v37,v57): not served; likely never exported

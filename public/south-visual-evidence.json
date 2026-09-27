@@ -1,0 +1,1198 @@
+{
+  "note": "Provisional morphology corridors, NOT surveyed ways, parcel placement, or an exhaustive angle audit. Southern 304 + delta 199 sampled equirects; rights to Google imagery not conveyed. Google pano viewer links only. OSM roads remain spatial context, not names.",
+  "vintage": "2023-06 sampled metadata; individual dates unverified",
+  "corridors": [
+    {
+      "segment_id": "south-arterial-01",
+      "way_equivalent_label": "Southern divided shopping arterial, western junction",
+      "land_use": "commercial arterial",
+      "approx_extent": {
+        "lat": [
+          29.4183,
+          29.4192
+        ],
+        "lon": [
+          76.985,
+          76.987
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "1-3-storey mixed retail and upper residential",
+      "floors_observed": "1-3",
+      "facade_materials_colors": "Cream, pink and grey plaster; shop awnings/sign boards",
+      "road_surface_width": "Wide paved divided roadway; dusty shoulders, raised concrete median",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Not dominant on frontage",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "c0_-_aqs2PSVRMxNjTDVRA",
+          "lat": 29.4183266,
+          "lon": 76.9850882,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=c0_-_aqs2PSVRMxNjTDVRA"
+        },
+        {
+          "pano_id": "TINctlh6_CUBEdKkwBlAuA",
+          "lat": 29.4185172,
+          "lon": 76.985405,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TINctlh6_CUBEdKkwBlAuA"
+        },
+        {
+          "pano_id": "BbfO7ASZtlKOaoniCDHA2w",
+          "lat": 29.4187932,
+          "lon": 76.9856117,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BbfO7ASZtlKOaoniCDHA2w"
+        }
+      ]
+    },
+    {
+      "segment_id": "south-arterial-02",
+      "way_equivalent_label": "Southern divided shopping arterial, central section",
+      "land_use": "commercial arterial",
+      "approx_extent": {
+        "lat": [
+          29.4188,
+          29.4197
+        ],
+        "lon": [
+          76.987,
+          76.99
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Shop rows, small mixed-use blocks",
+      "floors_observed": "1-3",
+      "facade_materials_colors": "Painted plaster and exposed brick; multicolour boards",
+      "road_surface_width": "Paved divided arterial with raised unplanted median; narrower paver side lanes",
+      "trees": "Few on arterial",
+      "vacant_plots_open_land": "Scattered side-lane open plots",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "0n2A5qUayWr3CHcFwjR5og",
+          "lat": 29.4190017,
+          "lon": 76.9859085,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0n2A5qUayWr3CHcFwjR5og"
+        },
+        {
+          "pano_id": "BbfO7ASZtlKOaoniCDHA2w",
+          "lat": 29.4187932,
+          "lon": 76.9856117,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=BbfO7ASZtlKOaoniCDHA2w"
+        },
+        {
+          "pano_id": "GrkKtDWwUqRzOX9piXYyBQ",
+          "lat": 29.4193055,
+          "lon": 76.9861238,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=GrkKtDWwUqRzOX9piXYyBQ"
+        }
+      ]
+    },
+    {
+      "segment_id": "south-arterial-03",
+      "way_equivalent_label": "Southern arterial eastern market to brick-lane junctions",
+      "land_use": "commercial/residential edge",
+      "approx_extent": {
+        "lat": [
+          29.4183,
+          29.4201
+        ],
+        "lon": [
+          76.99,
+          76.994
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Arterial-facing shops and 1-2-storey houses behind",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "Weathered pink, cream plaster and exposed red brick",
+      "road_surface_width": "Paved arterial; narrow pale interlocking-paver / concrete branches",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Side-lane construction and bare plots",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "TSErpJjt1bvukeNpFmNXyA",
+          "lat": 29.418316,
+          "lon": 76.9920963,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TSErpJjt1bvukeNpFmNXyA"
+        },
+        {
+          "pano_id": "7XZxDYl_EJcX3i013rE8iw",
+          "lat": 29.4183528,
+          "lon": 76.9929123,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7XZxDYl_EJcX3i013rE8iw"
+        },
+        {
+          "pano_id": "9glUuD4c_6ujkD2PH6wQ2g",
+          "lat": 29.4183089,
+          "lon": 76.9859986,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=9glUuD4c_6ujkD2PH6wQ2g"
+        },
+        {
+          "pano_id": "uiI7YFLbFmt-wAY6zXXylg",
+          "lat": 29.4190121,
+          "lon": 76.9926407,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=uiI7YFLbFmt-wAY6zXXylg"
+        }
+      ]
+    },
+    {
+      "segment_id": "southern-backstreets-west",
+      "way_equivalent_label": "Southern old brick residential lanes west of 25 Foota",
+      "land_use": "village residential",
+      "approx_extent": {
+        "lat": [
+          29.4183,
+          29.4205
+        ],
+        "lon": [
+          76.985,
+          76.9887
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Compact houses with ground-floor metal shutters and small shops",
+      "floors_observed": "Mostly 1-2; isolated 3",
+      "facade_materials_colors": "Red exposed brick, weathered cream/pink plaster, newer white curved parapets",
+      "road_surface_width": "Narrow paved/paver lanes, often with dirt/rubble edges; exact width not measured",
+      "trees": "Sparse, occasional courtyard tree",
+      "vacant_plots_open_land": "Frequent rough vacant corner plots and construction debris",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "_EKUiHmrmKE4RICZvuvEdg",
+          "lat": 29.4183303,
+          "lon": 76.987589,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=_EKUiHmrmKE4RICZvuvEdg"
+        },
+        {
+          "pano_id": "_YPNM8QpkkUTRgmjI1tV0g",
+          "lat": 29.4183365,
+          "lon": 76.9881751,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=_YPNM8QpkkUTRgmjI1tV0g"
+        },
+        {
+          "pano_id": "eGv8QryUcBjJJHsHFxn0OQ",
+          "lat": 29.4183259,
+          "lon": 76.9886546,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eGv8QryUcBjJJHsHFxn0OQ"
+        },
+        {
+          "pano_id": "W61FMxVAJrU5KG_K8MB4Rw",
+          "lat": 29.4190216,
+          "lon": 76.9878613,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=W61FMxVAJrU5KG_K8MB4Rw"
+        },
+        {
+          "pano_id": "UE14ySoBHzoDvfyErxO4DQ",
+          "lat": 29.4197406,
+          "lon": 76.9868199,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=UE14ySoBHzoDvfyErxO4DQ"
+        }
+      ]
+    },
+    {
+      "segment_id": "25-foota-01",
+      "way_equivalent_label": "25 Foota Rd around Wooltex and godown frontage",
+      "land_use": "light industrial/service",
+      "approx_extent": {
+        "lat": [
+          29.4192,
+          29.4203
+        ],
+        "lon": [
+          76.9884,
+          76.9895
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Factory/godown sheds alongside compact houses",
+      "floors_observed": "Mostly 1-2",
+      "facade_materials_colors": "Pale-green or white plastered factory walls, red brick; sheet-metal shed roofs",
+      "road_surface_width": "Narrow local/service road; pavers/asphalt sections, broken dusty edges",
+      "trees": "Little tree cover",
+      "vacant_plots_open_land": "Interspersed undeveloped dirt lots",
+      "notes": "25 Foota is a road name, not a verified width; do not model as a uniform 25-foot carriageway.",
+      "evidence_panos": [
+        {
+          "pano_id": "zOHUJ20ZH9seZLiOIl_81w",
+          "lat": 29.4195053,
+          "lon": 76.9888779,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zOHUJ20ZH9seZLiOIl_81w"
+        },
+        {
+          "pano_id": "7nB4mmDJEpCjhnf5j2BL5w",
+          "lat": 29.4196846,
+          "lon": 76.988917,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7nB4mmDJEpCjhnf5j2BL5w"
+        },
+        {
+          "pano_id": "xmMVyRSO-pEG69Ub5stkfg",
+          "lat": 29.4193205,
+          "lon": 76.98884,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=xmMVyRSO-pEG69Ub5stkfg"
+        },
+        {
+          "pano_id": "Isx1POxm6-FS1lMrR0e9dA",
+          "lat": 29.4199393,
+          "lon": 76.9892243,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Isx1POxm6-FS1lMrR0e9dA"
+        }
+      ]
+    },
+    {
+      "segment_id": "industrial-grid-east",
+      "way_equivalent_label": "Warehouse side grid east of 25 Foota",
+      "land_use": "light industrial with housing",
+      "approx_extent": {
+        "lat": [
+          29.4195,
+          29.4214
+        ],
+        "lon": [
+          76.9895,
+          76.992
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Broad shed/godown walls mixed with one- and two-storey housing",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "White/grey plaster and red brick; arched corrugated roofs",
+      "road_surface_width": "Narrow paver or asphalt branches; uneven dirt shoulders",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Some grass-filled corner lots and rubble",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "40UQnpnouGeL71P74k4ABg",
+          "lat": 29.4198446,
+          "lon": 76.9898489,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=40UQnpnouGeL71P74k4ABg"
+        },
+        {
+          "pano_id": "NuPWVoKx46LndMF4WDvMaA",
+          "lat": 29.4197161,
+          "lon": 76.9916353,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=NuPWVoKx46LndMF4WDvMaA"
+        },
+        {
+          "pano_id": "cURfuwqftyGPfhRFfPpgPw",
+          "lat": 29.4204462,
+          "lon": 76.9883303,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=cURfuwqftyGPfhRFfPpgPw"
+        },
+        {
+          "pano_id": "FeA8WuEglSeOZ1CA3AW7Xg",
+          "lat": 29.4211312,
+          "lon": 76.9886252,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FeA8WuEglSeOZ1CA3AW7Xg"
+        }
+      ]
+    },
+    {
+      "segment_id": "ram-krishna-01",
+      "way_equivalent_label": "Ram Krishna Chowk industrial-residential intersection",
+      "land_use": "mixed industrial/residential",
+      "approx_extent": {
+        "lat": [
+          29.42,
+          29.4207
+        ],
+        "lon": [
+          76.9937,
+          76.9949
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Compact row houses, workshop/enterprise frontages, some sheds",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "Pink/red plaster, exposed red brick; blue/grey metal gates",
+      "road_surface_width": "Paved local road and narrow side lanes; mixed pavers and dusty edges",
+      "trees": "Few",
+      "vacant_plots_open_land": "Scattered vacant or rubble-strewn plots",
+      "notes": "Original anchor has M/S AMAN ENTERPRISES signage, not evidence every building is industrial.",
+      "evidence_panos": [
+        {
+          "pano_id": "8DqZLsMs2303IvLKFPwArg",
+          "lat": 29.4203482,
+          "lon": 76.9944689,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=8DqZLsMs2303IvLKFPwArg"
+        },
+        {
+          "pano_id": "TlzEZLB4QYu6s104LwBvvw",
+          "lat": 29.4203483,
+          "lon": 76.9942608,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TlzEZLB4QYu6s104LwBvvw"
+        },
+        {
+          "pano_id": "Xq6sX_MYE0rwtH3KlGDmig",
+          "lat": 29.420344,
+          "lon": 76.9946793,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xq6sX_MYE0rwtH3KlGDmig"
+        },
+        {
+          "pano_id": "5EpDCZ2qHtkwHWZN0L4lfg",
+          "lat": 29.4206113,
+          "lon": 76.9939061,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=5EpDCZ2qHtkwHWZN0L4lfg"
+        }
+      ]
+    },
+    {
+      "segment_id": "ram-krishna-west",
+      "way_equivalent_label": "Western approach to Ram Krishna Chowk",
+      "land_use": "brick-residential transition",
+      "approx_extent": {
+        "lat": [
+          29.4197,
+          29.4212
+        ],
+        "lon": [
+          76.992,
+          76.994
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Low brick homes, some shop/workshop bays and an occasional larger hall",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "Exposed red brick, white/peach render, blue steel shutters",
+      "road_surface_width": "Narrow paver lanes; one broader paved route near junction",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Weedy rubble plots beside buildings",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "W6sH4XcQG3b9cmuYwBANDA",
+          "lat": 29.4196691,
+          "lon": 76.9933189,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=W6sH4XcQG3b9cmuYwBANDA"
+        },
+        {
+          "pano_id": "jUEC2niDDTg1VpE_wP68gg",
+          "lat": 29.4199271,
+          "lon": 76.9935886,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=jUEC2niDDTg1VpE_wP68gg"
+        },
+        {
+          "pano_id": "8UVF_FjRom_ZwcrqFcgClQ",
+          "lat": 29.4200463,
+          "lon": 76.992454,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=8UVF_FjRom_ZwcrqFcgClQ"
+        },
+        {
+          "pano_id": "uvsu-amcCd2LK4wRpAb3iw",
+          "lat": 29.4209484,
+          "lon": 76.9940564,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=uvsu-amcCd2LK4wRpAb3iw"
+        }
+      ]
+    },
+    {
+      "segment_id": "great-trank-lanes",
+      "way_equivalent_label": "Lanes around mapped Great Trank Rd / village southeast",
+      "land_use": "village residential",
+      "approx_extent": {
+        "lat": [
+          29.4225,
+          29.4241
+        ],
+        "lon": [
+          76.992,
+          76.994
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Dense low courtyard and shop-house fabric",
+      "floors_observed": "Mostly 1; occasional 2",
+      "facade_materials_colors": "Exposed red brick, worn cream/pink plaster; small barred windows, coloured gates",
+      "road_surface_width": "Narrow brick/paver lanes, some bare/dusty stretches",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Small rubble corners, not the broad plotted-city lots",
+      "notes": "Road label follows harvest spelling Great Trank; no claim this is the GT highway.",
+      "evidence_panos": [
+        {
+          "pano_id": "1cTdxvoLE58B8FooAPsmpQ",
+          "lat": 29.4232392,
+          "lon": 76.9932143,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=1cTdxvoLE58B8FooAPsmpQ"
+        },
+        {
+          "pano_id": "9mPUY3GVXwFXCrud5AuK_g",
+          "lat": 29.4225588,
+          "lon": 76.9928591,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=9mPUY3GVXwFXCrud5AuK_g"
+        },
+        {
+          "pano_id": "6MiaPrYBGgrzTxQQmMb0-Q",
+          "lat": 29.4228703,
+          "lon": 76.9932081,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=6MiaPrYBGgrzTxQQmMb0-Q"
+        },
+        {
+          "pano_id": "EfLpvGSZrZm_DgD6zLfXHw",
+          "lat": 29.4240013,
+          "lon": 76.9933654,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EfLpvGSZrZm_DgD6zLfXHw"
+        }
+      ]
+    },
+    {
+      "segment_id": "SE-field-edge",
+      "way_equivalent_label": "Southeastern fields and isolated village edge",
+      "land_use": "agricultural/open edge",
+      "approx_extent": {
+        "lat": [
+          29.4215,
+          29.4231
+        ],
+        "lon": [
+          76.994,
+          76.996
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Isolated single-storey brick/plastered structures against fields",
+      "floors_observed": "1",
+      "facade_materials_colors": "Red brick and white/cream plaster",
+      "road_surface_width": "Narrow earthen lane or causeway with standing water in field, not a dense street",
+      "trees": "Few scattered trees",
+      "vacant_plots_open_land": "Extensive green crop fields and seasonal water",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "eCbYcHMLlNC-M6I0tdugpA",
+          "lat": 29.42156,
+          "lon": 76.9942567,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eCbYcHMLlNC-M6I0tdugpA"
+        },
+        {
+          "pano_id": "wKo_LlF8ggdSLW0eqkud5Q",
+          "lat": 29.4219148,
+          "lon": 76.9943357,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=wKo_LlF8ggdSLW0eqkud5Q"
+        },
+        {
+          "pano_id": "HlrUSaJioL-zFaJNJ35nXQ",
+          "lat": 29.4222667,
+          "lon": 76.9944182,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=HlrUSaJioL-zFaJNJ35nXQ"
+        },
+        {
+          "pano_id": "zJxbgxa66BcaxRb4Ed_mkw",
+          "lat": 29.4226224,
+          "lon": 76.9945068,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zJxbgxa66BcaxRb4Ed_mkw"
+        }
+      ]
+    },
+    {
+      "segment_id": "noorwala-grid-south",
+      "way_equivalent_label": "Noorwala interior southern lanes",
+      "land_use": "village/workshop residential",
+      "approx_extent": {
+        "lat": [
+          29.4232,
+          29.4251
+        ],
+        "lon": [
+          76.994,
+          76.997
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Low homes and store rooms, mixed with metal-shuttered work bays",
+      "floors_observed": "Mostly 1-2",
+      "facade_materials_colors": "Faded ochre, cream, pink plaster and exposed brick",
+      "road_surface_width": "Tight pale interlocking-brick lanes, few unpaved junction edges",
+      "trees": "Occasional mature compound tree",
+      "vacant_plots_open_land": "Little formal plotted-city vacancy; some rubble pockets",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "ZMaS5ukvw_7wLeHlHzYccw",
+          "lat": 29.4243254,
+          "lon": 76.9941454,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZMaS5ukvw_7wLeHlHzYccw"
+        },
+        {
+          "pano_id": "DzU_Eu8H2vmgrYhn5Y2EGQ",
+          "lat": 29.424504,
+          "lon": 76.9955339,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=DzU_Eu8H2vmgrYhn5Y2EGQ"
+        },
+        {
+          "pano_id": "EPN2Eyv5sPpktjrnKRzC2A",
+          "lat": 29.4244846,
+          "lon": 76.9967839,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=EPN2Eyv5sPpktjrnKRzC2A"
+        },
+        {
+          "pano_id": "esrO97C7tiRayKKuH3BGJw",
+          "lat": 29.4248275,
+          "lon": 76.9953421,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=esrO97C7tiRayKKuH3BGJw"
+        }
+      ]
+    },
+    {
+      "segment_id": "barsat-noorwala",
+      "way_equivalent_label": "Barsat Road through Noorwala settlement",
+      "land_use": "village mixed-use road",
+      "approx_extent": {
+        "lat": [
+          29.4252,
+          29.4256
+        ],
+        "lon": [
+          76.992,
+          76.997
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Single/two-storey brick homes with local shops and storage bays",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "Weathered pink/tan plaster, exposed red brick; curved parapets",
+      "road_surface_width": "Narrow paver/brick street in settlement, adjoining concrete or dusty branches",
+      "trees": "Sparse, isolated mature shade tree",
+      "vacant_plots_open_land": "Occasional open rubble plot, otherwise built fabric",
+      "notes": "Do not replace this village street with township-style upscale houses.",
+      "evidence_panos": [
+        {
+          "pano_id": "skpRYsJydvhLZMxNAUtqyg",
+          "lat": 29.4254132,
+          "lon": 76.993983,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=skpRYsJydvhLZMxNAUtqyg"
+        },
+        {
+          "pano_id": "3O09_tIPjrw2InM-VpnHXQ",
+          "lat": 29.4254241,
+          "lon": 76.993252,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3O09_tIPjrw2InM-VpnHXQ"
+        },
+        {
+          "pano_id": "drbm98wd9aC1kmLYV28h8g",
+          "lat": 29.4254033,
+          "lon": 76.9936663,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=drbm98wd9aC1kmLYV28h8g"
+        },
+        {
+          "pano_id": "AkTP2p0XrINR6Od2qIYGpg",
+          "lat": 29.4254143,
+          "lon": 76.9940917,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=AkTP2p0XrINR6Od2qIYGpg"
+        },
+        {
+          "pano_id": "Jc_vDn7Pw5aj_mYTLn5G-w",
+          "lat": 29.4253587,
+          "lon": 76.9962098,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Jc_vDn7Pw5aj_mYTLn5G-w"
+        }
+      ]
+    },
+    {
+      "segment_id": "noorwala-north-spurs",
+      "way_equivalent_label": "Noorwala northward side spurs",
+      "land_use": "village edge",
+      "approx_extent": {
+        "lat": [
+          29.4256,
+          29.4265
+        ],
+        "lon": [
+          76.992,
+          76.996
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Low masonry houses giving way to bare edges",
+      "floors_observed": "1-2",
+      "facade_materials_colors": "Red brick, weathered plain plaster",
+      "road_surface_width": "Paver or dirt lanes, narrow",
+      "trees": "Scattered",
+      "vacant_plots_open_land": "Patchy lots and field edges",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "0QFpIsnAsJWTqZjtAfE0Wg",
+          "lat": 29.4258146,
+          "lon": 76.9924356,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=0QFpIsnAsJWTqZjtAfE0Wg"
+        },
+        {
+          "pano_id": "eoagHNH5xojKVxXG6MEIjA",
+          "lat": 29.4260298,
+          "lon": 76.9927215,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=eoagHNH5xojKVxXG6MEIjA"
+        },
+        {
+          "pano_id": "Y9bI3wWgfOAfPDHu27lIMA",
+          "lat": 29.4260075,
+          "lon": 76.9957721,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Y9bI3wWgfOAfPDHu27lIMA"
+        }
+      ]
+    },
+    {
+      "segment_id": "far-east-fields",
+      "way_equivalent_label": "Far eastern open field tracks",
+      "land_use": "agricultural/open edge",
+      "approx_extent": {
+        "lat": [
+          29.4264,
+          29.4299
+        ],
+        "lon": [
+          76.995,
+          76.9971
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Very sparse field-side sheds; no continuous built frontage",
+      "floors_observed": "0-1",
+      "facade_materials_colors": "Occasional red brick sheds",
+      "road_surface_width": "Unpaved pale-dirt tracks, sparse paved arterial intersections",
+      "trees": "Few scattered trees",
+      "vacant_plots_open_land": "Extensive cultivated fields and bare earth",
+      "notes": "Do not mislabel this field track as the paved Sector 18 Rd.",
+      "evidence_panos": [
+        {
+          "pano_id": "ER2zxAC8KoxI8wgCi-GjJQ",
+          "lat": 29.42655,
+          "lon": 76.9959286,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=ER2zxAC8KoxI8wgCi-GjJQ"
+        },
+        {
+          "pano_id": "zVpP9Qus2E1TRWkC8up7XA",
+          "lat": 29.428184,
+          "lon": 76.9947226,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=zVpP9Qus2E1TRWkC8up7XA"
+        },
+        {
+          "pano_id": "uZCp2JLhFjPwgNNbjUgHAg",
+          "lat": 29.427999,
+          "lon": 76.9962118,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=uZCp2JLhFjPwgNNbjUgHAg"
+        },
+        {
+          "pano_id": "j9YxpCdS4iqoPYrgnNOo-A",
+          "lat": 29.4283543,
+          "lon": 76.996248,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=j9YxpCdS4iqoPYrgnNOo-A"
+        }
+      ]
+    },
+    {
+      "segment_id": "east-paved-arterial",
+      "way_equivalent_label": "Eastern paved divided connector, field-side section",
+      "land_use": "arterial/open edge",
+      "approx_extent": {
+        "lat": [
+          29.425,
+          29.43
+        ],
+        "lon": [
+          76.9915,
+          76.995
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Scattered shop-houses and warehousing, open sites",
+      "floors_observed": "1-3",
+      "facade_materials_colors": "Painted cream/grey structures and sheet-metal sheds",
+      "road_surface_width": "Wide paved carriageways at nodes, raised concrete/planting medians; dusty side edges",
+      "trees": "Street trees in pocket clusters",
+      "vacant_plots_open_land": "Many large empty and cultivated strips",
+      "notes": "Exact alignment/name of Sector 18 Rd at this southern extent needs map confirmation; use geometry, not implied continuous facade.",
+      "evidence_panos": [
+        {
+          "pano_id": "YkwoqHLxrMB80j3b9M1PsA",
+          "lat": 29.4253222,
+          "lon": 76.9920362,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=YkwoqHLxrMB80j3b9M1PsA"
+        },
+        {
+          "pano_id": "K1zWswj9Q9NZH_2rH-H1Xw",
+          "lat": 29.4263672,
+          "lon": 76.9958849,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=K1zWswj9Q9NZH_2rH-H1Xw"
+        },
+        {
+          "pano_id": "FxKLtoq-DEKMoMh1VRHdSg",
+          "lat": 29.4295354,
+          "lon": 76.992294,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FxKLtoq-DEKMoMh1VRHdSg"
+        },
+        {
+          "pano_id": "tjsv6ZHub1pzmfKV-qYhqw",
+          "lat": 29.4249748,
+          "lon": 76.9917052,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=tjsv6ZHub1pzmfKV-qYhqw"
+        }
+      ]
+    },
+    {
+      "segment_id": "barsat-diagonal-south",
+      "way_equivalent_label": "Barsat diagonal south of township transition",
+      "land_use": "arterial/market edge",
+      "approx_extent": {
+        "lat": [
+          29.4183,
+          29.4248
+        ],
+        "lon": [
+          76.985,
+          76.991
+        ]
+      },
+      "coverage_status": "mixed_corridor_geometry_unverified",
+      "building_type": "Mix of shops/workshops at southern junction and plotted houses toward north",
+      "floors_observed": "1-3",
+      "facade_materials_colors": "Cream/white plaster, occasional exposed brick and unfinished concrete",
+      "road_surface_width": "Broad road in sampled market junction, with broken/dusty median; narrower side spurs",
+      "trees": "Tree cover grows northward",
+      "vacant_plots_open_land": "Vacant grassy and rubble plots",
+      "notes": "Geometric corridor envelope, not a traced centerline; no claim all sample panos lie on same named road. Southern sample points do not prove one continuous Barsat Rd segment; align with named-road geometry before using this as a way.",
+      "evidence_panos": [
+        {
+          "pano_id": "NLPb5aWy_tRhHMkcaOmrhg",
+          "lat": 29.4215653,
+          "lon": 76.9883049,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=NLPb5aWy_tRhHMkcaOmrhg"
+        },
+        {
+          "pano_id": "C4J9fluuUAwenvZZpY2CLA",
+          "lat": 29.4237408,
+          "lon": 76.9882001,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=C4J9fluuUAwenvZZpY2CLA"
+        },
+        {
+          "pano_id": "OJgJqDpPmwFUMDBvr7yQpQ",
+          "lat": 29.4234418,
+          "lon": 76.9901191,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=OJgJqDpPmwFUMDBvr7yQpQ"
+        }
+      ]
+    },
+    {
+      "segment_id": "southwest-plotted-transition",
+      "way_equivalent_label": "Southwest pocket north of industrial edge",
+      "land_use": "plotted residential transition",
+      "approx_extent": {
+        "lat": [
+          29.4215,
+          29.425
+        ],
+        "lon": [
+          76.985,
+          76.9915
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Modern detached builder floors mixed with incomplete plots",
+      "floors_observed": "2-4",
+      "facade_materials_colors": "White/grey render, brown/wood-like panels, glass and metal balcony rails",
+      "road_surface_width": "Smooth broader township lanes, asphalt/pavers; some unfinished dirt approaches",
+      "trees": "Mature avenue trees and planted strips",
+      "vacant_plots_open_land": "Repeated grass/rubble vacant plotted lots and construction sites",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "gTOEAHjo1okrDMHpYD-gMA",
+          "lat": 29.4215076,
+          "lon": 76.9851539,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gTOEAHjo1okrDMHpYD-gMA"
+        },
+        {
+          "pano_id": "gAmoGT7UDVQHvSXips2KVQ",
+          "lat": 29.4231429,
+          "lon": 76.9882095,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=gAmoGT7UDVQHvSXips2KVQ"
+        },
+        {
+          "pano_id": "SIQ43s38kihiMMZaXEL2SQ",
+          "lat": 29.4234018,
+          "lon": 76.9863369,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=SIQ43s38kihiMMZaXEL2SQ"
+        },
+        {
+          "pano_id": "3q3CqbOCPCsYyycA4JdA-g",
+          "lat": 29.4250236,
+          "lon": 76.9854978,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=3q3CqbOCPCsYyycA4JdA-g"
+        }
+      ]
+    },
+    {
+      "segment_id": "township-south-core",
+      "way_equivalent_label": "Plotted township south of Main Chowk",
+      "land_use": "planned residential",
+      "approx_extent": {
+        "lat": [
+          29.425,
+          29.428
+        ],
+        "lon": [
+          76.985,
+          76.992
+        ]
+      },
+      "coverage_status": "visually_sampled",
+      "building_type": "Mostly detached modern builder-floor villas/houses",
+      "floors_observed": "2-4",
+      "facade_materials_colors": "Cream/white plaster, grey stone-look and warm brown cladding",
+      "road_surface_width": "Wide smooth asphalt or concrete lanes; occasional paver driveway aprons",
+      "trees": "Frequent mature canopy and new landscaping",
+      "vacant_plots_open_land": "Grass-filled vacant plots and active builds between finished houses",
+      "notes": "",
+      "evidence_panos": [
+        {
+          "pano_id": "65utbEBsg29-DEdZqvm3AA",
+          "lat": 29.4263197,
+          "lon": 76.9871535,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=65utbEBsg29-DEdZqvm3AA"
+        },
+        {
+          "pano_id": "R5ZMNaM3CnvhcPCtpt9r-Q",
+          "lat": 29.4272256,
+          "lon": 76.9869473,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=R5ZMNaM3CnvhcPCtpt9r-Q"
+        },
+        {
+          "pano_id": "79QRJmd4jZTyhc3_cuyLsw",
+          "lat": 29.4274072,
+          "lon": 76.9899546,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=79QRJmd4jZTyhc3_cuyLsw"
+        },
+        {
+          "pano_id": "XT8IAU8qz0FrIl3Xnj48hg",
+          "lat": 29.4269419,
+          "lon": 76.9884299,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=XT8IAU8qz0FrIl3Xnj48hg"
+        }
+      ]
+    },
+    {
+      "segment_id": "township-east-sector18",
+      "way_equivalent_label": "Sector 18 Road / eastern township arterial near north end of district",
+      "land_use": "planned mixed residential arterial",
+      "approx_extent": {
+        "lat": [
+          29.427,
+          29.43
+        ],
+        "lon": [
+          76.99,
+          76.993
+        ]
+      },
+      "coverage_status": "visual_template_not_continuous_way_trace",
+      "building_type": "Modern builder-floor homes, construction plots and occasional larger institutional/commercial block",
+      "floors_observed": "2-4",
+      "facade_materials_colors": "White/grey plaster and brown cladding; unfinished brick/concrete stacks",
+      "road_surface_width": "Wide paved arterial with dusty shoulder and yellow-black curb/median at anchor; connecting broad township streets",
+      "trees": "Patchy mature trees, some planted median",
+      "vacant_plots_open_land": "Construction and open plots interrupt frontage",
+      "notes": "KLu anchor is at 29.432355, north of this district extent, included only to establish the named road visual template; do not transfer its precise architecture to southern pixels.",
+      "evidence_panos": [
+        {
+          "pano_id": "KLuVYAQZBLz7hYTFJYdUmg",
+          "lat": 29.4323554,
+          "lon": 76.9918271,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=KLuVYAQZBLz7hYTFJYdUmg"
+        },
+        {
+          "pano_id": "rW69g_DWj37VrToTkusPOg",
+          "lat": 29.4280092,
+          "lon": 76.9920637,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=rW69g_DWj37VrToTkusPOg"
+        },
+        {
+          "pano_id": "FBc30jqM8N5iI2gBQ95QUQ",
+          "lat": 29.4295473,
+          "lon": 76.9915257,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FBc30jqM8N5iI2gBQ95QUQ"
+        },
+        {
+          "pano_id": "FxKLtoq-DEKMoMh1VRHdSg",
+          "lat": 29.4295354,
+          "lon": 76.992294,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=FxKLtoq-DEKMoMh1VRHdSg"
+        }
+      ]
+    },
+    {
+      "segment_id": "shree-balaji-search-gap",
+      "way_equivalent_label": "Shree Bala Ji Mandir block, precise frontage not verified",
+      "land_use": "unresolved landmark",
+      "approx_extent": {
+        "lat": [
+          29.418,
+          29.422
+        ],
+        "lon": [
+          76.993,
+          76.997
+        ]
+      },
+      "coverage_status": "landmark_unverified",
+      "building_type": "Nearby low mixed residential and workshop fabric; temple facade not verified",
+      "floors_observed": "Nearby 1-2; temple unknown",
+      "facade_materials_colors": "Nearby pink/brick, temple unverified",
+      "road_surface_width": "Nearby paved local road; direct approach unverified",
+      "trees": "Sparse",
+      "vacant_plots_open_land": "Scattered open plots",
+      "notes": "Place/name exists in prior harvest, but direct temple exterior and exact coordinates remain unverified. Do not model invented shikhars here.",
+      "evidence_panos": [
+        {
+          "pano_id": "Xq6sX_MYE0rwtH3KlGDmig",
+          "lat": 29.420344,
+          "lon": 76.9946793,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xq6sX_MYE0rwtH3KlGDmig"
+        },
+        {
+          "pano_id": "TlzEZLB4QYu6s104LwBvvw",
+          "lat": 29.4203483,
+          "lon": 76.9942608,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=TlzEZLB4QYu6s104LwBvvw"
+        }
+      ]
+    },
+    {
+      "segment_id": "off-network-spurs",
+      "way_equivalent_label": "Uncovered or unsampled short spurs around SE block and external eastern fields",
+      "land_use": "unknown",
+      "approx_extent": {
+        "lat": [
+          29.418,
+          29.43
+        ],
+        "lon": [
+          76.985,
+          76.997
+        ]
+      },
+      "coverage_status": "uncovered_status_from_prior_overlay_not_exact_way_trace",
+      "building_type": "Unknown",
+      "floors_observed": "Unknown",
+      "facade_materials_colors": "Unknown",
+      "road_surface_width": "Unknown",
+      "trees": "Unknown",
+      "vacant_plots_open_land": "Unknown",
+      "notes": "Harvest coverage overlay notes some short spurs east of Sector 18 Rd and south pocket are grey/uncovered. No exact way geometries or inventory absence proven for each. Mark specific geometry only after overlay/OSM comparison.",
+      "evidence_panos": []
+    }
+  ],
+  "corrections": [
+    {
+      "segment_id": "barsat-diagonal-south",
+      "coverage_status": "named_alignment_unresolved_visual_sample",
+      "correction": "The southern box contains two distinct fabrics: dense low brick/plaster lane housing and factory sheds, and a divided retail artery with signboards, scooters, dry median, lights and warehouse fronts. It does not prove one long diagonal Barsat road or a single continuous frontage. Compare the actual mapped route before assigning these textures to a named way.",
+      "approx_extent": {
+        "lat": [
+          29.4183,
+          29.425
+        ],
+        "lon": [
+          76.985,
+          76.992
+        ]
+      },
+      "evidence_panos": [
+        {
+          "pano_id": "y7rz-ttBmOeWOdLdxddZdA",
+          "lat": 29.4183126,
+          "lon": 76.9851713,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=y7rz-ttBmOeWOdLdxddZdA"
+        },
+        {
+          "pano_id": "mTsTd5I3HYilT9Px03kreA",
+          "lat": 29.419666,
+          "lon": 76.9864796,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=mTsTd5I3HYilT9Px03kreA"
+        },
+        {
+          "pano_id": "5bitYB2IXmtFIHId8T6jMQ",
+          "lat": 29.420516,
+          "lon": 76.9902872,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=5bitYB2IXmtFIHId8T6jMQ"
+        },
+        {
+          "pano_id": "pDeNMWo1eO_UOJDxOVLE4A",
+          "lat": 29.4221147,
+          "lon": 76.9897046,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=pDeNMWo1eO_UOJDxOVLE4A"
+        }
+      ]
+    },
+    {
+      "segment_id": "township-east-sector18",
+      "coverage_status": "named_alignment_unresolved_visual_sample",
+      "correction": "Sampled southern district streets show modern cream/grey/brown gated 2-4 floor villas, smooth asphalt, planted pockets and large canopy trees with intermittent bare lots. These are local streets, not proof the entire southern Sector 18 Road has the yellow-black median/architecture shown at 29.432355 north of scope. Remove the north-of-scope anchor as direct evidence for the southern way.",
+      "approx_extent": {
+        "lat": [
+          29.426,
+          29.43
+        ],
+        "lon": [
+          76.99,
+          76.993
+        ]
+      },
+      "evidence_panos": [
+        {
+          "pano_id": "c41Mpfev_BTm9-ibKiGtXQ",
+          "lat": 29.4263789,
+          "lon": 76.9905659,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=c41Mpfev_BTm9-ibKiGtXQ"
+        },
+        {
+          "pano_id": "K4FMqWxCt_BoNl0GE2Wv7w",
+          "lat": 29.4283103,
+          "lon": 76.9919593,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=K4FMqWxCt_BoNl0GE2Wv7w"
+        },
+        {
+          "pano_id": "NMaywDvp-JuM_tmp9ca4ww",
+          "lat": 29.4287426,
+          "lon": 76.99263,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=NMaywDvp-JuM_tmp9ca4ww"
+        }
+      ]
+    },
+    {
+      "segment_id": "shree-balaji-search-gap",
+      "coverage_status": "known_place_outside_scope_frontage_unverified",
+      "correction": "Located temple point is south of the sampled inventory extent. Do not draw a temple in V1 broad in-scope box; the closest inspected pano shows nearby brick/plastered low housing, not an identified temple.",
+      "evidence_panos": [
+        {
+          "pano_id": "yujiWDBGP1TGjscdd3IH0A",
+          "lat": 29.4180164,
+          "lon": 76.9927505,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=yujiWDBGP1TGjscdd3IH0A"
+        },
+        {
+          "pano_id": "U3wklr7ASBnnz7EEQBw1Yw",
+          "lat": 29.4181009,
+          "lon": 76.9927873,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=U3wklr7ASBnnz7EEQBw1Yw"
+        }
+      ]
+    },
+    {
+      "segment_id": "ansal-a-block-context",
+      "coverage_status": "dense_broad_box_sample_road_alignment_unverified",
+      "approx_extent": {
+        "lat": [
+          29.425,
+          29.427
+        ],
+        "lon": [
+          76.9844,
+          76.9872
+        ]
+      },
+      "building_type": "Mostly detached 2-4 floor builder-floor homes, some under construction",
+      "facades_boundaries": "Cream, white, tan and grey render, glass/metal balcony rails, masonry compound walls and dark steel gates; a few brick unfinished walls",
+      "road_and_furniture": "Mostly smooth asphalt or paver lanes, curved lamp poles, occasional overhead power cables and transformer, intermittent parked cars",
+      "trees_vacancy": "Dense mature trees, planted yards and green vacant lots; some rubble and bare plots interrupt homes",
+      "notes": "36 additional equirects at ~21m spatial exclusion in a broad A-Block vicinity, not a traced full A Block Rd chain. Prior named-road anchor r0InHhFbYco-hzmTRUfuag remains available.",
+      "evidence_panos": [
+        {
+          "pano_id": "j9EQJjirdkJt3j1H97KIMA",
+          "lat": 29.4250101,
+          "lon": 76.9845067,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=j9EQJjirdkJt3j1H97KIMA"
+        },
+        {
+          "pano_id": "7gxWqJESgb7lffIIrXTwxg",
+          "lat": 29.4252862,
+          "lon": 76.9863098,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7gxWqJESgb7lffIIrXTwxg"
+        },
+        {
+          "pano_id": "7n4bY_7oitHhTxpnNbpxHg",
+          "lat": 29.4257601,
+          "lon": 76.9851533,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=7n4bY_7oitHhTxpnNbpxHg"
+        },
+        {
+          "pano_id": "r0InHhFbYco-hzmTRUfuag",
+          "lat": 29.4265235,
+          "lon": 76.9864568,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=r0InHhFbYco-hzmTRUfuag"
+        },
+        {
+          "pano_id": "D9DGi-Qv3IEe4v5LXc4tiw",
+          "lat": 29.4265627,
+          "lon": 76.9846398,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=D9DGi-Qv3IEe4v5LXc4tiw"
+        }
+      ]
+    },
+    {
+      "segment_id": "ansal-d-block-context",
+      "coverage_status": "dense_broad_box_sample_road_alignment_unverified",
+      "approx_extent": {
+        "lat": [
+          29.4269,
+          29.4284
+        ],
+        "lon": [
+          76.9871,
+          76.9906
+        ]
+      },
+      "building_type": "2-4 floor white/cream/grey/brown modern residential floors; intermittent unfinished multi-floor concrete/brick structure",
+      "facades_boundaries": "Clean rendered compound walls and steel gates, balcony glass/metal, planted entry edges",
+      "road_and_furniture": "Broader paved lanes with curved lamps, some yellow-black planted traffic islands, occasional wires and speed bumps",
+      "trees_vacancy": "Mature canopy, tended shrubs and large grass/bare construction parcels",
+      "notes": "36 additional equirects at ~21m spatial exclusion in a broad D-Block vicinity. These are NOT a continuous named Ansal D Block Rd trace; several are side streets.",
+      "evidence_panos": [
+        {
+          "pano_id": "M2sEpL8r4moq7ToVTxEUWQ",
+          "lat": 29.4269218,
+          "lon": 76.9905895,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=M2sEpL8r4moq7ToVTxEUWQ"
+        },
+        {
+          "pano_id": "B61sjzTLv96YeywG3egJFA",
+          "lat": 29.42702,
+          "lon": 76.9883799,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=B61sjzTLv96YeywG3egJFA"
+        },
+        {
+          "pano_id": "1_EJNBhANtQCafp8loorMg",
+          "lat": 29.4271881,
+          "lon": 76.9886839,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=1_EJNBhANtQCafp8loorMg"
+        },
+        {
+          "pano_id": "97vYmaY2654oVSVjBZKc-Q",
+          "lat": 29.4277725,
+          "lon": 76.9899677,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=97vYmaY2654oVSVjBZKc-Q"
+        },
+        {
+          "pano_id": "iD9V0E5Mu1vqY-CwjgVTKA",
+          "lat": 29.4283888,
+          "lon": 76.9884585,
+          "viewer_url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=iD9V0E5Mu1vqY-CwjgVTKA"
+        }
+      ]
+    },
+    {
+      "segment_id": "off-network-spurs",
+      "coverage_status": "not_resolved",
+      "correction": "Additional broad-area samples do not establish precise grey/uncovered spur geometries. No status upgrade."
+    }
+  ],
+  "known_outside_scope_landmark": {
+    "landmark": "Shree Bala Ji Mandir",
+    "place_id": "ChIJpz3rYhnaDTkRWUV2EAe6WMM",
+    "lat": 29.4173093,
+    "lon": 76.9930124,
+    "place_url": "https://www.google.com/maps/search/?api=1&query=Shree+Bala+Ji+Mandir&query_place_id=ChIJpz3rYhnaDTkRWUV2EAe6WMM",
+    "claim": "The listed temple point is ~77 m south of the task latitude minimum 29.418. Inventory nearest pano ~82 m away; no direct exterior sightline established. V1 search-gap bounding box is not a temple frontage location."
+  }
+}

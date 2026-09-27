@@ -1,0 +1,895 @@
+{
+  "kit": "Ansal Sushant City - warm dusty stylized material kit",
+  "version": "2.0.1",
+  "generated_date": "2026-09-26",
+  "dimensions_px": [
+    512,
+    512
+  ],
+  "format": "PNG RGB 8-bit; opaque",
+  "style": "Stylized hand-painted color maps, not photographic reconstructions. Subtle material relief and roughness are painted into albedo; no separate normal or roughness textures.",
+  "provenance": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+  "references": [
+    "district_regencia_visual_rules-8ad5c8d3.md",
+    "ansal_north_visual_rules-b8c05200.md",
+    "ansal_sse_visual_rules-b6668786.md"
+  ],
+  "important_limits": [
+    "Based on supplied visual-rule prose from sampled June 2023 Street View. No source frames or actual photographic texture pixels were reproduced. Do not present textures as exact surveyed facade matches.",
+    "The dashed road marking is optional and should only be used where source panoramas confirm one; residential lanes generally have no lane stripes.",
+    "RepeatWrapping horizontally and vertically; no mip bleeding at tile boundaries. Generate mipmaps in Three.js, use SRGBColorSpace for albedo and anisotropy 4 if available.",
+    "District labels identify palette suitability, not location-accurate placement. Combine with geometry, vacancies, and verified landmark models.",
+    "Round 2 RGBA decals use transparency. Wall-bottom dust and rain streaks tile horizontally but must be applied only once vertically to preserve location below parapets/base; road-edge crumble must be used once across width, repeated along length.",
+    "The temple is visually documented as a white multi-shikhar building, but a white marble material has not been verified. The temple-stone texture is an illustrative option, not a claim about construction.",
+    "Most builder-floor homes are flat-roofed in the surveyed material. Tiled roof textures are selective accents, not the default roof.",
+    "Round 2 RGBA decals use transparency. Wall-bottom dust and rain streaks tile horizontally but must be applied only once vertically to preserve location below parapets/base; road-edge crumble must be used once across width, repeated along length.",
+    "The temple is visually documented as a white multi-shikhar building, but a white marble material has not been verified. The temple-stone texture is an illustrative option, not a claim about construction.",
+    "Most builder-floor homes are flat-roofed in the surveyed material. Tiled roof textures are selective accents, not the default roof.",
+    "Round 2 RGBA decals use transparency. Wall-bottom dust and rain streaks tile horizontally but must be applied only once vertically to preserve location below parapets/base; road-edge crumble must be used once across width, repeated along length.",
+    "The temple is visually documented as a white multi-shikhar building, but a white marble material has not been verified. The temple-stone texture is an illustrative option, not a claim about construction.",
+    "Most builder-floor homes are flat-roofed in the surveyed material. Tiled roof textures are selective accents, not the default roof."
+  ],
+  "textures": [
+    {
+      "name": "plaster_cream",
+      "file": "plaster_cream.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Warm cream plaster, slight low-wall dust",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 11,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "ad48d45b79795e9cbfd1e6759fa18514ea6873705dbe6b9c14e46866efefbd47"
+    },
+    {
+      "name": "plaster_ivory",
+      "file": "plaster_ivory.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Off-white tower and builder-floor render",
+      "district_palette": "regencia,north",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 12,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "afafe59a7f25dd41a0a1f7f4c6ecb68ddd27cd97260b96f762672e483a5cc685"
+    },
+    {
+      "name": "plaster_brown",
+      "file": "plaster_brown.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Brown warm rendered facade",
+      "district_palette": "regencia,north",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 13,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "84d4094f3bf1e4d46508ddfb22a1395349879eb34329b2d07700067d9fe11017"
+    },
+    {
+      "name": "plaster_grey",
+      "file": "plaster_grey.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Cool grey stone-look painted facade, warmed by dust",
+      "district_palette": "regencia,north,plotted-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 14,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "3299fb8ff86da1512adfe4ec1d8dff9bc633fb0ec30a8fed5c1fe41f864bb793"
+    },
+    {
+      "name": "plaster_faded_pink",
+      "file": "plaster_faded_pink.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Faded pink village house plaster",
+      "district_palette": "noorwala,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 15,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "341635866cc23452d2ae698fa3b6c0ec271c85ba8cdf2a9494113053a130d7aa"
+    },
+    {
+      "name": "plaster_pale_green",
+      "file": "plaster_pale_green.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Pale green workshop/godown plaster",
+      "district_palette": "industrial-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 16,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "d0d15da0935f1f8a65c8b3dcabe116ead8a768b861b670af0d6949b8ee5047d2"
+    },
+    {
+      "name": "plaster_ochre",
+      "file": "plaster_ochre.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "plaster",
+      "description": "Faded ochre village plaster",
+      "district_palette": "noorwala,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 17,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "d535b611aa41c6428d92d23acb23d1f5deaa311ccb16bf581dfc055ff87de728"
+    },
+    {
+      "name": "concrete_warm",
+      "file": "concrete_warm.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "painted concrete",
+      "description": "Warm painted concrete, veranda and retaining wall",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 18,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "4147f703b1786aefc000ba0ed6f3d6a2499d86780a4b7a3d791f85c762888016"
+    },
+    {
+      "name": "concrete_grey",
+      "file": "concrete_grey.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "painted concrete",
+      "description": "Dusty concrete boundary and utility surface",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 19,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "81ed31555bfcabc9fd9246ba75df793c24f6cc1afd66aae6d6465f0c020e604c"
+    },
+    {
+      "name": "boundary_cream",
+      "file": "boundary_cream.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "boundary wall",
+      "description": "Panelled cream boundary wall",
+      "district_palette": "core,north",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 20,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "e420a9287def8d635c3e914160e3f7162329237f52d5bbd137a9c7aaa345f339"
+    },
+    {
+      "name": "boundary_red",
+      "file": "boundary_red.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "boundary wall",
+      "description": "Regencia red-panel boundary wall; not for private gates",
+      "district_palette": "regencia frontage only",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 21,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "a8903403cf1dbc4e5fd5a4e6a2c435a6feab268e2215c1a4916b51ec86168966"
+    },
+    {
+      "name": "brick_red",
+      "file": "brick_red.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "brick",
+      "description": "Exposed handmade red brick running bond",
+      "district_palette": "north-frontier,industrial-south,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 22,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "97a033b1d8ff54e8c254ea0b7b6ada1b41b23feab30e779c0bc706bc99657327"
+    },
+    {
+      "name": "pavers_sand",
+      "file": "pavers_sand.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "paver",
+      "description": "Pale sand interlocking brick pavers",
+      "district_palette": "west-pocket,north,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 23,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "fe58a632bc3e6da45188c3995cfa704ecd043e1da3ce96c64ecd5b5ca53412e9"
+    },
+    {
+      "name": "pavers_red",
+      "file": "pavers_red.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "paver",
+      "description": "Muted red paver frontage",
+      "district_palette": "regencia frontage",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 24,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "fb9af659ec1ec411f31ab8cc53b50810e9df6a3de3686742dd2f3e6dce75223d"
+    },
+    {
+      "name": "pavers_apron_check",
+      "file": "pavers_apron_check.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "paver apron",
+      "description": "Checker driveway apron",
+      "district_palette": "core,north,plotted-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 25,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "5e65f961a7b1571cc2f5612c0947c14224e504141cb03c698637383629af15fd"
+    },
+    {
+      "name": "asphalt_dusty",
+      "file": "asphalt_dusty.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road",
+      "description": "Dusty residential asphalt with dispersed wear; no lane lines",
+      "district_palette": "core,north,plotted-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 26,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "8f6190218071d6419304fd26cf9873cc58fcaae5db6b9b3558fba082481c91bf"
+    },
+    {
+      "name": "asphalt_smoother",
+      "file": "asphalt_smoother.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road",
+      "description": "Smoother arterial asphalt with dusty wear; no lane lines",
+      "district_palette": "north-approach,south-market",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 27,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "f2b2d96559f2f1c1742c7ed61090062919bc2f0209f1cc4a2e2b19766c5d08f6"
+    },
+    {
+      "name": "asphalt_dashed_optional",
+      "file": "asphalt_dashed_optional.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road markings",
+      "description": "Optional worn dashed warm-yellow road marking for verified arterials only; not residential lanes",
+      "district_palette": "south-market only where verified",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 28,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "dd2a772a952d4b45c066353a2cded35e6ba39112c142ce1c2811ed5f72d5ffd1"
+    },
+    {
+      "name": "corrugated_galvanized",
+      "file": "corrugated_galvanized.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "corrugated metal",
+      "description": "Dust-toned corrugated galvanized metal shutter/godown",
+      "district_palette": "industrial-south,market",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 29,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "56554b7a6646949a514a5c9d473687765208203543fef02926b96f5dd1cda01e"
+    },
+    {
+      "name": "corrugated_blue",
+      "file": "corrugated_blue.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "corrugated metal",
+      "description": "Faded blue corrugated shutter",
+      "district_palette": "noorwala,industrial-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 30,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "1b437695997100ac3f68cbbd43d5ef55448a8834d6405d0a0614a1263ff50e28"
+    },
+    {
+      "name": "gate_wood_slat",
+      "file": "gate_wood_slat.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "gate",
+      "description": "Warm dark timber-look slat gate",
+      "district_palette": "upscale-core,north",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 31,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "4d3856e7949f9eaa1affbc12d908db632ee3b3afff4e5a9b3c5de23e0f458c3c"
+    },
+    {
+      "name": "gate_steel_charcoal",
+      "file": "gate_steel_charcoal.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "gate",
+      "description": "Charcoal steel-slat gate",
+      "district_palette": "core,north,plotted-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 32,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "a56b18b5095b17a5b87055dd1afa43845c08f7879280c70bbe07234260934749"
+    },
+    {
+      "name": "gate_steel_blue",
+      "file": "gate_steel_blue.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "gate",
+      "description": "Faded blue steel shutter/gate",
+      "district_palette": "noorwala,industrial-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "seed": 33,
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping in both axes; UV scale depends on geometry",
+      "sha256": "5f3612e462a2cd983b9868361b9da896c17c02b380a1e851bd0ba73c3969ec32"
+    },
+    {
+      "name": "roof_concrete_worn",
+      "file": "roof_concrete_worn.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "roof",
+      "description": "Flat concrete roof slab with restrained water stains and dust",
+      "district_palette": "core,north,plotted-south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Tile across flat roof planes; no ridge shadows",
+      "sha256": "a550b2d0c3d33846de61b5b57c4669924fd816dfb6a9dd942474cd598b02115c"
+    },
+    {
+      "name": "roof_concrete_pale",
+      "file": "roof_concrete_pale.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "roof",
+      "description": "Pale roof terrace concrete, soft ponding marks",
+      "district_palette": "regencia,north",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Tile across flat roof planes; no ridge shadows",
+      "sha256": "bdb4b2c2b9c7ad2e27f264fc9788d5572268f76059deeeb9781414f207b26145"
+    },
+    {
+      "name": "roof_tile_terracotta",
+      "file": "roof_tile_terracotta.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "roof tile",
+      "description": "Muted red terracotta tile rows; illustrative, use only where source roof geometry calls for pitched tile",
+      "district_palette": "older-south,market",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Tile along the roof slope; imagery does not establish tiled roofs for most builder floors",
+      "sha256": "29d4c2c6273020d5013a1676b8a8fd88c45abbd4716f215ef6ec0ce342edd240"
+    },
+    {
+      "name": "roof_tile_brown",
+      "file": "roof_tile_brown.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "roof tile",
+      "description": "Brown clay roof tile courses; selective pitched roofs",
+      "district_palette": "older-south,market",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Tile along the roof slope; most surveyed builder floors are flat-roofed",
+      "sha256": "6f3460658adaaf9a722ddee7fdfa2defe70be6d44ddcc5afaa22fdb78af08c8d"
+    },
+    {
+      "name": "decal_wall_bottom_dust",
+      "file": "decal_wall_bottom_dust.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGBA",
+      "material": "decal overlay",
+      "description": "Subtle sand-brown dirt gathering at wall base; transparent non-continuous vertical strip (repaired higher-contrast alpha and patterned RGB, 2026-09-26)",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Apply once per wall height, anchor bottom; horizontal RepeatWrapping, vertical ClampToEdgeWrapping or single UV 0-1. Do not repeat vertically.",
+      "sha256": "327bee3125ba626c2f962ca0980512d644caa3cf1cc408237d5bcbf08e3903af"
+    },
+    {
+      "name": "decal_rain_streaks",
+      "file": "decal_rain_streaks.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGBA",
+      "material": "decal overlay",
+      "description": "Vertical dusty run-off streaks below a parapet, transparent (repaired higher-contrast alpha and patterned RGB, 2026-09-26)",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Anchor top under parapet, use once down a wall; horizontal RepeatWrapping, vertical ClampToEdgeWrapping.",
+      "sha256": "e58a5b0893edbd2f925bc3931a2f156fec3161a7bc4806f32aa08b531cc28ae9"
+    },
+    {
+      "name": "decal_paver_edge_wear",
+      "file": "decal_paver_edge_wear.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGBA",
+      "material": "decal overlay",
+      "description": "Dirt and chipped-tone in interlocking paver joints, transparent tile",
+      "district_palette": "core,north,regencia-frontage,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Overlay matching 64x32 repeating bond in base pavers; RGBA transparent",
+      "sha256": "28b8f9ec316d89ad0bdbf5aa123804c23431d7475cb6e518fc84cbc7fc517ad7"
+    },
+    {
+      "name": "asphalt_patched",
+      "file": "asphalt_patched.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road",
+      "description": "Old dark asphalt repairs and seams",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Repeat freely; no lane markings",
+      "sha256": "d81835c9f417c83e239aa09fd7034d9437c93ee933dd2a5bd72eecc9db366a46"
+    },
+    {
+      "name": "asphalt_hairline_cracks",
+      "file": "asphalt_hairline_cracks.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road",
+      "description": "Scattered fine irregular cracks in dusty asphalt",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Repeat freely; no lane markings",
+      "sha256": "d71767fc67018623c733d8a6529a6d158096eab501ae723f2802949f3b4c3b85"
+    },
+    {
+      "name": "asphalt_edge_crumble",
+      "file": "asphalt_edge_crumble.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "road",
+      "description": "Sandy crumbled shoulders at both sides of a road-width strip",
+      "district_palette": "core,north,south",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Use once across road width; repeat lengthwise, not across width (edge detail otherwise turns into mid-road shoulders)",
+      "sha256": "745d48c509b54b5c703a9a7121c5d8529ecc57af18ababa5f42693cddf607052"
+    },
+    {
+      "name": "shutter_steel_sand",
+      "file": "shutter_steel_sand.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "rolling shutter",
+      "description": "Warm sand rolling shutter with fine ribs",
+      "district_palette": "south-market,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping; orient ribs vertically; add signage in scene geometry, not in texture",
+      "sha256": "f53f7b01c8234db3e75d3113c1022df116174415e13289797878b395e6be81aa"
+    },
+    {
+      "name": "shutter_steel_rust",
+      "file": "shutter_steel_rust.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "rolling shutter",
+      "description": "Faded rust-red rolling shutter with painted-worn ribs",
+      "district_palette": "south-market,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping; orient ribs vertically; add signage in scene geometry, not in texture",
+      "sha256": "46fed0ad7cb7974f0eeb53a80be23bd66a25dbb73d2eedbb18c13a4acc46a00f"
+    },
+    {
+      "name": "shutter_steel_blue",
+      "file": "shutter_steel_blue.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "rolling shutter",
+      "description": "Old blue rolling shutter",
+      "district_palette": "south-market,noorwala",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping; orient ribs vertically; add signage in scene geometry, not in texture",
+      "sha256": "9f2e5b8c0518da4fd84edb87724ac366974b311fc2daaa008b82f094d5123cea"
+    },
+    {
+      "name": "corrugated_shopfront_green",
+      "file": "corrugated_shopfront_green.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "corrugated metal",
+      "description": "Pale green wide-ribbed shopfront sheet",
+      "district_palette": "industrial-south,south-market",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "RepeatWrapping; orient ribs vertically; add signage in scene geometry, not in texture",
+      "sha256": "87d99ea1ea90a1c6ba5e168c9389f394ffcb077b2743971e0fca409f1686f7d9"
+    },
+    {
+      "name": "temple_stone_white",
+      "file": "temple_stone_white.png",
+      "size_px": [
+        512,
+        512
+      ],
+      "channels": "RGB",
+      "material": "stone",
+      "description": "Soft off-white marble-like stone with restrained warm-grey veins; illustrative, not a surveyed material identity",
+      "district_palette": "regencia temple only",
+      "source": "Procedurally painted by this task from the three supplied district visual-rules documents (Google Street View June 2023 observations); illustrative material motifs, not sampled/photographic Street View pixels.",
+      "reference_documents": [
+        "district_regencia_visual_rules-8ad5c8d3.md",
+        "ansal_north_visual_rules-b8c05200.md",
+        "ansal_sse_visual_rules-b6668786.md"
+      ],
+      "source_urls": [],
+      "wrap": "repeat-x repeat-y",
+      "usage": "Apply only if approved for temple model; white multi-shikhar form is pano-verified, specific stone material is not",
+      "sha256": "1789f42ff75b52ec9b176434eb3ff7388dc8adf7a4c41d938bfbae65620a586b"
+    }
+  ],
+  "round_2_added": 15,
+  "revision": "Corrected wall dirt and rain streak decal visibility; replacements supersede v2.0.0 files."
+}

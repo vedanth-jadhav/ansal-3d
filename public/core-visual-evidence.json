@@ -1,0 +1,1592 @@
+{
+  "district": "La Regencia complex + loop road + Madaan St / Mauli St / St 1-2 / Main Chowk / Dewan Hospital core, Ansal Sushant City, Panipat",
+  "generated": "2026-09-25",
+  "imagery_vintage": "2023-06 (Google India launch imagery; uniform across all sampled panos; occasional overcast frames are multi-day capture within 2023-06, not a different era)",
+  "scope_provenance": "Original district ~lat 29.428-29.433, lon 76.984-76.989 plus parent extension: C-Block Rd (N-S @76.9906) and F-Block Rd (E-W @29.4323) east to ~76.9915. Mauli St @29.4272 explicitly retained. South of ~29.427 (A/D Block belt) is the south squad's; northern grid beyond the core is the residential squad's.",
+  "naming_source": "Google street-name labels from pano metadata (351-pano sample) joined to chains by proximity; OSM has no road names here. Label clusters: C-Block Rd N-S @76.9906 (11 panos), F-Block Rd E-W @29.4323 (8), Millennium School Rd N-S @76.985 (10), La Regencia Rd diagonal (12), Mauli St E-W @29.4272 (4), St 1 @29.4278, St 2 @29.42825, Madaan St @29.4289, St 3 N-S @76.9894, St 4 N-S @76.98996, DPS Jr. St diagonal @76.9863-76.9873, Achievers Point Rd = F-Block Rd alias @76.9885.",
+  "method": "573 equirectangular panoramas (zoom3) along 44 pano chains (c0-c37, cE0-cE5) at ~10-20m spacing, reviewed as 96 contact sheets. Every claim carries pano IDs. Chains zigzag; segments split at visual/geometry changes and named from label clusters.",
+  "signature_palette": {
+    "housing": "modern plotted builder floors 2-3fl (some 4fl), flat roofs w/ roof-deck railings, brown/grey/cream renders, wood-slat or dark-steel gates, stone/wood cladding accents, checkered or striped paver aprons, hedges/lawns",
+    "roads": "wide dusty asphalt ~9-12m, interlocking-paver stretches in the W pocket and La Regencia frontage (red pavers), yellow-black painted junction curbs, zebra crossings rare",
+    "furniture": "concrete transformer poles w/ wire bundles, single-arm curved street lights (double-arm on bigger roads), green utility boxes, guard cabins, occasional blue dumpsters/carts",
+    "green": "frequent vacant grassy/scrub plots, fenced pocket parks w/ black railings, mature neem/peepal, palms and manicured hedges in upscale belts",
+    "construction": "active u/c plots scattered throughout (brick stacks, sand piles, blue tarps, bamboo scaffolding)"
+  },
+  "segments": [
+    {
+      "id": "la_regencia_frontage",
+      "street": "La Regencia frontage / loop road",
+      "geometry": "NNE-SSW @lon 76.9859-76.9863, lat 29.4308-29.4314",
+      "coverage": "full",
+      "panos": [
+        "UsjLVfQ6",
+        "B7esklu6",
+        "ZQVjdq5U",
+        "vnwfSs_Q",
+        "NoptOsdm",
+        "BCdzggQV",
+        "t_o1kgq",
+        "eBtTPpo7",
+        "TRmx9b_A",
+        "PZdOta57",
+        "OMo_0bw2"
+      ],
+      "buildings": "La Regencia towers 8-10fl white/light-grey w/ red+yellow accent balcony panels, both sides; scattered 2-3fl plotted houses on outer side",
+      "landmarks": "main entrance gate on W side facing E: red pillar, white guard cabin, boom barrier, red monolith sign (c9 f0 UsjLVfQ6); some tower blocks grey/u/c-look",
+      "road": "red interlocking-paver road ~9-10m, dusty shoulders; yellow-black speed bump at gate",
+      "green": "lawns under towers; palms; construction debris belt S of gate (c9 f10-f20)",
+      "vacancy": "vacant dusty plots w/ sand piles along S stretch (c9 f14-f20)",
+      "resolved_pano_ids": [
+        "UsjLVfQ6DJBn3RQOQCKp_g",
+        "B7esklu6kXkudEVH2Q2Y_g",
+        "ZQVjdq5Us75guVKtJGpDug",
+        "vnwfSs_QdJYVLj8-QOFxxA",
+        "NoptOsdmXt1UOltBq0mZcA",
+        "BCdzggQVL7FVu9iWagUjeQ",
+        "TRmx9b_AIksLLGBb3cN3pg",
+        "PZdOta575BXd6i7wF2Jo_w",
+        "OMo_0bw2ZRhpzkV2Q6xjmw"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UsjLVfQ6DJBn3RQOQCKp_g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=B7esklu6kXkudEVH2Q2Y_g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZQVjdq5Us75guVKtJGpDug",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vnwfSs_QdJYVLj8-QOFxxA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=NoptOsdmXt1UOltBq0mZcA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=BCdzggQVL7FVu9iWagUjeQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TRmx9b_AIksLLGBb3cN3pg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=PZdOta575BXd6i7wF2Jo_w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=OMo_0bw2ZRhpzkV2Q6xjmw"
+      ],
+      "unresolved_prefixes": [
+        "t_o1kgq",
+        "eBtTPpo7"
+      ]
+    },
+    {
+      "id": "la_regencia_rd_diagonal",
+      "street": "La Regencia Rd (diagonal SE->NW)",
+      "geometry": "through district lat 29.4286-29.4299, lon 76.9865-76.9875",
+      "coverage": "full",
+      "panos": [
+        "Yd_3r-hx",
+        "yjTf8aOR",
+        "JGQh8-Ta",
+        "qbLjgAHh",
+        "YHuzsaxj",
+        "A7vPlbKK",
+        "LBp_Fg5Q",
+        "TVriJYin",
+        "bh4_TmXf",
+        "L13yhQxi",
+        "aC8_wmDw",
+        "4CD74U8u",
+        "P39wz1di",
+        "xr0iMSBU",
+        "dQUIXcUx",
+        "TmGky54o",
+        "S9xaQqas"
+      ],
+      "buildings": "dark brown/brown-red 3-4fl modern builder floors, hedged gardens, treed vacant corners",
+      "landmarks": "white ornate multi-shikhar TEMPLE @29.42990,76.98662 (c9 f22 -LLqy8kl, c10 f30 nyFrui4i, c10 f31 red flags at front); mushroom-roof OVERHEAD WATER TANK @29.42935,76.98710 (c9 f31 P39wz1di, c22 f0-f4); red/yellow shop cabins + zebra crossing near tank (c9 f27)",
+      "road": "asphalt w/ treed medians/verges; yellow-black curbs",
+      "vacancy": "several treed vacant corners",
+      "resolved_pano_ids": [
+        "Yd_3r-hxtZkGfec7mgwRbQ",
+        "yjTf8aORGntv3-P7KNQmgw",
+        "JGQh8-TaFvgn43tvkyb0SQ",
+        "qbLjgAHhpldnM3Y6ttNAZQ",
+        "LBp_Fg5QxvV729qYfdnglw",
+        "TVriJYine_hKbr05PO1fwQ",
+        "bh4_TmXfG55cBPMQlBdoxw",
+        "L13yhQxiFvCfZyhcFnMX0w",
+        "aC8_wmDw0Ra-3FNr2bfHoA",
+        "4CD74U8uXtzmNks9381pJg",
+        "P39wz1dixERviR70Y2Zn9Q",
+        "xr0iMSBUjGSi0O0v2uzVWw",
+        "TmGky54o6m1y-xDet3zP2Q",
+        "S9xaQqas-Kt4dgRE64poww"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Yd_3r-hxtZkGfec7mgwRbQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=yjTf8aORGntv3-P7KNQmgw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JGQh8-TaFvgn43tvkyb0SQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qbLjgAHhpldnM3Y6ttNAZQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LBp_Fg5QxvV729qYfdnglw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TVriJYine_hKbr05PO1fwQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=bh4_TmXfG55cBPMQlBdoxw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=L13yhQxiFvCfZyhcFnMX0w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=aC8_wmDw0Ra-3FNr2bfHoA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=4CD74U8uXtzmNks9381pJg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=P39wz1dixERviR70Y2Zn9Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xr0iMSBUjGSi0O0v2uzVWw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TmGky54o6m1y-xDet3zP2Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=S9xaQqas-Kt4dgRE64poww"
+      ],
+      "unresolved_prefixes": [
+        "YHuzsaxj",
+        "A7vPlbKK",
+        "dQUIXcUx"
+      ]
+    },
+    {
+      "id": "ansal_market_rd_w",
+      "street": "Ansal Market Rd (W belt)",
+      "geometry": "E-W @29.4304-29.4305, lon 76.9826-76.9852",
+      "coverage": "full",
+      "panos": [
+        "bSzB3Prw",
+        "JpnrF3xn",
+        "yfk0CmbH",
+        "7iH0ahUH",
+        "zhVPw7ul",
+        "rj1Wc9jY",
+        "XKXkyGEi",
+        "X5pkj287",
+        "MPu6DQt",
+        "0W2W-1AY",
+        "4QsXVS1m",
+        "NRW0JneZ"
+      ],
+      "buildings": "brown/reddish-brown 2-3fl commercial shopfront blocks w/ glass fronts along S side; white 2-3fl houses w/ palms opposite",
+      "landmarks": "BIG CREAM ARCH GATE monument over road @~29.43047,76.9835 (c5 f0 bSzB3Prw); blue container-like poster structure @~29.4305,76.9846 (c5 f20-f22)",
+      "road": "wide asphalt, yellow-black curbs, row-parked cars",
+      "notes": "Dewan Hospital (SCO 7) most likely sits in this commercial belt but no signage positively read - see unresolved",
+      "resolved_pano_ids": [
+        "bSzB3PrwhMsR6D3Jr2Nltg",
+        "JpnrF3xnXcIfKVaSELE7jQ",
+        "yfk0CmbHy3Wvy1FbCwyLDg",
+        "7iH0ahUHsPEjk5MVtbNqlw",
+        "XKXkyGEiUworALhHRToZhw",
+        "X5pkj287VTgiHgw7AYQglg",
+        "0W2W-1AYIgLz6a11fEWu3w",
+        "4QsXVS1mTX3clwP8cImbdA",
+        "NRW0JneZN_Yj4RN-APTmtg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=bSzB3PrwhMsR6D3Jr2Nltg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JpnrF3xnXcIfKVaSELE7jQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=yfk0CmbHy3Wvy1FbCwyLDg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=7iH0ahUHsPEjk5MVtbNqlw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=XKXkyGEiUworALhHRToZhw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=X5pkj287VTgiHgw7AYQglg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=0W2W-1AYIgLz6a11fEWu3w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=4QsXVS1mTX3clwP8cImbdA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=NRW0JneZN_Yj4RN-APTmtg"
+      ],
+      "unresolved_prefixes": [
+        "zhVPw7ul",
+        "rj1Wc9jY",
+        "MPu6DQt"
+      ]
+    },
+    {
+      "id": "roundabout_millennium_x_market",
+      "street": "Roundabout - Millennium School Rd x Ansal Market Rd",
+      "geometry": "@29.43040-29.43051, 76.98509-76.98512",
+      "coverage": "full",
+      "panos": [
+        "LcfHX97y",
+        "pUjbHsO5",
+        "n61nrh9G",
+        "UBM1u4m1"
+      ],
+      "buildings": "open junction; commercial blocks at corners",
+      "landmarks": "roundabout w/ central decorative column/pillar + yellow-red circular planter; treed verges w/ yellow-black curbs",
+      "resolved_pano_ids": [
+        "LcfHX97yPMz-QlXpXvuKyw",
+        "pUjbHsO5Tk7xVhaqC21tSg",
+        "n61nrh9GMQcfpAOja4iZKw",
+        "UBM1u4m1f_GwTyK5ldccBw"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LcfHX97yPMz-QlXpXvuKyw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=pUjbHsO5Tk7xVhaqC21tSg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=n61nrh9GMQcfpAOja4iZKw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UBM1u4m1f_GwTyK5ldccBw"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "ansal_market_rd_e",
+      "street": "Ansal Market Rd (E belt) + parallel S lane",
+      "geometry": "E-W @29.4300-29.4305, lon 76.9862-76.9888",
+      "coverage": "full",
+      "panos": [
+        "DaDXdfOp",
+        "O_clL7cv",
+        "T3HhmNDj",
+        "hJrAH7gf",
+        "sdgK19gr",
+        "HebkN-L6",
+        "6OjjzNXw",
+        "tNfgL77e",
+        "7luMbbqf",
+        "zYaV3J1Y",
+        "3x-tMuf3",
+        "3vdW5g4q",
+        "S62Jn8WR",
+        "zhDKdqaf",
+        "a3iHaINW",
+        "nZHixAUR",
+        "cBfnak_-",
+        "uYnv3Qmx",
+        "GP522-Wq",
+        "ZIHBHB7c"
+      ],
+      "buildings": "3fl modern builder floors, mixed white/brick and dark brown/black, some w/ ground-floor shop signage (c15 f18 tNfgL77e); manicured corner gardens w/ palms",
+      "landmarks": "manicured triangle park @E end (c15 f22 3x-tMuf3); blue guard cabin + pink 2fl (c20 f12)",
+      "green": "park strips; treed vacant corners",
+      "vacancy": "some treed vacant plots",
+      "resolved_pano_ids": [
+        "DaDXdfOpKsFdbFkZiORSrA",
+        "O_clL7cv7AbVPEAA80peVQ",
+        "T3HhmNDj47fw_-36h56rrA",
+        "sdgK19grbz63IxKu-qdhOQ",
+        "HebkN-L6Ssf8SAntbpCGUQ",
+        "6OjjzNXwlXp8w6XvFlvjFQ",
+        "tNfgL77ecSa256pPt_jXaw",
+        "7luMbbqfr_7QNZLwX9z-2w",
+        "zYaV3J1YpjSNkvhnXYfngw",
+        "3x-tMuf3T56PsSBafyki4g",
+        "3vdW5g4qNi3Zs36WpefT-Q",
+        "S62Jn8WRuCTWvWitc_wLow",
+        "zhDKdqafGP-cfY8qpP6SSw",
+        "nZHixAUR-8zeyYC8lMkIqQ",
+        "cBfnak_-L6dx8z-45rznFw",
+        "uYnv3Qmx7JREJnML6GLlXw",
+        "GP522-Wq_LZ5cYmxgiXt6A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=DaDXdfOpKsFdbFkZiORSrA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=O_clL7cv7AbVPEAA80peVQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=T3HhmNDj47fw_-36h56rrA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=sdgK19grbz63IxKu-qdhOQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=HebkN-L6Ssf8SAntbpCGUQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=6OjjzNXwlXp8w6XvFlvjFQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=tNfgL77ecSa256pPt_jXaw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=7luMbbqfr_7QNZLwX9z-2w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=zYaV3J1YpjSNkvhnXYfngw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=3x-tMuf3T56PsSBafyki4g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=3vdW5g4qNi3Zs36WpefT-Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=S62Jn8WRuCTWvWitc_wLow",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=zhDKdqafGP-cfY8qpP6SSw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nZHixAUR-8zeyYC8lMkIqQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=cBfnak_-L6dx8z-45rznFw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=uYnv3Qmx7JREJnML6GLlXw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=GP522-Wq_LZ5cYmxgiXt6A"
+      ],
+      "unresolved_prefixes": [
+        "hJrAH7gf",
+        "a3iHaINW",
+        "ZIHBHB7c"
+      ]
+    },
+    {
+      "id": "millennium_school_rd",
+      "street": "Millennium School Rd",
+      "geometry": "N-S @lon 76.9853-76.9857, lat 29.4289-29.4310 (in-district stretch)",
+      "coverage": "full",
+      "panos": [
+        "1L4GO5XR",
+        "NI9XUpAn",
+        "M0z_VKIz",
+        "NB8PDlnW",
+        "4xSwLq2f",
+        "jtcxISp5",
+        "CK_9lSzD",
+        "iorhBgzO",
+        "m5BQ0q-L",
+        "Ozooz9FH",
+        "OiTd3uLS",
+        "AujqSISl"
+      ],
+      "buildings": "big WHITE MODERN institutional building w/ glass behind trees @~29.4297,76.9855 (c5 f38 CK_9lSzD - likely the Millennium school building, name unverified); red/white 2-3fl; houses behind hedges",
+      "road": "asphalt w/ grass verges; transformer poles",
+      "green": "fenced green vacant plots, grassy park stretches, tall hedges",
+      "vacancy": "vacant scrub plots mid-stretch (c5 f44-f46)",
+      "notes": "Google labels run this road far S to 29.4223 (south squad territory)",
+      "resolved_pano_ids": [
+        "1L4GO5XRMxqd6Bb_9tBlfw",
+        "M0z_VKIzb8O8gD8XRMK26Q",
+        "4xSwLq2f9AGIu4r1F02Pzw",
+        "iorhBgzOLWDcWMLp3ntAsw",
+        "m5BQ0q-LNWhR-E4aQGd15Q",
+        "Ozooz9FHdSvUnSdESeL8bg",
+        "OiTd3uLSWXI_Ngr_XlkUQA"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=1L4GO5XRMxqd6Bb_9tBlfw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=M0z_VKIzb8O8gD8XRMK26Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=4xSwLq2f9AGIu4r1F02Pzw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=iorhBgzOLWDcWMLp3ntAsw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=m5BQ0q-LNWhR-E4aQGd15Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Ozooz9FHdSvUnSdESeL8bg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=OiTd3uLSWXI_Ngr_XlkUQA"
+      ],
+      "unresolved_prefixes": [
+        "NI9XUpAn",
+        "NB8PDlnW",
+        "jtcxISp5",
+        "CK_9lSzD",
+        "AujqSISl"
+      ]
+    },
+    {
+      "id": "tushar_villa_rd",
+      "street": "Tushar Villa Rd",
+      "geometry": "N-S @lon 76.9850-76.9855, lat 29.4309-29.4324",
+      "coverage": "full",
+      "panos": [
+        "vdAzoh-C",
+        "Yqkq3qvD",
+        "nqDd-3SL",
+        "Uzpnnnf7",
+        "xhYmlO-Y",
+        "a7Jn6C1l",
+        "xxisRG_8",
+        "STVQ5OWo",
+        "s6rGq8BQ",
+        "G3WNdXid",
+        "_HcUkXQ3",
+        "C_4G9t2t",
+        "420qVAX1",
+        "yA1J8r2b",
+        "gtcI9MnH",
+        "IHBaVQMC",
+        "8MtSCkQV",
+        "UgkEjBbb"
+      ],
+      "buildings": "WHITE/RED 6-8fl apartment towers behind rusticated brick boundary wall (La Regencia NW perimeter) @29.43094,76.98501 (c7 f0); dark brown 3-4fl modern; RED-BROWN 4fl commercial w/ glass mid-stretch",
+      "landmarks": "BLUE-GLASS 4-5fl office w/ flag + paver forecourt + striped barrier gate @29.43154,76.98436 (c7 f34-f36 C_4G9t2t); guard cabin + leaning tree (c7 f12)",
+      "road": "asphalt, dusty open N end; treed median near commercial",
+      "resolved_pano_ids": [
+        "vdAzoh-CTVh-uV_233P3zQ",
+        "Yqkq3qvD9RQaeRAe4VpL8w",
+        "nqDd-3SLBZyRXrj1kRsEYw",
+        "Uzpnnnf7pqCmFrbKA-1woA",
+        "xhYmlO-YL1EBChVuQv3QqQ",
+        "a7Jn6C1ljvj07VbLqk5z7g",
+        "xxisRG_8khOdU6koewYcQw",
+        "STVQ5OWoO8wO53OoGYnUog",
+        "s6rGq8BQKM8xHefSj1SxMQ",
+        "G3WNdXidhg484_EUjBc32g",
+        "_HcUkXQ3r9puAX0Mf7xhgQ",
+        "C_4G9t2tw5S4CMycF6LlsA",
+        "420qVAX12tIlV58BIcCSyQ",
+        "yA1J8r2b2C5hH5l2IsgK8A",
+        "gtcI9MnHrVCTuSdPhSvbNg",
+        "IHBaVQMC3dbo7V4q8NOdUQ",
+        "8MtSCkQVzjtcv-RIPYjb4Q",
+        "UgkEjBbb6UL6hoVORfEI2A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vdAzoh-CTVh-uV_233P3zQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Yqkq3qvD9RQaeRAe4VpL8w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nqDd-3SLBZyRXrj1kRsEYw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Uzpnnnf7pqCmFrbKA-1woA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xhYmlO-YL1EBChVuQv3QqQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=a7Jn6C1ljvj07VbLqk5z7g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xxisRG_8khOdU6koewYcQw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=STVQ5OWoO8wO53OoGYnUog",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=s6rGq8BQKM8xHefSj1SxMQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=G3WNdXidhg484_EUjBc32g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=_HcUkXQ3r9puAX0Mf7xhgQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=C_4G9t2tw5S4CMycF6LlsA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=420qVAX12tIlV58BIcCSyQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=yA1J8r2b2C5hH5l2IsgK8A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=gtcI9MnHrVCTuSdPhSvbNg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=IHBaVQMC3dbo7V4q8NOdUQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=8MtSCkQVzjtcv-RIPYjb4Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UgkEjBbb6UL6hoVORfEI2A"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "mauli_st",
+      "street": "Mauli St",
+      "geometry": "E-W @29.4272, lon 76.9862-76.9891",
+      "coverage": "full",
+      "panos": [
+        "YiGOK74B",
+        "IzeCtTao",
+        "ny5kAKm0",
+        "SvCv95X9",
+        "Ct6uw_QH",
+        "CCysgUMK",
+        "3W_F-ePd",
+        "e3DoZuem",
+        "XzrxX_JR",
+        "aasI5NOd",
+        "pMkxdUQW",
+        "OTZK_-9r",
+        "GX2BpDxz",
+        "trSXYUVn",
+        "2-ss_c63",
+        "vhWi3XzW",
+        "zwim0aQM",
+        "D85JcTyf",
+        "11tD3F79",
+        "R2CRLncZ",
+        "CpE7WHG8",
+        "mD41vyq-",
+        "gEPYPpno",
+        "v_VzvLGU"
+      ],
+      "buildings": "2-3fl modern houses, white/cream/brown, some w/ red or orange tower accents (c6 f30); curved white facade (c6 f24)",
+      "landmarks": "MODERN 3-4fl blue-glass office building @29.42725,76.98621 (c6 f36 D85JcTyf)",
+      "road": "asphalt, leafy, transformer poles",
+      "vacancy": "frequent vacant scrub/shrub plots; red-brick u/c (c6 f42-f44)",
+      "notes": "explicitly in my scope though on the 29.427 line",
+      "resolved_pano_ids": [
+        "YiGOK74BCRPe8yMlBndMCA",
+        "IzeCtTaobXlIhKptZAh8sQ",
+        "ny5kAKm0QGLoRKb1-aqVJg",
+        "SvCv95X9GZFNvZKhehad6Q",
+        "Ct6uw_QHuM21SVa0PRBI-Q",
+        "CCysgUMKOGil-isQVbPisQ",
+        "3W_F-ePdY0qYz5BNlrlbsw",
+        "e3DoZuemBsXaT1oSXjq7FQ",
+        "XzrxX_JRfPgV2jNr3331lA",
+        "pMkxdUQW4LZqcxa_ijz4Tg",
+        "OTZK_-9r6Eat4T-VjUNZbw",
+        "GX2BpDxz-PH45fqDABLjkw",
+        "trSXYUVnPBfGCZ_P-DadJQ",
+        "2-ss_c63XUuVU-ga-9zj0g",
+        "vhWi3XzWr5cF3NeMzs86Hw",
+        "zwim0aQMYfvvvO9IwFNo2Q",
+        "D85JcTyfqghcIr_aZYPWhQ",
+        "11tD3F79oqbdGRXrBtOY4g",
+        "R2CRLncZa1eECHUjAcON8w",
+        "CpE7WHG8ZySdR-rnxmqGxw",
+        "mD41vyq-oJMj6VC__DZxXg",
+        "gEPYPpnoa8CILH5R0pTF6w",
+        "v_VzvLGUq_9d9oWtaRmU7Q"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=YiGOK74BCRPe8yMlBndMCA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=IzeCtTaobXlIhKptZAh8sQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ny5kAKm0QGLoRKb1-aqVJg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=SvCv95X9GZFNvZKhehad6Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Ct6uw_QHuM21SVa0PRBI-Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=CCysgUMKOGil-isQVbPisQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=3W_F-ePdY0qYz5BNlrlbsw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=e3DoZuemBsXaT1oSXjq7FQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=XzrxX_JRfPgV2jNr3331lA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=pMkxdUQW4LZqcxa_ijz4Tg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=OTZK_-9r6Eat4T-VjUNZbw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=GX2BpDxz-PH45fqDABLjkw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=trSXYUVnPBfGCZ_P-DadJQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=2-ss_c63XUuVU-ga-9zj0g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vhWi3XzWr5cF3NeMzs86Hw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=zwim0aQMYfvvvO9IwFNo2Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=D85JcTyfqghcIr_aZYPWhQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=11tD3F79oqbdGRXrBtOY4g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=R2CRLncZa1eECHUjAcON8w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=CpE7WHG8ZySdR-rnxmqGxw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=mD41vyq-oJMj6VC__DZxXg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=gEPYPpnoa8CILH5R0pTF6w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=v_VzvLGUq_9d9oWtaRmU7Q"
+      ],
+      "unresolved_prefixes": [
+        "aasI5NOd"
+      ]
+    },
+    {
+      "id": "st_1",
+      "street": "St 1",
+      "geometry": "E-W @29.4278, lon 76.9857-76.9865",
+      "coverage": "partial (junction + short walked stretch)",
+      "panos": [
+        "nUrKHdPB",
+        "agJ9U0Rr",
+        "LiC9-dN8"
+      ],
+      "buildings": "modern 2-3fl dark/white w/ dark grey fences + hedges; young street trees w/ guards",
+      "vacancy": "vacant weedy plots",
+      "notes": "Google label junction w/ Millennium School Rd @29.42777,76.98572",
+      "resolved_pano_ids": [
+        "agJ9U0RrNa_wgiVovmybpg",
+        "LiC9-dN8GSKRNuKl4-K3dg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=agJ9U0RrNa_wgiVovmybpg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LiC9-dN8GSKRNuKl4-K3dg"
+      ],
+      "unresolved_prefixes": [
+        "nUrKHdPB"
+      ]
+    },
+    {
+      "id": "st_2",
+      "street": "St 2",
+      "geometry": "E-W @29.42825, lon 76.9860-76.9886",
+      "coverage": "full",
+      "panos": [
+        "Z4bepZx2",
+        "-aWj9ucU",
+        "82qEj3HB",
+        "xcWnCnlU",
+        "8lAMa63r",
+        "UgjScfUF",
+        "qzXvOzhW",
+        "xmOsEpsS",
+        "5aDIoVHG",
+        "uiKF4g4d",
+        "eeIE93WM",
+        "N3nGYooF",
+        "ZPDHtf2_",
+        "Jwo8cTBc",
+        "xGfsBbiR",
+        "vRpe7OCH",
+        "E_Zuk1Tf",
+        "dUGX9zef",
+        "ZHqFR_25",
+        "Xg5wFDHr",
+        "5Ljyl5kt",
+        "gbvGrYGn"
+      ],
+      "buildings": "premium contemporary 3fl: grey stone-clad flat-roof, dark wood-slat gates, roof decks, cobble/paver aprons (harvest ln_st_2); brown 3fl w/ red door + rock boulder feature (c3 f45); cream/red 3fl w/ green awning (c3 f58)",
+      "green": "fenced green park w/ lawn along S side (c3 f50-f58); open green w/ big trees",
+      "vacancy": "u/c 3-4fl exposed brick (c26 f4); construction debris",
+      "resolved_pano_ids": [
+        "Z4bepZx25XXn9-sAavRYPQ",
+        "-aWj9ucU0tupGa6xUuNz-w",
+        "8lAMa63rsl_VB0bSTKsOdA",
+        "qzXvOzhW7XDaMf6ob_pGSg",
+        "xmOsEpsSeeJCjmDTkKDw7g",
+        "5aDIoVHGLOgjBP4r_sJCcQ",
+        "uiKF4g4dqC19Z-6vrjjEfQ",
+        "eeIE93WMXeDZa1b5-QJTkA",
+        "N3nGYooFAhnAFw1jWvGMEg",
+        "ZPDHtf2_JJEfbqIsdnqaeg",
+        "Jwo8cTBckwe2J3R2nxg3vA",
+        "xGfsBbiR6PndhCFvH7xknA",
+        "vRpe7OCHW5qkl17v6agmWQ",
+        "E_Zuk1Tf9p2XIOZdVMth9Q",
+        "dUGX9zefmgPBDEYsy6MpuA",
+        "ZHqFR_25SnIjo0CME67d1A",
+        "Xg5wFDHrjuGoYsDW815u3w",
+        "gbvGrYGnvKaJgLI8AObj0A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Z4bepZx25XXn9-sAavRYPQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=-aWj9ucU0tupGa6xUuNz-w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=8lAMa63rsl_VB0bSTKsOdA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qzXvOzhW7XDaMf6ob_pGSg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xmOsEpsSeeJCjmDTkKDw7g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=5aDIoVHGLOgjBP4r_sJCcQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=uiKF4g4dqC19Z-6vrjjEfQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=eeIE93WMXeDZa1b5-QJTkA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=N3nGYooFAhnAFw1jWvGMEg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZPDHtf2_JJEfbqIsdnqaeg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Jwo8cTBckwe2J3R2nxg3vA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xGfsBbiR6PndhCFvH7xknA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vRpe7OCHW5qkl17v6agmWQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=E_Zuk1Tf9p2XIOZdVMth9Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=dUGX9zefmgPBDEYsy6MpuA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZHqFR_25SnIjo0CME67d1A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xg5wFDHrjuGoYsDW815u3w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=gbvGrYGnvKaJgLI8AObj0A"
+      ],
+      "unresolved_prefixes": [
+        "82qEj3HB",
+        "xcWnCnlU",
+        "UgjScfUF",
+        "5Ljyl5kt"
+      ]
+    },
+    {
+      "id": "madaan_st",
+      "street": "Madaan St",
+      "geometry": "E-W @29.42887-29.4290, lon 76.9836-76.9893",
+      "coverage": "full",
+      "panos": [
+        "qCnBCDQN",
+        "LbDjCuZu",
+        "CsuYBsjo",
+        "yXWH0pRn",
+        "_6YIGUpj",
+        "JL6vrKE-",
+        "vIlRN1LS",
+        "WbYkzQyp",
+        "wzki9mO2",
+        "pKoj4jl4",
+        "FQKdG9kr",
+        "ARFTP_-b",
+        "v0iqzj5N",
+        "0RWuNIDW",
+        "urKUfjgi",
+        "xNDTTUlH",
+        "QcqdK42Z",
+        "Jo6JVXKU",
+        "eSEAjmfy",
+        "Ar3Go48E",
+        "XoSplEVD"
+      ],
+      "buildings": "sparse: 2-3fl modern grey/brown, brown/orange 3fl w/ white slat gate (c16 f17); white-columned 2-3fl (c16 f6)",
+      "landmarks": "small brick roadside shrines (c1 f2 LbDjCuZu, c1 f50 EtXZkkNy, c16 f6 orange shrine w/ flags)",
+      "road": "quiet tree-lined dusty lane; fenced park strip w/ black railings + yellow-black curbs (c1 f20-f32)",
+      "vacancy": "mostly VACANT grassy plots w/ boundary walls - the emptiest/leafiest belt in the district",
+      "notes": "label cluster confirms Madaan St @29.4289 (corrected from earlier guess); junction w/ St 3 @29.42886,76.98933",
+      "resolved_pano_ids": [
+        "qCnBCDQNMGy3TP7RrF1TOA",
+        "LbDjCuZuJdh5zXcLT9_HsQ",
+        "CsuYBsjo2ZazVMtnfI6Tbw",
+        "yXWH0pRnkaMP5Uug_nZsGw",
+        "_6YIGUpj6-eEwnNH5DBYXQ",
+        "JL6vrKE-m4jxPl2rpgAxLg",
+        "WbYkzQyp9n2rYhoT8FDsog",
+        "wzki9mO2HQ3xQlcSIxr_jA",
+        "pKoj4jl4_PnSNXTDsZ7OZg",
+        "FQKdG9krgllRgmlqfQaE3g",
+        "ARFTP_-bngesjw7TFV4w5w",
+        "v0iqzj5NRrBCP3BviSF0gQ",
+        "QcqdK42ZLB4dZKU15Kn5xQ",
+        "Jo6JVXKUoAJZ3bUifveiAg",
+        "eSEAjmfydTY-Tu6CVBIZCw",
+        "Ar3Go48EDjEgHaLg25ku3A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qCnBCDQNMGy3TP7RrF1TOA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LbDjCuZuJdh5zXcLT9_HsQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=CsuYBsjo2ZazVMtnfI6Tbw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=yXWH0pRnkaMP5Uug_nZsGw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=_6YIGUpj6-eEwnNH5DBYXQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JL6vrKE-m4jxPl2rpgAxLg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=WbYkzQyp9n2rYhoT8FDsog",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=wzki9mO2HQ3xQlcSIxr_jA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=pKoj4jl4_PnSNXTDsZ7OZg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=FQKdG9krgllRgmlqfQaE3g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ARFTP_-bngesjw7TFV4w5w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=v0iqzj5NRrBCP3BviSF0gQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=QcqdK42ZLB4dZKU15Kn5xQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Jo6JVXKUoAJZ3bUifveiAg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=eSEAjmfydTY-Tu6CVBIZCw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Ar3Go48EDjEgHaLg25ku3A"
+      ],
+      "unresolved_prefixes": [
+        "vIlRN1LS",
+        "0RWuNIDW",
+        "urKUfjgi",
+        "xNDTTUlH",
+        "XoSplEVD"
+      ]
+    },
+    {
+      "id": "st_3",
+      "street": "St 3",
+      "geometry": "N-S @lon 76.9894, lat 29.4277-29.4289",
+      "coverage": "partial",
+      "panos": [
+        "xmOsEpsS",
+        "_29Q8aFm",
+        "EJs60kZU",
+        "ulj-XHVN"
+      ],
+      "buildings": "3fl cream/blue modern w/ pergola; 3-4fl cream/brown w/ palms; parked SUVs",
+      "green": "park boundary fence",
+      "resolved_pano_ids": [
+        "xmOsEpsSeeJCjmDTkKDw7g",
+        "_29Q8aFm4OnLf5-tN3En4Q",
+        "EJs60kZUnKtjkPEj-yQcbg",
+        "ulj-XHVNw5l5tZZ5xyzhrg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xmOsEpsSeeJCjmDTkKDw7g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=_29Q8aFm4OnLf5-tN3En4Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=EJs60kZUnKtjkPEj-yQcbg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ulj-XHVNw5l5tZZ5xyzhrg"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "st_4",
+      "street": "St 4",
+      "geometry": "N-S @lon 76.98996, lat 29.4260-29.4286",
+      "coverage": "UNCOVERED - no walked chain; Google labels only (4 panos)",
+      "panos": [],
+      "notes": "do not invent geometry/detail; labels place it parallel E of St 3, junction w/ Mauli St @29.42713,76.98996",
+      "resolved_pano_ids": [],
+      "viewer_urls": [],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "dps_jr_st",
+      "street": "DPS Jr. St",
+      "geometry": "diagonal lat 29.4277-29.4293, lon 76.9863-76.9873",
+      "coverage": "partial (temple/tank belt only; chain mapping low confidence)",
+      "panos": [
+        "-LLqy8kl",
+        "dQUIXcUx",
+        "TmGky54o",
+        "nyFrui4i",
+        "SrXSEpU1"
+      ],
+      "buildings": "single-storey plotted houses, small shops w/ orange shutters",
+      "landmarks": "temple frontage w/ red flags (c10 f31)",
+      "notes": "label cluster 29.42767-29.42933 x 76.98632-76.98726; runs parallel E of La Regencia Rd",
+      "resolved_pano_ids": [
+        "TmGky54o6m1y-xDet3zP2Q",
+        "nyFrui4iIF4fo1qahtTpQw",
+        "SrXSEpU1uY3SKoanDzDUlg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TmGky54o6m1y-xDet3zP2Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nyFrui4iIF4fo1qahtTpQw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=SrXSEpU1uY3SKoanDzDUlg"
+      ],
+      "unresolved_prefixes": [
+        "-LLqy8kl",
+        "dQUIXcUx"
+      ]
+    },
+    {
+      "id": "main_chowk",
+      "street": "Main Chowk",
+      "geometry": "junction @29.42632,76.98715",
+      "coverage": "full (junction + surrounding pocket)",
+      "panos": [
+        "65utbEBs",
+        "GLxc7eQY",
+        "mwhc08Vr",
+        "baDAdO5x",
+        "Jo4Xv64R",
+        "Q0mt6V_H",
+        "Xw-moOVp",
+        "s7YjlKQv",
+        "9Q5hDYF3",
+        "wTuDqfLJ",
+        "2XUYjESN"
+      ],
+      "buildings": "older cream 2fl houses w/ balcony rails + peeling paint alongside newer 3fl modern white/brown w/ wood-tone panels and steel gates",
+      "road": "interlocking-paver road ~10-12m at junction; asphalt lanes; heavy tree canopy, dappled shade",
+      "green": "fenced pocket park w/ bench + paver path (c0 f26); vacant grassy plots",
+      "notes": "Main Chowk explicitly in my scope though just S of 29.427; surrounding c0 pocket between 29.4257-29.4279 mixes older and modern stock",
+      "resolved_pano_ids": [
+        "65utbEBsg29-DEdZqvm3AA",
+        "GLxc7eQYttTGqWVu--7B8A",
+        "mwhc08Vr3CfnC2CfU5Pszg",
+        "baDAdO5xiXRrYRBD8K-ZTw",
+        "Jo4Xv64RXgjbP-z3zZMc6w",
+        "Q0mt6V_H5kSgE6T6tIZRRQ",
+        "Xw-moOVpbRQixhD4J3xGjg",
+        "9Q5hDYF3f4VIWewfAz7X6Q",
+        "wTuDqfLJZcp5PnwU8hWRTg",
+        "2XUYjESNAJnwb8EB9LtOGw"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=65utbEBsg29-DEdZqvm3AA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=GLxc7eQYttTGqWVu--7B8A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=mwhc08Vr3CfnC2CfU5Pszg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=baDAdO5xiXRrYRBD8K-ZTw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Jo4Xv64RXgjbP-z3zZMc6w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Q0mt6V_H5kSgE6T6tIZRRQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xw-moOVpbRQixhD4J3xGjg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=9Q5hDYF3f4VIWewfAz7X6Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=wTuDqfLJZcp5PnwU8hWRTg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=2XUYjESNAJnwb8EB9LtOGw"
+      ],
+      "unresolved_prefixes": [
+        "s7YjlKQv"
+      ]
+    },
+    {
+      "id": "c_block_rd",
+      "street": "C-Block Rd (G-Block Rd alias N end)",
+      "geometry": "N-S @lon 76.9906, lat 29.4301-29.4322",
+      "coverage": "full (parent extension)",
+      "panos": [
+        "vRnDvrg_",
+        "hgea91iR",
+        "dQ-7zKAM",
+        "7yNifNy7",
+        "ix81Pljx",
+        "vaZoufbs",
+        "M5ow4seT",
+        "tU386jsX",
+        "YIpUtwO-",
+        "1AKKvwC1",
+        "lh2lGRgm",
+        "JoHm37JR",
+        "NOjire45",
+        "6GBJtg_9",
+        "lv1R6drd",
+        "6wN9-7Jd",
+        "vXSd09_f",
+        "GekYM7q6"
+      ],
+      "buildings": "upscale modern builder floors: dark glass 3-4fl, cream/peach 3fl w/ pergola roofs + checkered paver aprons, brown/red 3fl w/ hedges + palm gardens; white/cream 3fl rows w/ paver aprons (c24)",
+      "green": "treed parks w/ green fences; treed vacant plots",
+      "vacancy": "u/c 3-4fl brown/red (cE5 f2)",
+      "notes": "harvest pano 05UYyGUg labeled C-Block Rd sits @76.9894 (probably St 3); 11-pano metadata cluster @76.9906 wins",
+      "resolved_pano_ids": [
+        "vRnDvrg_YdMc6in8qZNHuQ",
+        "hgea91iRQqWJXiR_IqYL-w",
+        "dQ-7zKAMKzSKL6-0FzDiJQ",
+        "7yNifNy7nZBHmikiyJUG0A",
+        "vaZoufbslCUXAHFJ9sBoxw",
+        "M5ow4seTmG9u7z6lAdnQxQ",
+        "tU386jsXCLW2G0J36gTsOw",
+        "lh2lGRgmiLChfTb9ltX_zA",
+        "JoHm37JRDxs1x-gVBZc-xQ",
+        "NOjire45CW40eKPWBh12sA",
+        "lv1R6drdTK4AaqR4qBYmUw",
+        "6wN9-7JdRYqkMS8AHnTrMg",
+        "vXSd09_fG1InrF-dEKkZwg",
+        "GekYM7q6NO5w5PVwbELlcA"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vRnDvrg_YdMc6in8qZNHuQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=hgea91iRQqWJXiR_IqYL-w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=dQ-7zKAMKzSKL6-0FzDiJQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=7yNifNy7nZBHmikiyJUG0A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vaZoufbslCUXAHFJ9sBoxw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=M5ow4seTmG9u7z6lAdnQxQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=tU386jsXCLW2G0J36gTsOw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=lh2lGRgmiLChfTb9ltX_zA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JoHm37JRDxs1x-gVBZc-xQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=NOjire45CW40eKPWBh12sA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=lv1R6drdTK4AaqR4qBYmUw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=6wN9-7JdRYqkMS8AHnTrMg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vXSd09_fG1InrF-dEKkZwg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=GekYM7q6NO5w5PVwbELlcA"
+      ],
+      "unresolved_prefixes": [
+        "ix81Pljx",
+        "YIpUtwO-",
+        "1AKKvwC1",
+        "6GBJtg_9"
+      ]
+    },
+    {
+      "id": "f_block_rd",
+      "street": "F-Block Rd (Achievers Point Rd alias @76.9885) + parallel N-edge lanes",
+      "geometry": "E-W @29.4322-29.4334, lon 76.9835-76.9933",
+      "coverage": "full (parent extension)",
+      "panos": [
+        "ZodqWrCK",
+        "XDWjTnrx",
+        "Xd2rn2fP",
+        "IQc4wjEL",
+        "rfONSICy",
+        "ZmsSSsG8",
+        "DjTP9wMo",
+        "nD7d_V6K",
+        "5feuuCaJ",
+        "IYNQV4B7",
+        "vS21o_cY",
+        "k8yO3qft",
+        "PsrRqdNx",
+        "YBJoZofE",
+        "JmJhdbuU",
+        "t0XvyL-8",
+        "0x2Vv7tZ",
+        "djBxfSc3",
+        "MrhK3JPR",
+        "ckIoHyt-",
+        "M6wku3b1",
+        "I0vxgSxB",
+        "l81-rB9R",
+        "fxgFh7el",
+        "Djq6w57W",
+        "QDQTvsbI",
+        "sIkW6x6s",
+        "nOA65i-0",
+        "D9Mq3hi0"
+      ],
+      "buildings": "brown/grey 3-4fl modern, several u/c exposed brick w/ rubble piles (c18); orange/cream 3fl w/ pergola roof (c18 f16)",
+      "landmarks": "RAINBOW-STRIPED SCHOOL campus (red/yellow/blue horizontal stripes, 4fl, yellow bus, school gate, long beige/red boundary wall) @~29.4326-29.4334 x 76.9835-76.9842 (c25 f0-f6 k8yO3qft, c30 f0-f5 djBxfSc3 - likely KR Mangalam World School, name unverified); WATER TANK #2 @29.43319,76.98927 (c37 f0 fxgFh7el, c2 f2 Djq6w57W); single-storey old sheds/shops W end (c25 f10)",
+      "road": "wide dusty asphalt; yellow-black curbs; cart vendors",
+      "vacancy": "treed vacant w/ brick piles opposite school",
+      "resolved_pano_ids": [
+        "ZodqWrCKnwRcNCbJdAbz9g",
+        "XDWjTnrx_WWgE1t1KS1EHw",
+        "Xd2rn2fPpPjVOARTFm5ybQ",
+        "rfONSICyRqyBOLh0tLxmCw",
+        "ZmsSSsG8-7EBwzq-_IWzQg",
+        "DjTP9wMozpNonBfbKTWn7Q",
+        "nD7d_V6KAFKJY6NmguGGsg",
+        "5feuuCaJLvxvRl782LvMag",
+        "vS21o_cYoSlgdFeduc3ebw",
+        "k8yO3qftkVCmH1jU5DoFPg",
+        "PsrRqdNxUBmKS9Nx-p2vbw",
+        "JmJhdbuUfrHY4F0kDSTD4g",
+        "t0XvyL-8kxFXdUiLEokqYQ",
+        "0x2Vv7tZ4PqWBr4UsV_xKA",
+        "djBxfSc3vJZxNwIZW3ramA",
+        "MrhK3JPR4jzAzIFnittfHw",
+        "M6wku3b1BjB6jBdldsnteQ",
+        "I0vxgSxBMh8NTQeatNKEqA",
+        "sIkW6x6sRAAP_qP3EIXU3A",
+        "nOA65i-0oWIlfzRuMafAlQ",
+        "D9Mq3hi03bJ1Mkv8sIVfhg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZodqWrCKnwRcNCbJdAbz9g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=XDWjTnrx_WWgE1t1KS1EHw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Xd2rn2fPpPjVOARTFm5ybQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=rfONSICyRqyBOLh0tLxmCw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZmsSSsG8-7EBwzq-_IWzQg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=DjTP9wMozpNonBfbKTWn7Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nD7d_V6KAFKJY6NmguGGsg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=5feuuCaJLvxvRl782LvMag",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vS21o_cYoSlgdFeduc3ebw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=k8yO3qftkVCmH1jU5DoFPg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=PsrRqdNxUBmKS9Nx-p2vbw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JmJhdbuUfrHY4F0kDSTD4g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=t0XvyL-8kxFXdUiLEokqYQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=0x2Vv7tZ4PqWBr4UsV_xKA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=djBxfSc3vJZxNwIZW3ramA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=MrhK3JPR4jzAzIFnittfHw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=M6wku3b1BjB6jBdldsnteQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=I0vxgSxBMh8NTQeatNKEqA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=sIkW6x6sRAAP_qP3EIXU3A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nOA65i-0oWIlfzRuMafAlQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=D9Mq3hi03bJ1Mkv8sIVfhg"
+      ],
+      "unresolved_prefixes": [
+        "IQc4wjEL",
+        "IYNQV4B7",
+        "YBJoZofE",
+        "ckIoHyt-",
+        "l81-rB9R",
+        "fxgFh7el",
+        "Djq6w57W",
+        "QDQTvsbI"
+      ]
+    },
+    {
+      "id": "f_block_rd_s_belt",
+      "street": "unnamed E-W lanes S of F-Block Rd",
+      "geometry": "@29.4312-29.4317, lon 76.9895-76.9907",
+      "coverage": "full (parent extension)",
+      "panos": [
+        "FQOlQ6TN",
+        "llRhhWhz",
+        "xJfriqLv",
+        "l8lDL1Th",
+        "xu4Ow_Gp",
+        "Mnb6tZ1f",
+        "Dffiec2d",
+        "C-J_hWuh",
+        "KyBX2cuf",
+        "N1S7Prmd",
+        "O8vTukdK",
+        "6CXgtclQ",
+        "qNg4zoYd",
+        "vlFgllhY",
+        "BxLBFUe-",
+        "DWQEXbOn"
+      ],
+      "buildings": "grey/brown/dark-brown 3fl modern w/ steps + hedges; cream/brown w/ checkered paver aprons",
+      "green": "BIG treed parks w/ paths + green guard cabin (cE2 f0-f4); treed verges; blue dumpster (cE4 f2)",
+      "vacancy": "treed vacant corners",
+      "resolved_pano_ids": [
+        "FQOlQ6TN4T5KVIuU8XsXXg",
+        "xJfriqLvy-BKQnlIsae0-g",
+        "xu4Ow_Gp8Eas3fyuXVNNnA",
+        "Mnb6tZ1fr1TlfjHTuOHGKg",
+        "Dffiec2dphYpMtZy0HEZPw",
+        "C-J_hWuhzEa4ia94n8e-tw",
+        "KyBX2cufBZqLfo3nosrE6w",
+        "N1S7PrmdT8xR_rbdNiusRQ",
+        "O8vTukdKd92TkiNCb0i0xg",
+        "qNg4zoYdXJWwfgAAPuTs2g",
+        "BxLBFUe-a0S8-2OzKKQkIw",
+        "DWQEXbOnUDNQCG3YTvdSgQ"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=FQOlQ6TN4T5KVIuU8XsXXg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xJfriqLvy-BKQnlIsae0-g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xu4Ow_Gp8Eas3fyuXVNNnA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Mnb6tZ1fr1TlfjHTuOHGKg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Dffiec2dphYpMtZy0HEZPw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=C-J_hWuhzEa4ia94n8e-tw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=KyBX2cufBZqLfo3nosrE6w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=N1S7PrmdT8xR_rbdNiusRQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=O8vTukdKd92TkiNCb0i0xg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qNg4zoYdXJWwfgAAPuTs2g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=BxLBFUe-a0S8-2OzKKQkIw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=DWQEXbOnUDNQCG3YTvdSgQ"
+      ],
+      "unresolved_prefixes": [
+        "llRhhWhz",
+        "l8lDL1Th",
+        "6CXgtclQ",
+        "vlFgllhY"
+      ]
+    },
+    {
+      "id": "ansal_market_rd_e_ext",
+      "street": "Ansal Market Rd E extension belt",
+      "geometry": "E-W @29.4295-29.4311, lon 76.9895-76.9914",
+      "coverage": "full (parent extension)",
+      "panos": [
+        "yXReovE6",
+        "Nt-CMTyy",
+        "qVBL0CLD",
+        "M8p11kcf",
+        "ZowfYYfk",
+        "zdMzoD1A",
+        "HS-c4yVS",
+        "fy6GwGLm",
+        "MQ9n8Uef",
+        "5ozEMjjy",
+        "HQUdEZx9",
+        "y8mfb6eo",
+        "ejiIj0Ui",
+        "NlVizOfS",
+        "OeW2n_Fp",
+        "k0-HD3k7",
+        "UVjFTCzj",
+        "cK8i8oVs",
+        "QbarBeuX",
+        "zphnxN00"
+      ],
+      "buildings": "cream/white 3fl w/ blue-glass column accents, manicured lawns, palm rows, pergola gates; grey/white 3-4fl w/ vertical stripes (cE1 f25); brown 3fl w/ lawn + benches",
+      "road": "asphalt, zebra crossing (cE0 f8), yellow-black curbs",
+      "vacancy": "big treed vacant plots (cE1 f21); u/c brick 3-4fl (cE0 f22)",
+      "resolved_pano_ids": [
+        "yXReovE678G5R3CQkKYMMw",
+        "Nt-CMTyyAYpf_4XlX7PFHQ",
+        "qVBL0CLDLytbMvdYtAdb6A",
+        "M8p11kcfLhvixIUuIrqfnw",
+        "ZowfYYfkZZu2YKd-3uG6rg",
+        "zdMzoD1AkGlbds9hMUh4Xg",
+        "HS-c4yVSC41hCvmKRvnXXA",
+        "fy6GwGLmopor23Jeo5DoGw",
+        "MQ9n8Uef721rUs1iqztY9g",
+        "5ozEMjjybB5uE0yd5cuukw",
+        "HQUdEZx9flS651UWgSUK1Q",
+        "y8mfb6eo_SxxeznsTKpiJA",
+        "ejiIj0Ui7zd01c4MLQJLOw",
+        "NlVizOfSc5UYLVOkgVkLyw",
+        "OeW2n_FpaITdB3HZVvOV2g",
+        "k0-HD3k7zt3Ox85zOs0DKg",
+        "UVjFTCzjq6VzlK-gknmWLQ",
+        "cK8i8oVsguiKkQGICEE_Og",
+        "QbarBeuXGaFgpq6RGrMu3A",
+        "zphnxN00bJYlXHXbEmT15A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=yXReovE678G5R3CQkKYMMw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Nt-CMTyyAYpf_4XlX7PFHQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qVBL0CLDLytbMvdYtAdb6A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=M8p11kcfLhvixIUuIrqfnw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZowfYYfkZZu2YKd-3uG6rg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=zdMzoD1AkGlbds9hMUh4Xg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=HS-c4yVSC41hCvmKRvnXXA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=fy6GwGLmopor23Jeo5DoGw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=MQ9n8Uef721rUs1iqztY9g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=5ozEMjjybB5uE0yd5cuukw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=HQUdEZx9flS651UWgSUK1Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=y8mfb6eo_SxxeznsTKpiJA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ejiIj0Ui7zd01c4MLQJLOw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=NlVizOfSc5UYLVOkgVkLyw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=OeW2n_FpaITdB3HZVvOV2g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=k0-HD3k7zt3Ox85zOs0DKg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UVjFTCzjq6VzlK-gknmWLQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=cK8i8oVsguiKkQGICEE_Og",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=QbarBeuXGaFgpq6RGrMu3A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=zphnxN00bJYlXHXbEmT15A"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "ns_lane_76_988",
+      "street": "unnamed N-S lane @76.9880",
+      "geometry": "lat 29.4309-29.4317",
+      "coverage": "full",
+      "panos": [
+        "Fdb8eDHp",
+        "QYmD5KPn",
+        "xOHLszHf",
+        "kE-g39fq",
+        "jT5eJiAQ",
+        "2Db2Q3sr",
+        "TUirofJQ",
+        "a40ueFTJ",
+        "HorCzD7P"
+      ],
+      "buildings": "cream/brown 2-3fl; grey 3fl w/ pergola roofs + roof water tanks",
+      "landmarks": "WHITE 5-6fl apartment block @29.4317,76.9880 (c21 f2 QYmD5KPn); small brown shrine/hut",
+      "green": "treed park along side",
+      "resolved_pano_ids": [
+        "Fdb8eDHpxvPyNL4rH0986A",
+        "QYmD5KPnrK1Dy4KKWoEdVw",
+        "xOHLszHf-CAgEeGunjzoMg",
+        "kE-g39fqbW9K3zI9SM4PNw",
+        "jT5eJiAQp46wcG4mAbmESg",
+        "2Db2Q3srRVLOE2kEp8CeQA",
+        "a40ueFTJ0lX43_jOd2Jq6w",
+        "HorCzD7PlrTslNdeEY1N0A"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Fdb8eDHpxvPyNL4rH0986A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=QYmD5KPnrK1Dy4KKWoEdVw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xOHLszHf-CAgEeGunjzoMg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=kE-g39fqbW9K3zI9SM4PNw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=jT5eJiAQp46wcG4mAbmESg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=2Db2Q3srRVLOE2kEp8CeQA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=a40ueFTJ0lX43_jOd2Jq6w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=HorCzD7PlrTslNdeEY1N0A"
+      ],
+      "unresolved_prefixes": [
+        "TUirofJQ"
+      ]
+    },
+    {
+      "id": "internal_spur_29_4296_w",
+      "street": "unnamed lane @29.4291-29.4297, lon 76.9842-76.9852",
+      "coverage": "full",
+      "panos": [
+        "tu7X3GgG",
+        "fNf7Kcz3",
+        "WJt677Kz",
+        "iK64oAR5",
+        "u7G8UjTx",
+        "bvauWDYO",
+        "3yBX93_s",
+        "UCtHAJ_M",
+        "vjUVpgEe",
+        "jdTUWskV",
+        "1CiwPaAy",
+        "2-LEzV7Z",
+        "wGTyL0Jb",
+        "KgtnXslv",
+        "F09YJRXA",
+        "3g9jqVPE"
+      ],
+      "buildings": "brown/brown-red 2-3fl w/ palms + hedges; dark grey modern w/ palms",
+      "landmarks": "CURVED WHITE 4-5fl rounded-balcony building @29.42960,76.98616 (c11 f23 2-LEzV7Z) + white 3-4fl institutional behind wall (c11 f21) - Dewan Hospital candidates",
+      "vacancy": "vacant w/ construction debris",
+      "resolved_pano_ids": [
+        "fNf7Kcz3AcRv5PvJQI5NVA",
+        "WJt677KzjFxIBAflysEJ7w",
+        "iK64oAR5JALASCLVNTd5wA",
+        "u7G8UjTx-_qbdInnUuBdVQ",
+        "bvauWDYOSU4O-6NBBcXqtw",
+        "3yBX93_sWCNmIl_YUzy1Sw",
+        "UCtHAJ_Mbd2Z-NA7T056BA",
+        "vjUVpgEeTdX3reO1-SvPBg",
+        "jdTUWskVBCYRTuOCZkiRbg",
+        "1CiwPaAyZUYOn-eq0KMQUA",
+        "2-LEzV7Z47tZzJU2xvGwrA",
+        "wGTyL0JbGOXSY2vnCCKdRg",
+        "F09YJRXAR0RKc4XjMDcL8A",
+        "3g9jqVPErpEt6VKrOq-k1w"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=fNf7Kcz3AcRv5PvJQI5NVA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=WJt677KzjFxIBAflysEJ7w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=iK64oAR5JALASCLVNTd5wA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=u7G8UjTx-_qbdInnUuBdVQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=bvauWDYOSU4O-6NBBcXqtw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=3yBX93_sWCNmIl_YUzy1Sw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UCtHAJ_Mbd2Z-NA7T056BA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vjUVpgEeTdX3reO1-SvPBg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=jdTUWskVBCYRTuOCZkiRbg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=1CiwPaAyZUYOn-eq0KMQUA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=2-LEzV7Z47tZzJU2xvGwrA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=wGTyL0JbGOXSY2vnCCKdRg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=F09YJRXAR0RKc4XjMDcL8A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=3g9jqVPErpEt6VKrOq-k1w"
+      ],
+      "unresolved_prefixes": [
+        "tu7X3GgG",
+        "KgtnXslv"
+      ]
+    },
+    {
+      "id": "water_tank_belt",
+      "street": "unnamed E-W lane @29.4296, lon 76.9870-76.9882",
+      "coverage": "full",
+      "panos": [
+        "LBp_Fg5Q",
+        "TVriJYin",
+        "bh4_TmXf",
+        "L13yhQxi",
+        "aC8_wmDw",
+        "puu_-ac5",
+        "4CD74U8u"
+      ],
+      "buildings": "brown 3fl w/ hedges; cream 2-3fl w/ lawns",
+      "landmarks": "mushroom water tank dominates W view; zebra crossing",
+      "green": "treed verges; small brown shrine/hut",
+      "resolved_pano_ids": [
+        "LBp_Fg5QxvV729qYfdnglw",
+        "TVriJYine_hKbr05PO1fwQ",
+        "bh4_TmXfG55cBPMQlBdoxw",
+        "L13yhQxiFvCfZyhcFnMX0w",
+        "aC8_wmDw0Ra-3FNr2bfHoA",
+        "puu_-ac5P9A2YuSlHjX-DQ",
+        "4CD74U8uXtzmNks9381pJg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LBp_Fg5QxvV729qYfdnglw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TVriJYine_hKbr05PO1fwQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=bh4_TmXfG55cBPMQlBdoxw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=L13yhQxiFvCfZyhcFnMX0w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=aC8_wmDw0Ra-3FNr2bfHoA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=puu_-ac5P9A2YuSlHjX-DQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=4CD74U8uXtzmNks9381pJg"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "id": "n_edge_ns_76_9893",
+      "street": "unnamed N-edge N-S lane @76.9893",
+      "geometry": "lat 29.4324-29.4334, then W @29.4324",
+      "coverage": "full",
+      "panos": [
+        "gB1fIsP6",
+        "Djq6w57W",
+        "QDQTvsbI",
+        "sIkW6x6s",
+        "nOA65i-0",
+        "fx19a_EP",
+        "D9Mq3hi0",
+        "ZM5Kl2V3",
+        "2fFbofjs",
+        "Ymx89qjV",
+        "qWgimE8B",
+        "QcVgL8dw",
+        "afH-HdZh",
+        "KkWXV-WN",
+        "4yyWF4A5",
+        "CsZZocc1",
+        "mU17vhSY",
+        "taPP0zhK",
+        "33ZsUN30",
+        "PPpoUj_s",
+        "Ap0qElY3"
+      ],
+      "buildings": "3fl modern builder houses brown/white/orange w/ wood-slat gates + striped paver aprons; 4-5fl grey/brown apartment (c2 f47)",
+      "landmarks": "park w/ mushroom-roof tank structure (c2 f2 = water tank #2 @29.43319,76.98927)",
+      "road": "wide dusty asphalt; transformer poles",
+      "vacancy": "vacant grassy plots; construction tents/tarps",
+      "resolved_pano_ids": [
+        "gB1fIsP6g3RP7OkHCA70IA",
+        "sIkW6x6sRAAP_qP3EIXU3A",
+        "nOA65i-0oWIlfzRuMafAlQ",
+        "fx19a_EP1iYfXRugciC8gA",
+        "D9Mq3hi03bJ1Mkv8sIVfhg",
+        "ZM5Kl2V32N6OW8yKQ1BLDw",
+        "qWgimE8Bl6BmegkPR3jbMw",
+        "QcVgL8dwNUnAfNYLbivibg",
+        "afH-HdZhrr9K43F7Pin7Gw",
+        "KkWXV-WNaGiWgRzBJNZvvw",
+        "4yyWF4A5yRKVVdcUm4CvtQ",
+        "CsZZocc16k-YuDKPzD4Iqw",
+        "mU17vhSY0CcDVAqz-tVQvA",
+        "taPP0zhK4PcE_Dl7-I8QZA",
+        "33ZsUN30KJwn4wcejwZJeQ",
+        "PPpoUj_slE_Z2GwD11WFmQ"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=gB1fIsP6g3RP7OkHCA70IA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=sIkW6x6sRAAP_qP3EIXU3A",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nOA65i-0oWIlfzRuMafAlQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=fx19a_EP1iYfXRugciC8gA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=D9Mq3hi03bJ1Mkv8sIVfhg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZM5Kl2V32N6OW8yKQ1BLDw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=qWgimE8Bl6BmegkPR3jbMw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=QcVgL8dwNUnAfNYLbivibg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=afH-HdZhrr9K43F7Pin7Gw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=KkWXV-WNaGiWgRzBJNZvvw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=4yyWF4A5yRKVVdcUm4CvtQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=CsZZocc16k-YuDKPzD4Iqw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=mU17vhSY0CcDVAqz-tVQvA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=taPP0zhK4PcE_Dl7-I8QZA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=33ZsUN30KJwn4wcejwZJeQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=PPpoUj_slE_Z2GwD11WFmQ"
+      ],
+      "unresolved_prefixes": [
+        "Djq6w57W",
+        "QDQTvsbI",
+        "2fFbofjs",
+        "Ymx89qjV",
+        "Ap0qElY3"
+      ]
+    },
+    {
+      "id": "small_spurs",
+      "street": "small internal spurs (N-S @76.9842, @76.9846, @76.9869-76.9871)",
+      "geometry": "lat 29.4279-29.4299",
+      "coverage": "full",
+      "panos": [
+        "NiCrZ8BE",
+        "DeLTkEde",
+        "PJZPRXMs",
+        "8B17XrNG",
+        "EdO87OjL",
+        "h6cKwn2w",
+        "xGfsBbiR",
+        "vRpe7OCH",
+        "E_Zuk1Tf"
+      ],
+      "buildings": "white/grey 2-3fl w/ hedge corners + palms; cream/pink 3fl; brown 3fl w/ black gates",
+      "green": "treed parks",
+      "resolved_pano_ids": [
+        "NiCrZ8BEfRC_nzXDgmliig",
+        "DeLTkEdeO0B-oxVQPoHVig",
+        "PJZPRXMsG4Zjk8lHtsMiFw",
+        "8B17XrNGenlH7S6kPMKUEg",
+        "EdO87OjL_96DA07Z5BfqSA",
+        "h6cKwn2wepGZFO09Wy_68Q",
+        "xGfsBbiR6PndhCFvH7xknA",
+        "vRpe7OCHW5qkl17v6agmWQ",
+        "E_Zuk1Tf9p2XIOZdVMth9Q"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=NiCrZ8BEfRC_nzXDgmliig",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=DeLTkEdeO0B-oxVQPoHVig",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=PJZPRXMsG4Zjk8lHtsMiFw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=8B17XrNGenlH7S6kPMKUEg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=EdO87OjL_96DA07Z5BfqSA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=h6cKwn2wepGZFO09Wy_68Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=xGfsBbiR6PndhCFvH7xknA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vRpe7OCHW5qkl17v6agmWQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=E_Zuk1Tf9p2XIOZdVMth9Q"
+      ],
+      "unresolved_prefixes": []
+    }
+  ],
+  "south_overlap_recorded_excluded": {
+    "note": "South of ~29.427 (except Mauli St + Main Chowk, explicitly mine) = SOUTH SQUAD. Frames recorded for handoff, excluded from spec.",
+    "chains": {
+      "c13 (29.4256-29.4262, 76.9835-76.9847)": "OLD plotted colony: weathered round-corner shops, painted wall ads (S.D. VIDYA MANDIR), cow, tractor trolley, Hindi wall text, narrow lanes; cream/peach 2-3fl [wf1FjE7Q pZEHoXvM 02saYH_5 rHKDRQcw Bnc-20ov]",
+      "c14 (29.4264)": "paver/brick lane, old red-brick kirana shop, bamboo stack, auto-rickshaws, vacant brick-walled plots [bfc9tCGj RmB87hfT D9DGi-Qv 77xsaxQW xiCZJiUr]",
+      "c23 (29.4258-29.4259, 76.9847)": "pink/peach 3-4fl curved corner shops w/ potted plants [_K98GrV GUsyDpu6 BPzlr33o IVtUp82- CaDuj9Q7]",
+      "c27 (29.4255-29.4260)": "white/pink 3-4fl curved corner shop w/ glass; narrow [6QKzOkS2 5RWU_t0u DwOsu-oh VPWZoYVY]",
+      "c28 (29.4256-29.4257, 76.9863-76.9871)": "treed vacant corners; brown/cream 3-4fl [KtJafZUW 5v85JaWM JfDkCia1 iYZtwQYR]",
+      "c35 (29.4266, 76.9894)": "treed junction [YyWfgU98]",
+      "c3 f68-f76 (29.4272, 76.9885-76.9889)": "HUGE 6-7fl grey concrete parking/apartment block + small blue shops [yHINTCFp Pw9RjzYj tSxoSe1C 1_EJNBhA]",
+      "c8 (29.4262-29.4265, 76.9893-76.9895)": "fenced green park; grey/brown 3-4fl; brown 2-3fl w/ hedges, some u/c [E1te0x_w JcBUCU9W hscFaW30 aQP6zK1d mAgY9Y7f 3aHoPuDh iw_gdswM _Y83FvJN OHy1K6Dd UKeQEBg5]",
+      "c0 f51-f113 south of 29.427": "signboard junction @29.42727,76.98565; small shops @29.42662,76.98845; active construction; 5-6fl grey concrete block (c0 f90); dusty wide lanes [vpIlXCz_ kGO7OyCE yOfK7kqb hCWSSwXt]"
+    },
+    "sub_character": "visibly older plotted colony S of 29.427: painted wall ads, narrow dusty lanes, weathered 2-3fl - distinct from the modern core; south squad should lean into that contrast"
+  },
+  "uncovered_within_scope": [
+    "St 4 N-S corridor (@76.98996) - no walked chain; Google labels only",
+    "La Regencia loop interior green lanes W/S of frontage road (harvest overlay: no street-level imagery)",
+    "DPS Jr. St mid-stretch between temple belt and 29.4277 (mapping low confidence)",
+    "minor courts off C-Block Rd E of 76.9915 (beyond extension edge)"
+  ],
+  "landmarks": [
+    {
+      "name": "La Regencia towers",
+      "where": "@29.4311,76.9863 center; visible from most of district",
+      "desc": "8-10fl white/light-grey, red+yellow accent balcony panels; red/grey panel boundary wall; main gate W side facing E w/ red pillar, white guard cabin, boom barrier, red monolith sign (c9 f0 UsjLVfQ6)",
+      "panos": [
+        "UsjLVfQ6",
+        "AuMC9EntHtPxsf99XK7rvQ",
+        "TRmx9b_A",
+        "-0sc5ZX"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=UsjLVfQ6DJBn3RQOQCKp_g",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=AuMC9EntHtPxsf99XK7rvQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TRmx9b_AIksLLGBb3cN3pg"
+      ],
+      "resolved_pano_ids": [
+        "UsjLVfQ6DJBn3RQOQCKp_g",
+        "AuMC9EntHtPxsf99XK7rvQ",
+        "TRmx9b_AIksLLGBb3cN3pg"
+      ],
+      "unresolved_prefixes": [
+        "-0sc5ZX"
+      ]
+    },
+    {
+      "name": "white multi-shikhar temple",
+      "where": "@29.42990,76.98662",
+      "panos": [
+        "-LLqy8kl",
+        "nyFrui4i",
+        "SrXSEpU1"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=nyFrui4iIF4fo1qahtTpQw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=SrXSEpU1uY3SKoanDzDUlg"
+      ],
+      "resolved_pano_ids": [
+        "nyFrui4iIF4fo1qahtTpQw",
+        "SrXSEpU1uY3SKoanDzDUlg"
+      ],
+      "unresolved_prefixes": [
+        "-LLqy8kl"
+      ]
+    },
+    {
+      "name": "overhead water tank (mushroom roof on columns)",
+      "where": "@29.42935,76.98710",
+      "panos": [
+        "P39wz1di",
+        "LBp_Fg5Q",
+        "TVriJYin"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=P39wz1dixERviR70Y2Zn9Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LBp_Fg5QxvV729qYfdnglw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=TVriJYine_hKbr05PO1fwQ"
+      ],
+      "resolved_pano_ids": [
+        "P39wz1dixERviR70Y2Zn9Q",
+        "LBp_Fg5QxvV729qYfdnglw",
+        "TVriJYine_hKbr05PO1fwQ"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "water tank #2",
+      "where": "@29.43319,76.98927",
+      "panos": [
+        "fxgFh7el",
+        "Djq6w57W"
+      ],
+      "viewer_urls": [],
+      "resolved_pano_ids": [],
+      "unresolved_prefixes": [
+        "fxgFh7el",
+        "Djq6w57W"
+      ]
+    },
+    {
+      "name": "arch gate monument",
+      "where": "@~29.43047,76.9835 over Ansal Market Rd",
+      "panos": [
+        "bSzB3Prw",
+        "JpnrF3xn"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=bSzB3PrwhMsR6D3Jr2Nltg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=JpnrF3xnXcIfKVaSELE7jQ"
+      ],
+      "resolved_pano_ids": [
+        "bSzB3PrwhMsR6D3Jr2Nltg",
+        "JpnrF3xnXcIfKVaSELE7jQ"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "roundabout w/ central column",
+      "where": "@29.43040,76.98512 (Millennium School Rd x Ansal Market Rd)",
+      "panos": [
+        "LcfHX97y",
+        "pUjbHsO5",
+        "n61nrh9G"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=LcfHX97yPMz-QlXpXvuKyw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=pUjbHsO5Tk7xVhaqC21tSg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=n61nrh9GMQcfpAOja4iZKw"
+      ],
+      "resolved_pano_ids": [
+        "LcfHX97yPMz-QlXpXvuKyw",
+        "pUjbHsO5Tk7xVhaqC21tSg",
+        "n61nrh9GMQcfpAOja4iZKw"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "rainbow-striped school campus (likely KR Mangalam World School - unverified)",
+      "where": "@~29.4326-29.4334 x 76.9835-76.9842",
+      "panos": [
+        "k8yO3qft",
+        "PsrRqdNx",
+        "YBJoZofE",
+        "djBxfSc3",
+        "MrhK3JPR"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=k8yO3qftkVCmH1jU5DoFPg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=PsrRqdNxUBmKS9Nx-p2vbw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=djBxfSc3vJZxNwIZW3ramA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=MrhK3JPR4jzAzIFnittfHw"
+      ],
+      "resolved_pano_ids": [
+        "k8yO3qftkVCmH1jU5DoFPg",
+        "PsrRqdNxUBmKS9Nx-p2vbw",
+        "djBxfSc3vJZxNwIZW3ramA",
+        "MrhK3JPR4jzAzIFnittfHw"
+      ],
+      "unresolved_prefixes": [
+        "YBJoZofE"
+      ]
+    },
+    {
+      "name": "blue-glass office #1",
+      "where": "@29.43154,76.98436",
+      "panos": [
+        "C_4G9t2t",
+        "420qVAX1"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=C_4G9t2tw5S4CMycF6LlsA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=420qVAX12tIlV58BIcCSyQ"
+      ],
+      "resolved_pano_ids": [
+        "C_4G9t2tw5S4CMycF6LlsA",
+        "420qVAX12tIlV58BIcCSyQ"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "blue-glass office #2",
+      "where": "@29.42725,76.98621",
+      "panos": [
+        "D85JcTyf",
+        "11tD3F79"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=D85JcTyfqghcIr_aZYPWhQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=11tD3F79oqbdGRXrBtOY4g"
+      ],
+      "resolved_pano_ids": [
+        "D85JcTyfqghcIr_aZYPWhQ",
+        "11tD3F79oqbdGRXrBtOY4g"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "white/red 6-8fl towers",
+      "where": "@29.43094,76.98501",
+      "panos": [
+        "vdAzoh-C",
+        "Yqkq3qvD"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=vdAzoh-CTVh-uV_233P3zQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Yqkq3qvD9RQaeRAe4VpL8w"
+      ],
+      "resolved_pano_ids": [
+        "vdAzoh-CTVh-uV_233P3zQ",
+        "Yqkq3qvD9RQaeRAe4VpL8w"
+      ],
+      "unresolved_prefixes": []
+    },
+    {
+      "name": "white 5-6fl apartment block",
+      "where": "@29.4317,76.9880",
+      "panos": [
+        "QYmD5KPn"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=QYmD5KPnrK1Dy4KKWoEdVw"
+      ],
+      "resolved_pano_ids": [
+        "QYmD5KPnrK1Dy4KKWoEdVw"
+      ],
+      "unresolved_prefixes": []
+    }
+  ],
+  "unresolved": [
+    {
+      "item": "Dewan Hospital (Dewan Amir Chand Memorial Hospital, SCO 7, Ansals Sushant City)",
+      "status": "NOT positively located - no readable signage in any reviewed frame. Candidates: (1) commercial blocks along Ansal Market Rd near arch gate @29.4305,76.9835-76.9852 (c5 f10-f22 - SCO = shop-cum-office fits this belt); (2) curved white 4-5fl rounded-balcony building @29.42960,76.98616 (c11 f23 2-LEzV7Z); (3) white 3-4fl institutional behind wall (c11 f21 1CiwPaAy). A zoom3 re-fetch of candidate panos or a web lookup of the hospital's photo pin could resolve it."
+    }
+  ],
+  "interpretation": "Auditor directly reviewed 573 equirects in 44 chains, but not all OSM roads or all angles in township. Several segment statuses are partial or uncovered. Google name labels, not OSM names. Pano IDs are only links; no imagery redistributed."
+}

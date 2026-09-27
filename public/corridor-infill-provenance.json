@@ -1,0 +1,89 @@
+{
+  "purpose": "Grounding for narrow corridor densification; no sampled audit status upgraded",
+  "modelled_ways": [
+    {
+      "osm_way_id": "258964282",
+      "area_label": "Sector 12 grid frontage",
+      "modeled_morphology": "mixed builder floors/vacant",
+      "source_audit": "north-visual-evidence.json",
+      "district_coverage_status": "sampled_visual_audit",
+      "inspected_panorama_ids": [
+        "6K7MdLucttptWhWFgw_CkA",
+        "g5ObpsE8tQRHbrSjPo35jw",
+        "t5-mnAoY9ky928TX0PB0OA",
+        "j-f5jf7dhUhQqruXTXBClw"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=6K7MdLucttptWhWFgw_CkA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=g5ObpsE8tQRHbrSjPo35jw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=t5-mnAoY9ky928TX0PB0OA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=j-f5jf7dhUhQqruXTXBClw"
+      ],
+      "placement_caveat": "Volumes, spacing, sides, setbacks and gates are schematic interpretation of sampled road-level observations, not observed individual parcels or exact facade positions."
+    },
+    {
+      "osm_way_id": "258964135",
+      "area_label": "Sector 12 cross lane",
+      "modeled_morphology": "mixed builder floors/vacant",
+      "source_audit": "north-visual-evidence.json",
+      "district_coverage_status": "sampled_visual_audit",
+      "inspected_panorama_ids": [
+        "SCypprwrswEDtmDRxWSwAg",
+        "g4UFXXp0Tkzc9-OS89OBOg"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=SCypprwrswEDtmDRxWSwAg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=g4UFXXp0Tkzc9-OS89OBOg"
+      ],
+      "placement_caveat": "Volumes, spacing, sides, setbacks and gates are schematic interpretation of sampled road-level observations, not observed individual parcels or exact facade positions."
+    },
+    {
+      "osm_way_id": "258963975",
+      "area_label": "F-Block southern parallel carriageway",
+      "modeled_morphology": "isolated builder floors/major vacant",
+      "source_audit": "north-visual-evidence.json",
+      "district_coverage_status": "sampled_visual_audit",
+      "inspected_panorama_ids": [
+        "cSgCTN5rxwU2Y8BKw3UUdw",
+        "YzLkO-aWExFgLdPAoe-s-w",
+        "MDz6KvcYQdq0TUxFbf2drA",
+        "MJTHmoi7G4knnfZB-59zrg",
+        "ZlGjUVFfdyZHq0QmgDxOXg",
+        "Kt06-6D_80dd2TulmCfh-g"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=cSgCTN5rxwU2Y8BKw3UUdw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=YzLkO-aWExFgLdPAoe-s-w",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=MDz6KvcYQdq0TUxFbf2drA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=MJTHmoi7G4knnfZB-59zrg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZlGjUVFfdyZHq0QmgDxOXg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Kt06-6D_80dd2TulmCfh-g"
+      ],
+      "placement_caveat": "Volumes, spacing, sides, setbacks and gates are schematic interpretation of sampled road-level observations, not observed individual parcels or exact facade positions."
+    },
+    {
+      "osm_way_id": "258963964",
+      "area_label": "F-Block northern parallel carriageway",
+      "modeled_morphology": "isolated builder floors/major vacant",
+      "source_audit": "north-visual-evidence.json",
+      "district_coverage_status": "sampled_visual_audit",
+      "inspected_panorama_ids": [
+        "ZlGjUVFfdyZHq0QmgDxOXg",
+        "e8Rw6T1Wy_A6r7l_S1d7EQ",
+        "RnF1ckJf0x9Bo-8Eo3ux_Q",
+        "taPP0zhK4PcE_Dl7-I8QZA",
+        "Y1VausgYLeX6pg4hJM5zdw",
+        "Kt06-6D_80dd2TulmCfh-g"
+      ],
+      "viewer_urls": [
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=ZlGjUVFfdyZHq0QmgDxOXg",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=e8Rw6T1Wy_A6r7l_S1d7EQ",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=RnF1ckJf0x9Bo-8Eo3ux_Q",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=taPP0zhK4PcE_Dl7-I8QZA",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Y1VausgYLeX6pg4hJM5zdw",
+        "https://www.google.com/maps/@?api=1&map_action=pano&pano=Kt06-6D_80dd2TulmCfh-g"
+      ],
+      "placement_caveat": "Volumes, spacing, sides, setbacks and gates are schematic interpretation of sampled road-level observations, not observed individual parcels or exact facade positions."
+    }
+  ]
+}

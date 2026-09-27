@@ -1,0 +1,137 @@
+{
+  "type": "FeatureCollection",
+  "name": "Ansal Sushant City and La Regencia - evidence-aware cartography",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "properties": {
+    "surveyed": false,
+    "created": "2026-09-25",
+    "licensing": "Contains OpenStreetMap data (c) OpenStreetMap contributors, ODbL. No proprietary aerial traced.",
+    "usage": "Only the first feature has georeferenced polygon coordinates. Null geometries flag official plans requiring ground control."
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ansals Sushant City",
+        "kind": "contextual township outline",
+        "confidence": "medium for rough context; low for legal boundary",
+        "provenance": "OpenStreetMap residential landuse way 869105848, not official approved layout. Some extent runs beyond the user-provided viewport. OSM attribution required.",
+        "source_urls": [
+          "https://www.openstreetmap.org/way/869105848",
+          "https://www.openstreetmap.org/api/0.6/map?bbox=76.977,29.426,76.995,29.437"
+        ],
+        "warning": "DO NOT label as surveyed or official Ansal boundary; no approved township perimeter was recovered."
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              76.9819354,
+              29.436316
+            ],
+            [
+              76.9822034,
+              29.4307155
+            ],
+            [
+              76.982579,
+              29.4279792
+            ],
+            [
+              76.9859075,
+              29.4274023
+            ],
+            [
+              76.9857353,
+              29.4252164
+            ],
+            [
+              76.9828507,
+              29.4252576
+            ],
+            [
+              76.9845829,
+              29.4183497
+            ],
+            [
+              76.9907984,
+              29.4244736
+            ],
+            [
+              76.9951439,
+              29.4290792
+            ],
+            [
+              76.995582,
+              29.4298548
+            ],
+            [
+              76.9967403,
+              29.431905
+            ],
+            [
+              76.9970837,
+              29.4324282
+            ],
+            [
+              76.9929981,
+              29.4326674
+            ],
+            [
+              76.9930153,
+              29.4363751
+            ],
+            [
+              76.9819431,
+              29.4367937
+            ],
+            [
+              76.9819354,
+              29.436316
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Regencia - entire licensed parcel",
+        "kind": "approved site plan but ungeoreferenced",
+        "confidence": "high for shape, road widths and plan orientation; no defensible WGS84 placement",
+        "official_licensed_area_acres": 10.0125,
+        "developer_marketing_area_acres": 11,
+        "source_urls": [
+          "https://haryanarera.gov.in/project/view_uploaded_Document_open/3dd12d9af3MzQ4MA==",
+          "https://haryanarera.gov.in/project/view_uploaded_Document_open/b97f300260MzQ3Ng==",
+          "https://astrumhomes.com/images/panipat/layout1.jpg"
+        ],
+        "plan_orientation": "North up; 24-metre road along northern edge, diagonal road from north-northwest to south-southeast; west parcel detached across diagonal, southern roads marked 18 metres.",
+        "warning": "Null geometry intentional. Plans have dimensions and north arrow but no surveyed WGS84 control point. Do not infer geographic coordinates from unlicensed aerial pixels."
+      },
+      "geometry": null
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "La Regencia Phase II RERA registration",
+        "kind": "registered phase extent but ungeoreferenced",
+        "confidence": "high for registered area; no defensible WGS84 placement",
+        "registered_area_acres": 4.3676,
+        "parent_licensed_area_acres": 10.0125,
+        "source_urls": [
+          "https://haryanarera.gov.in/view_project/project_preview_open/139",
+          "https://haryanarera.gov.in/view_project/view_certificate/NTg3"
+        ],
+        "warning": "Do not conflate Phase II with whole complex; approved site plan marks future expansion separately."
+      },
+      "geometry": null
+    }
+  ]
+}

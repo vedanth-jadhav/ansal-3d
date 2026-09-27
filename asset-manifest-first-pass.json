@@ -1,0 +1,275 @@
+{
+  "basis": "RC2 bundle static/template references plus material-kit manifest; all listed assets locally present and material manifest SHA-256 verified. Note one bundle typo gate_steel_grey.png absent from live site, triggering HTML soft-200; intentionally excluded from validated list.",
+  "asset_paths": [
+    {
+      "path": "/accents-2/characters/casual-quaternius.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents-2/trees/broad-canopy-quaternius.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents-2/trees/round-tree-quaternius.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/city-kit-roads/electricity-pole.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/city-kit-roads/light-curved.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/city-kit-suburban/planter.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/kenney-car/sedan.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/kenney-car/van.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/accents/retro-urban-kit/detail-bench.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/auto_rickshaw.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/boundary_wall_6m.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/clubhouse.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/corner_shop.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/entrance_gate.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/life/hatchback-sports.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/life/motorcycle-alicecassie.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/life/sedan.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/life/van.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_dashed_optional.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_dusty.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_edge_crumble.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_hairline_cracks.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_patched.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/asphalt_smoother.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/boundary_cream.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/boundary_red.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/brick_red.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/concrete_grey.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/concrete_warm.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/corrugated_blue.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/corrugated_galvanized.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/corrugated_shopfront_green.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/decal_paver_edge_wear.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/decal_rain_streaks.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/decal_wall_bottom_dust.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/gate_steel_blue.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/gate_steel_charcoal.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/gate_wood_slat.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/pavers_apron_check.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/pavers_red.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/pavers_sand.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_brown.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_cream.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_faded_pink.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_grey.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_ivory.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_ochre.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/plaster_pale_green.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/roof_concrete_pale.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/roof_concrete_worn.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/roof_tile_brown.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/roof_tile_terracotta.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/shutter_steel_blue.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/shutter_steel_rust.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/shutter_steel_sand.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/materials/temple_stone_white.png",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/neem_tree.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/osm.json",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/pano-points.json",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/streetlight.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/tower_10_storeys.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/tower_13_storeys.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/trees/broad-canopy-quaternius.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/trees/round-tree-quaternius.glb",
+      "in_partial_mirror": true
+    },
+    {
+      "path": "/trees/tall-leafy-quaternius.glb",
+      "in_partial_mirror": true
+    }
+  ],
+  "glb_relative_texture_paths": [
+    "accents/city-kit-roads/Textures/colormap.png",
+    "accents/city-kit-suburban/Textures/colormap.png",
+    "accents/kenney-car/Textures/colormap.png",
+    "accents/retro-urban-kit/Textures/metal.png",
+    "accents/retro-urban-kit/Textures/planks.png",
+    "life/Textures/colormap.png"
+  ],
+  "material_manifest_sha256_verified": "38 of 38",
+  "known_invalid_reference": "/materials/gate_steel_grey.png -> soft-200 HTML, not a texture"
+}

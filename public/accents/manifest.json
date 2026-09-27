@@ -1,0 +1,234 @@
+{
+  "pack_title": "Ansal township CC0 starter assets",
+  "notes": [
+    "13 visually checked and independently parsed, game-ready Kenney GLBs.",
+    "Texture PNG dependencies must remain beside GLBs as recorded.",
+    "The available stylized trees were pine or angular billboard forms, visually wrong for neem/peepal in Panipat, so excluded.",
+    "No suitable CC0/MIT rickshaw, scooter, cycle, or finished kurta avatar could be source-and-visual-verified in this pass.",
+    "The world still needs bespoke local art and scene-level QA; assets alone do not prove real-world fidelity."
+  ],
+  "assets": [
+    {
+      "name": "hatchback-sports",
+      "category": "vehicle",
+      "file": "kenney-car/hatchback-sports.glb",
+      "source_url": "https://kenney.nl/assets/car-kit",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/car-kit",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 197804,
+      "triangles": 2088,
+      "animations": 0,
+      "dependencies": [
+        "kenney-car/Textures/colormap.png"
+      ],
+      "sha256": "bd5c9d4c3b4bdd254a66b8426563a68b1487ae7a5076df3a2488e6ffed7be64f"
+    },
+    {
+      "name": "sedan",
+      "category": "vehicle",
+      "file": "kenney-car/sedan.glb",
+      "source_url": "https://kenney.nl/assets/car-kit",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/car-kit",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 172216,
+      "triangles": 2032,
+      "animations": 0,
+      "dependencies": [
+        "kenney-car/Textures/colormap.png"
+      ],
+      "sha256": "b532ea7d2c59f7f6b22b138cf1955218a2c1898f1cea932af4d3fd563c3959b7"
+    },
+    {
+      "name": "van",
+      "category": "vehicle",
+      "file": "kenney-car/van.glb",
+      "source_url": "https://kenney.nl/assets/car-kit",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/car-kit",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 175664,
+      "triangles": 2082,
+      "animations": 0,
+      "dependencies": [
+        "kenney-car/Textures/colormap.png"
+      ],
+      "sha256": "ed4ed56e8e5ed98db050af09ed2062b3b6bb7b93eab1e563cb6774b387b233a1"
+    },
+    {
+      "name": "detail-bench",
+      "category": "street_furniture",
+      "file": "retro-urban-kit/detail-bench.glb",
+      "source_url": "https://kenney.nl/assets/retro-urban-kit",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/retro-urban-kit",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 10260,
+      "triangles": 84,
+      "animations": 0,
+      "dependencies": [
+        "retro-urban-kit/Textures/metal.png",
+        "retro-urban-kit/Textures/planks.png"
+      ],
+      "sha256": "ccf6f0a95b04db1720c9a7040404ca0d676a0f850815aee90de5edc33b96c47c"
+    },
+    {
+      "name": "detail-awning-wide",
+      "category": "street_furniture",
+      "file": "retro-urban-kit/detail-awning-wide.glb",
+      "source_url": "https://kenney.nl/assets/retro-urban-kit",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/retro-urban-kit",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 4020,
+      "triangles": 24,
+      "animations": 0,
+      "dependencies": [
+        "retro-urban-kit/Textures/roof.png"
+      ],
+      "sha256": "77ea699e4d3c668d909e549e236766feaa8c4d3438ef66234a5d81b46fef5821"
+    },
+    {
+      "name": "electricity-pole",
+      "category": "street_furniture",
+      "file": "city-kit-roads/electricity-pole.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-roads",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-roads",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 43652,
+      "triangles": 416,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-roads/Textures/colormap.png"
+      ],
+      "sha256": "08c9b924e297eaa46bbd79ac09795c045848a4e38a72b2ce4f973517f840c2d3"
+    },
+    {
+      "name": "light-curved",
+      "category": "street_furniture",
+      "file": "city-kit-roads/light-curved.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-roads",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-roads",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 9492,
+      "triangles": 92,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-roads/Textures/colormap.png"
+      ],
+      "sha256": "154dcce9d58ec2cd165e26c91a89c97bdd2838cf06d255099b3570df84f82ec6"
+    },
+    {
+      "name": "road-sign-empty",
+      "category": "street_furniture",
+      "file": "city-kit-roads/road-sign-empty.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-roads",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-roads",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 5968,
+      "triangles": 42,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-roads/Textures/colormap.png"
+      ],
+      "sha256": "7681ee84c5363e2c95a37593fc3bdd0afb81b23fa46ae6be1c0939a112a4306a"
+    },
+    {
+      "name": "traffic-light",
+      "category": "street_furniture",
+      "file": "city-kit-roads/traffic-light.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-roads",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-roads",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 20344,
+      "triangles": 212,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-roads/Textures/colormap.png"
+      ],
+      "sha256": "6c9ee253b7370e1043168493b2e662b349484a0cdd02100cff04d9d8d1bd9abb"
+    },
+    {
+      "name": "detail-tank-large",
+      "category": "street_furniture",
+      "file": "city-kit-industrial/detail-tank-large.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-industrial",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-industrial",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 47452,
+      "triangles": 566,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-industrial/Textures/colormap.png"
+      ],
+      "sha256": "2fbf65dfbae114235dec65cc8730a870cf7d29dd76f9473218e96ee83e9f5f43"
+    },
+    {
+      "name": "water-tower",
+      "category": "street_furniture",
+      "file": "city-kit-industrial/water-tower.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-industrial",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-industrial",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 93836,
+      "triangles": 968,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-industrial/Textures/colormap.png"
+      ],
+      "sha256": "11ac7ae19f32ce889bfe7a9c8e78c8ce8c77b7a76b52fd4ffa439a022ea2ef40"
+    },
+    {
+      "name": "fence-2x3",
+      "category": "street_furniture",
+      "file": "city-kit-suburban/fence-2x3.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-suburban",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-suburban",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 28412,
+      "triangles": 284,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-suburban/Textures/colormap.png"
+      ],
+      "sha256": "1a8270c40f650c9a2e58785945aad457fd58d42cc979b862b347e05a5f0a2f6f"
+    },
+    {
+      "name": "planter",
+      "category": "street_furniture",
+      "file": "city-kit-suburban/planter.glb",
+      "source_url": "https://kenney.nl/assets/city-kit-suburban",
+      "license": "CC0 1.0",
+      "license_url": "https://kenney.nl/assets/city-kit-suburban",
+      "license_text_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "author": "Kenney",
+      "bytes": 20368,
+      "triangles": 204,
+      "animations": 0,
+      "dependencies": [
+        "city-kit-suburban/Textures/colormap.png"
+      ],
+      "sha256": "a876e87d908f0397dcaf94b7705835447825c4c5b39195319535415386542c17"
+    }
+  ]
+}
