@@ -23,16 +23,42 @@ import {DayNight} from "./ambient/DayNight.js";
 import {Soundscape} from "./ambient/Soundscape.js";
 import {DiscoveryJournal} from "./ambient/DiscoveryJournal.js";
 import {ambientLabelFor, startChromeSync} from "./ambient/AmbientChrome.js";
-window.__ansalAmbient={TrafficDirector,StreetLife,DayNight,Soundscape,DiscoveryJournal};
+import {createDayNightApplier} from "./ambient/DayNightApplier.js";
+// Shared ambient clock (pure logic). Advanced ONLY by the chrome interval below
+// (single source); the scene applier reads it via the existing world tick.
+const ambientClock = new DayNight({ hour: 10 });
+let dayNightApplier = null;
+const prevWorldReady = window.__ansalWorldReady;
+let tickChained = false;
+window.__ansalWorldReady = (scene, roads, colliders) => {
+  prevWorldReady(scene, roads, colliders);
+  try {
+    dayNightApplier = createDayNightApplier({ scene, clock: ambientClock });
+    window.__ansalAmbient.applier = dayNightApplier;
+  } catch { /* scene not tintable; ambient HUD still works */ }
+  // Chain the applier onto the existing tick (once). Throttled internally,
+  // and every call is guarded so RC2's frame can never break.
+  if (!tickChained) {
+    tickChained = true;
+    const prevTick = window.__ansalWorldTick;
+    window.__ansalWorldTick = (dt) => {
+      prevTick?.(dt);
+      try { dayNightApplier?.update(); } catch { /* never break RC2's frame */ }
+    };
+  }
+};
+window.__ansalSetHour = (h) => { ambientClock.setHour(h); dayNightApplier?.setHour(h); };
+window.__ansalAmbient={TrafficDirector,StreetLife,DayNight,Soundscape,DiscoveryJournal,clock:ambientClock};
 // Ambient HUD: de-mission the RC2 quest counter into a place/time label.
 // DOM-text only (1s interval + MutationObserver); owns no rendering, camera or input.
 if (typeof document !== 'undefined') {
-  const clock = new DayNight({ hour: 10 });
   let last = 0;
   const tickClock = () => {
     const now = performance.now();
-    clock.update(Math.min(5, (now - last) / 1000) || 0);
+    ambientClock.update(Math.min(5, (now - last) / 1000) || 0);
     last = now;
+    // Fallback paint if RC2's tick never fires; throttled no-op otherwise.
+    try { dayNightApplier?.update(); } catch { /* never break the page */ }
   };
   tickClock();
   setInterval(tickClock, 1000);
@@ -40,7 +66,7 @@ if (typeof document !== 'undefined') {
     doc: document,
     getLabel: () => ambientLabelFor({
       areaKey: document.querySelector?.('#travelSelect')?.value || 'regencia',
-      hour: clock.hour,
+      hour: ambientClock.hour,
     }),
   });
 }
