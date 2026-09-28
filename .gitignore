@@ -4,13 +4,18 @@ dist/
 node_modules/
 # QA screenshots (override with SCREENSHOT_DIR)
 downloads/
+# live-test helpers (never commit)
+/.live/
+.live-test.mjs
+.live-reboot.mjs
+.inspect.mjs
+.probe.mjs
+.probe2.mjs
+.probe3.mjs
+.probe4.mjs
+.probe5.mjs
+# python cache
+__pycache__/
 # OS / editor
 .DS_Store
 Thumbs.db
-__pycache__/
-
-# live-test helpers (never commit)
-.live/
-.live-test.mjs
-.inspect.mjs
-.probe.mjs

@@ -1,23 +1,23 @@
-// vite.config.js — workstream A (repo hygiene + working build).
-//
-// Dev vs deploy setup:
-// - DEV: `vite` / `vite preview` serve the ROOT index.html, which loads
-//   `/src/main.js` as a native ESM module (fast HMR, no bundle step).
-// - DEPLOY: `vite build` emits a hashed bundle into `dist/` (see outDir
-//   below). The checked-in `public/index.html` is a previously deployed
-//   snapshot that references `/assets/index-*.js` plus the Cloudflare
-//   beacon script — it is NOT the dev entry. Do not point vite at it;
-//   keep root at its default (project root) so dev uses root index.html
-//   and build picks up the same entry.
+// Build config: two pages — legacy viewer (index.html) and reboot slice.
+// Dev (root index.html -> /src/main.js) vs deploy (public/index.html snapshot
+// with /assets/index-*.js + Cloudflare beacon) split is documented in README.
 import { defineConfig } from 'vite';
+import { resolve, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const root = dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-  // root defaults to the project root ('.') — intentional, see header.
   build: {
     outDir: 'dist',
     sourcemap: true,
-    // Raised above the 500 kB default: three.js (~600 kB+ min) always
-    // trips the default warning, so warn only on genuinely large chunks.
+    // three.js trips the 500 kB default; warn only past 1 MB.
     chunkSizeWarningLimit: 1000,
+    rollupOptions: {
+      input: {
+        main: resolve(root, 'index.html'),
+        reboot: resolve(root, 'reboot.html'),
+      },
+    },
   },
 });
