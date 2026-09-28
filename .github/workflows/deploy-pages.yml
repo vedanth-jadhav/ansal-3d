@@ -5,7 +5,7 @@ name: deploy-pages
 
 on:
   push:
-    branches: [reboot, main]
+    branches: [dev, reboot, main]
   workflow_dispatch:
 
 permissions:
