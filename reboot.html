@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#0b1220">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<title>Reboot — Ansal 3D</title>
+<style>
+  html, body { margin: 0; padding: 0; height: 100%; background: #0b1220; overflow: hidden;
+    font-family: system-ui, -apple-system, sans-serif; }
+  #rb-app { position: fixed; inset: 0; }
+  #rb-canvas { position: absolute; inset: 0; }
+  #rb-canvas canvas { display: block; }
+  #rb-hud { position: absolute; top: 10px; left: 10px; display: flex; gap: 8px; z-index: 20;
+    color: #fff; font-size: 13px; font-weight: 600; pointer-events: none; }
+  #rb-hud span { background: rgba(0,0,0,0.55); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px; padding: 4px 10px; }
+  #rb-status { position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 8px; z-index: 20;
+    color: #fff; font-size: 13px; font-weight: 600; pointer-events: none; }
+  #rb-status span { background: rgba(0,0,0,0.55); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px; padding: 4px 10px; }
+  /* Touch controls only make sense on coarse pointers; hide on desktop. */
+  @media (pointer: fine) {
+    #rb-stick, #rb-touch { display: none !important; }
+  }
+  #rb-toast { position: absolute; bottom: 160px; left: 50%; transform: translateX(-50%);
+    color: #fff; background: rgba(0,0,0,0.6); border-radius: 8px; padding: 6px 14px;
+    font-size: 13px; z-index: 20; opacity: 0; transition: opacity 0.3s; pointer-events: none; }
+  #rb-loading { position: absolute; inset: 0; display: flex; align-items: center;
+    justify-content: center; color: #9fb3c8; background: #0b1220; z-index: 40; font-size: 15px; }
+</style>
+</head>
+<body>
+<div id="rb-app">
+  <div id="rb-canvas"></div>
+  <div id="rb-hud"></div>
+  <div id="rb-status"></div>
+  <div id="rb-toast"></div>
+  <div id="rb-loading">loading…</div>
+</div>
+<script type="module" src="/src/reboot/main.js"></script>
+</body>
+</html>
