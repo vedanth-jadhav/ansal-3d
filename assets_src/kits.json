@@ -1,0 +1,65 @@
+[
+  {
+    "id": "roads",
+    "dir": "01-roads",
+    "budget_tris_lod0": null,
+    "budget_note": "n/a - tiled segments, never one big slab",
+    "status": "not-started"
+  },
+  {
+    "id": "houses",
+    "dir": "02-houses",
+    "budget_tris_lod0": 3000,
+    "budget_note": "builder floors: boxes with trim, detail via texture",
+    "status": "not-started"
+  },
+  {
+    "id": "shop-houses",
+    "dir": "03-shop-houses",
+    "budget_tris_lod0": 3500,
+    "budget_note": "house walls + signage boards and awnings",
+    "status": "not-started"
+  },
+  {
+    "id": "landmarks",
+    "dir": "04-landmarks",
+    "budget_tris_lod0": 8000,
+    "budget_note": "hero exception per asset; towers via instanced repetition",
+    "status": "not-started"
+  },
+  {
+    "id": "street-furniture",
+    "dir": "05-street-furniture",
+    "budget_tris_lod0": 500,
+    "budget_note": "poles, lights, cabins, bins - instanced dozens of times",
+    "status": "not-started"
+  },
+  {
+    "id": "vegetation",
+    "dir": "06-vegetation",
+    "budget_tris_lod0": 1500,
+    "budget_note": "neem/peepal canopy via crossed alpha planes",
+    "status": "not-started"
+  },
+  {
+    "id": "vehicles",
+    "dir": "07-vehicles",
+    "budget_tris_lod0": 4000,
+    "budget_note": "auto-rickshaw first; wheels as separate low-poly meshes",
+    "status": "not-started"
+  },
+  {
+    "id": "characters",
+    "dir": "08-characters",
+    "budget_tris_lod0": 6000,
+    "budget_note": "reskins on the existing Quaternius rig, same armature",
+    "status": "not-started"
+  },
+  {
+    "id": "signage-decals",
+    "dir": "09-signage-decals",
+    "budget_tris_lod0": 300,
+    "budget_note": "painted wall ads and shop boards as alpha planes",
+    "status": "not-started"
+  }
+]
